@@ -1,0 +1,51 @@
+{
+  "name": "twitch-changelog-parser",
+  "private": true,
+  "version": "1.2.0",
+  "author": "TED Vortex <ted.vortex@gmail.com>",
+  "description": "This project aims to deobfuscate most commercially-available obfuscators for JavaScript and check them for malware.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node ./src",
+    "format": "eslint ./src --fix --report-unused-disable-directives",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "cz"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.3"
+  },
+  "homepage": "https://github.com/0-vortex/twitch-changelog-parser#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0-vortex/twitch-changelog-parser.git"
+  },
+  "engines": {
+    "node": ">=15",
+    "npm": ">=7"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "post-commit": "git update-index --again"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-html-parser": "^3.3.6"
+  }
+}

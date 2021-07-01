@@ -1,0 +1,37 @@
+name: download
+
+on:
+#  schedule:
+#    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+
+      - name: Install dependencies
+        run: |
+          npm ci --production
+
+      - name: Check for new changelog
+        run: |
+          npm start
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: './README.md'
+          commit_message: "chore: updated twitch changelog with new data"
+          commit_user_name: 0-vortex
+          commit_user_email: 237133+0-vortex@users.noreply.github.com

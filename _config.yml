@@ -1,0 +1,8 @@
+title: javascript-malware-inspector
+description: This project aims to deobfuscate most commercially-available obfuscators for JavaScript and check them for malware.
+show_downloads: true
+theme: jekyll-theme-midnight
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
