@@ -2,6 +2,8 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
+[![download](https://github.com/0-vortex/twitch-changelog-parser/actions/workflows/download.yml/badge.svg)](https://github.com/0-vortex/twitch-changelog-parser/actions/workflows/download.yml)
+
 ## Changelog
 
 <!--START_SECTION:static-->
@@ -1475,27 +1477,15 @@ git clone git@github.com:0-vortex/javascript-malware-inspector.git
 Go into the cloned repository and install `node` dependencies:
 
 ```shell
-npm install
+npm ci
 ```
 
 ## How to use
-
-To download the latest versions of the scripts do:
-
-```shell
-npm run download
-```
 
 To develop locally just run:
 
 ```shell
 npm start
-```
-
-To update folder documentation folder structure:
-
-```shell
-npm run docs
 ```
 
 ## Contributing
