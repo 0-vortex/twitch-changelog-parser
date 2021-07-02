@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm ci --production
+          npm ci --production --ignore-scripts
 
       - name: Check for new changelog
         run: |
