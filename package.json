@@ -9,7 +9,8 @@
     "start": "node ./src",
     "format": "eslint ./src --fix --report-unused-disable-directives",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "push": "cz"
+    "push": "cz",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "commitizen": "^4.2.4",
@@ -19,8 +20,8 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
-    "husky": "^4.3.8",
-    "lint-staged": "^10.5.3"
+    "husky": "^7.0.0",
+    "lint-staged": "^11.0.0"
   },
   "homepage": "https://github.com/0-vortex/twitch-changelog-parser#readme",
   "repository": {
@@ -33,12 +34,6 @@
   },
   "keywords": [],
   "license": "UNLICENSED",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "post-commit": "git update-index --again"
-    }
-  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
