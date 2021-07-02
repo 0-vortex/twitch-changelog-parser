@@ -5,6 +5,32 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2021‑06‑30
+
+<p><a href="https://dev.twitch.tv/docs/enhanced-experiences">Enhanced Experiences</a> and <a href="https://dev.twitch.tv/docs/drops/#event-based-drops">Event-based Drops</a> are now generally available.</p>
+
+<p><a href="https://dev.twitch.tv/docs/api/reference/#get-drops-entitlements">Get Drops Entitlements</a> - Updated to include <code class="highlighter-rouge">fulfillment_status</code>.</p>
+
+<p><a href="https://dev.twitch.tv/docs/api/reference/#update-drops-entitlements">Update Drops Entitlements</a> - Added to the Twitch API reference.</p>
+
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#userauthorizationgrant">User Authorization Grant</a> EventSub subscription type added as v1.</p>
+
+<p><a href="https://dev.twitch.tv/docs/drops">Drops</a> guide - Minor changes and updates regarding the additions above.</p>
+
+### 2021‑06‑25
+
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#dropentitlementgrant">Drop Entitlement Grant</a> EventSub subscription type added.</p>
+
+<p>Update regarding the temporary pause of chatbot verification added to the <a href="https://dev.twitch.tv/docs/irc/guide#known-and-verified-bots">Twitch Chat Guide</a>.</p>
+
+### 2021‑06‑17
+
+<p><a href="https://dev.twitch.tv/docs/api/reference#get-channel-chat-badges">Get Channel Chat Badges</a> - Now supports OAuth app access tokens in addition to OAuth user access tokens.</p>
+
+<p>EventSub - <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-subscription-end-event">Channel Subscription End Event</a> added <code class="highlighter-rouge">tier</code> and <code class="highlighter-rouge">is_gift</code>.</p>
+
+<p><a href="https://dev.twitch.tv/docs/authentication">Authentication</a> - The existing <code class="highlighter-rouge">user:read:email </code> scope has been added.</p>
+
 ### 2021‑06‑15
 
 <p>Twitch API endpoints added for Twitch channel stream schedule.</p>
