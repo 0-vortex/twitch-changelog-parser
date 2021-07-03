@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2021‑07‑02
+
+<p><a href="https://dev.twitch.tv/docs/irc/tags">Twitch IRC: Tags</a> - Minor updates, deprecated tags removed, and chat replies added.</p>
+
 ### 2021‑06‑30
 
 <p><a href="https://dev.twitch.tv/docs/enhanced-experiences">Enhanced Experiences</a> and <a href="https://dev.twitch.tv/docs/drops/#event-based-drops">Event-based Drops</a> are now generally available.</p>
