@@ -7,6 +7,27 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2021‑07‑13
+
+<p><a href="https://dev.twitch.tv/docs/extensions/frontend-api-usage">Using the Twitch API in an Extension Front End</a> - Added to describe how to a JWT can be used to make Twitch API requests from an Extension front end.</p>
+
+<p>The following Extension-related Twitch API endpoints have been added:</p>
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-extension-configuration-segment">Get Extension Configuration Segment</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#set-extension-configuration-segment">Set Extension Configuration Segment</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#set-extension-required-configuration">Set Extension Required Configuration</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#send-extension-pubsub-message">Send Extension PubSub Message</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-live-channels">Get Live Channels</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-extension-secrets">Get Extension Secrets</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#create-extension-secret">Create Extension Secret</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#send-extension-chat-message">Send Extension Chat Message</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-extensions">Get Extensions</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-released-extensions">Get Released Extensions</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-extension-bits-products">Get Extension Bits Products</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#update-extension-bits-product">Update Extension Bits Product</a></li>
+</ul>
+
+
 ### 2021‑07‑02
 
 <p><a href="https://dev.twitch.tv/docs/irc/tags">Twitch IRC: Tags</a> - Minor updates, deprecated tags removed, and chat replies added.</p>
