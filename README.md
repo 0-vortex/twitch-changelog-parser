@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2021‑07‑15
-
-<p><a href="https://dev.twitch.tv/docs/api/migration">v5 Migration Guide</a> - Updated to include additional migration paths and indicated endpoints that are not supported beyond v5.</p>
-
 ### 2021‑07‑13
 
 <p><a href="https://dev.twitch.tv/docs/extensions/frontend-api-usage">Using the Twitch API in an Extension Front End</a> - Added to describe how to a JWT can be used to make Twitch API requests from an Extension front end.</p>
