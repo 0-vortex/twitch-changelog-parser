@@ -11,10 +11,6 @@
 
 <p><a href="https://dev.twitch.tv/docs/api/reference/#get-banned-users">Get Banned Users</a> and <a href="https://dev.twitch.tv/docs/api/reference/#get-banned-events">Get Banned Events</a> updated to include ban reason and information for the moderator who initiated the ban.</p>
 
-<p><a href="https://dev.twitch.tv/docs/irc/emotes">Twitch Emotes Guide</a> - Added to document how developers can customize Twitch Emote image URLs to optimize their rendering in third-party applications.</p>
-
-<p>With the addition of the guide above, the “Chatbots &amp; IRC” navigation item has been retitled to “Chat &amp; Chatbots” to include a broader range of chat topics.</p>
-
 ### 2021‑07‑15
 
 <p><a href="https://dev.twitch.tv/docs/api/migration">v5 Migration Guide</a> - Updated to include additional migration paths and indicated endpoints that are not supported beyond v5.</p>
