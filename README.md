@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2021‑07‑23
+
+<p><a href="https://dev.twitch.tv/docs/api/reference/#get-banned-users">Get Banned Users</a> and <a href="https://dev.twitch.tv/docs/api/reference/#get-banned-events">Get Banned Events</a> updated to include ban reason and information for the moderator who initiated the ban.</p>
+
 ### 2021‑07‑15
 
 <p><a href="https://dev.twitch.tv/docs/api/migration">v5 Migration Guide</a> - Updated to include additional migration paths and indicated endpoints that are not supported beyond v5.</p>
