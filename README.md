@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2021‑07‑26
-
-<p><a href="https://dev.twitch.tv/docs/irc/guide#verified-bots">Twitch Chat Guide</a> - Updated information regarding verified chatbots including relate limits. Known bots have been removed. More information can be found in the <a href="https://discuss.dev.twitch.tv/t/an-update-for-the-delayed-bot-verification-request-process/32325" target="_blank">chatbot verification update announcement</a>.</p>
-
 ### 2021‑07‑23
 
 <p><a href="https://dev.twitch.tv/docs/api/reference/#get-banned-users">Get Banned Users</a> and <a href="https://dev.twitch.tv/docs/api/reference/#get-banned-events">Get Banned Events</a> updated to include ban reason and information for the moderator who initiated the ban.</p>
@@ -64,7 +60,7 @@
 
 <p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#dropentitlementgrant">Drop Entitlement Grant</a> EventSub subscription type added.</p>
 
-<p>Update regarding the temporary pause of chatbot verification added to the <a href="https://dev.twitch.tv/docs/irc/guide#verified-bots">Twitch Chat Guide</a>.</p>
+<p>Update regarding the temporary pause of chatbot verification added to the <a href="https://dev.twitch.tv/docs/irc/guide#known-and-verified-bots">Twitch Chat Guide</a>.</p>
 
 ### 2021‑06‑17
 
