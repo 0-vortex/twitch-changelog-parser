@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2021‑07‑27
-
-<p>The Create and Delete Follows API endpoints have been removed. See the <a href="https://discuss.dev.twitch.tv/t/deprecation-of-create-and-delete-follows-api-endpoints/32351" target="_blank">Deprecation of Create and Delete Follows API Endpoints</a> announcement for more information.</p>
-
 ### 2021‑07‑26
 
 <p><a href="https://dev.twitch.tv/docs/irc/guide#verified-bots">Twitch Chat Guide</a> - Updated information regarding verified chatbots including relate limits. Known bots have been removed. More information can be found in the <a href="https://discuss.dev.twitch.tv/t/an-update-for-the-delayed-bot-verification-request-process/32325" target="_blank">chatbot verification update announcement</a>.</p>
