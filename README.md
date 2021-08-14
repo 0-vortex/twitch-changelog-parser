@@ -7,26 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2021‑08‑13
-
-<p>Added the following fields to the <a href="https://dev.twitch.tv/docs/api/reference#get-channel-emotes">Get Channel Emotes</a>, <a href="https://dev.twitch.tv/docs/api/reference#get-global-emotes">Get Global Emotes</a>, and <a href="https://dev.twitch.tv/docs/api/reference#get-emote-sets">Get Emote Sets</a> endpoints.</p>
-
-<ul>
-  <li><code class="highlighter-rouge">format</code> — The formats that the emote is available in. For example, PNG or animated GIF.</li>
-  <li><code class="highlighter-rouge">scale</code> — The sizes that the emote is available in. For example, 1.0 (small).</li>
-  <li><code class="highlighter-rouge">theme_mode</code> — The background themes that the emote is available in. For example, light.</li>
-  <li><code class="highlighter-rouge">template</code> — The URL template that you use to create a URL for fetching the emote.</li>
-</ul>
-
-<p>For information about how to use these fields, see <a href="https://dev.twitch.tv/docs/irc/emotes">Twitch Emotes</a>.</p>
-
-<p>Added the following to the <a href="https://dev.twitch.tv/docs/irc">Chatbots &amp; IRC Guide</a>.</p>
-
-<ul>
-  <li>Existing site-wide rate limit for verified bots</li>
-  <li>Clarification in the <code class="highlighter-rouge">JOIN</code> section regarding expected behavior when exceeding rate limits for joining channels</li>
-</ul>
-
 ### 2021‑07‑30
 
 <p><a href="https://dev.twitch.tv/docs/api">Get Started with the Twitch API</a> - This API guide has been updated to use the Twitch CLI and simplify how to retrieve an OAuth token to improve the getting started experience.</p>
