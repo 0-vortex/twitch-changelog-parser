@@ -7,12 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2021‑08‑20
-
-<p>Updated examples for <a href="https://dev.twitch.tv/docs/authentication#validating-requests">validating</a> and <a href="https://dev.twitch.tv/docs/authentication#revoking-access-tokens">revoking</a> OAuth tokens.</p>
-
-<p>Updated <a href="https://dev.twitch.tv/docs/extensions/building#extension-helper-library">Extension Helper Library</a> to clarify that all HTML files should include the Extension Helper.</p>
-
 ### 2021‑08‑13
 
 <p>Added the following fields to the <a href="https://dev.twitch.tv/docs/api/reference#get-channel-emotes">Get Channel Emotes</a>, <a href="https://dev.twitch.tv/docs/api/reference#get-global-emotes">Get Global Emotes</a>, and <a href="https://dev.twitch.tv/docs/api/reference#get-emote-sets">Get Emote Sets</a> endpoints.</p>
