@@ -7,14 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2021‑08‑30
-
-<p><a href="https://dev.twitch.tv/docs/api/guide">Twitch API Guide</a> - Technical concepts in this guide have been updated or added to for further clarification.</p>
-
-<p><a href="https://dev.twitch.tv/docs/embed">Embedding Twitch</a> - Updated to include that certain features may be disabled if the embedded iframe is obscured.</p>
-
-<p><a href="https://dev.twitch.tv/docs/embed/video-and-clips">Embedding Video and Clips</a> - Updated description for <code class="highlighter-rouge">seek</code> function and added the SEEK event.</p>
-
 ### 2021‑08‑20
 
 <p>Updated examples for <a href="https://dev.twitch.tv/docs/authentication#validating-requests">validating</a> and <a href="https://dev.twitch.tv/docs/authentication#revoking-access-tokens">revoking</a> OAuth tokens.</p>
