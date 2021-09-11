@@ -7,6 +7,12 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2021‑09‑10
+
+<p>Minor updates to address <a href="https://github.com/twitchdev/issues/issues?q=is%3Aissue+is%3Aopen+label%3A%22product%3A+docs%22" target="_blank">GitHub Issues</a>.</p>
+
+<p><a href="https://dev.twitch.tv/docs/insights">Insights &amp; Analytics</a> – Directions to access Drops Analytics has been updated and the “Top Streamers” report has been removed.</p>
+
 ### 2021‑09‑01
 
 <p>Added the Creator Goals API, which returns active goals that broadcasters create on Twitch. Broadcasters create these goals to generate hype in their community, and it provides the community a way to support the channel. Goals can be daily goals, subathons, or anything in between. For more information, see <a href="https://dev.twitch.tv/docs/api/goals">Creator Goals</a>.</p>
