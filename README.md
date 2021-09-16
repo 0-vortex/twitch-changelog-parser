@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2021‑09‑15
-
-<p>The Creator Goals feature is now generally available. Broadcasters create goals to generate hype in their community, and it provides the community a way to support the channel. Goals can be daily goals, subathons, or anything in between. For information about using the API to get goals or receive notifications about goals, see <a href="https://dev.twitch.tv/docs/api/goals">Creator Goals</a>.</p>
-
 ### 2021‑09‑10
 
 <p>Minor updates to address <a href="https://github.com/twitchdev/issues/issues?q=is%3Aissue+is%3Aopen+label%3A%22product%3A+docs%22" target="_blank">GitHub Issues</a>.</p>
