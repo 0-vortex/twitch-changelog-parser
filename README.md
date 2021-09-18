@@ -7,16 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2021‑09‑16
-
-<p>Decommissioned WebSub-based webhooks, which resulted in the following documentation changes:</p>
-
-<ul>
-  <li>Removed the <strong>Get Webhook Subscriptions</strong> endpoint from the <a href="https://dev.twitch.tv/docs/api/reference">reference</a>.</li>
-  <li>Deleted the Webhooks Guide and Webhooks Reference topics.</li>
-  <li>Updated the <a href="https://dev.twitch.tv/docs/product-lifecycle">Product Lifecycle</a> topic to note the date that WebSub-based webhooks was decommissioned.</li>
-</ul>
-
 ### 2021‑09‑15
 
 <p>The Creator Goals feature is now generally available. Broadcasters create goals to generate hype in their community, and it provides the community a way to support the channel. Goals can be daily goals, subathons, or anything in between. For information about using the API to get goals or receive notifications about goals, see <a href="https://dev.twitch.tv/docs/api/goals">Creator Goals</a>.</p>
@@ -333,7 +323,7 @@
   <li>Pagination updated for accuracy in the the return values table and the example payload.</li>
 </ul>
 
-<p>Webhooks example payloads updated for accuracy.</p>
+<p><a href="https://dev.twitch.tv/docs/api/webhooks-reference">Webhooks</a> example payloads updated for accuracy.</p>
 
 <p>Miscellaneous corrections.</p>
 
@@ -650,9 +640,9 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
   <li>Corrected the spelling of <code class="highlighter-rouge">channel:manage:broadcast</code>.</li>
 </ul>
 
-<p>Clarified instructions for supplying parameters in the Webhooks Reference.</p>
+<p>Clarified instructions for supplying parameters in the <a href="https://dev.twitch.tv/docs/api/webhooks-reference">Webhooks Reference</a>.</p>
 
-<p>Clarified limits in the Webhooks Guide.</p>
+<p>Clarified limits in the <a href="https://dev.twitch.tv/docs/api/webhooks-guide">Webhooks Guide</a>.</p>
 
 <p>In the <a href="https://dev.twitch.tv/docs/extensions">Extensions Guide</a>, corrected the environment variable <code class="highlighter-rouge">HTTPS=true</code> for create-react-app.</p>
 
@@ -759,7 +749,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2020‑07‑30
 
-<p>Updated Webhooks documentation to describe notification timeout.</p>
+<p>Updated <a href="https://dev.twitch.tv/docs/api/webhooks-guide">Webhooks</a> documentation to describe notification timeout.</p>
 
 <p>Changed documentation of <a href="https://dev.twitch.tv/docs/api/reference#start-commercial">Start Commercial</a> response field from retryAfter to retry_after.</p>
 
@@ -797,7 +787,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2020‑06‑18
 
-<p>Added new endpoints to the <a href="https://dev.twitch.tv/docs/api/reference">API Reference</a> and Webhooks Reference:</p>
+<p>Added new endpoints to the <a href="https://dev.twitch.tv/docs/api/reference">API Reference</a> and <a href="https://dev.twitch.tv/docs/api/webhooks-reference">Webhooks Reference</a>:</p>
 
 <ul>
   <li>Get Channel Information</li>
@@ -819,7 +809,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2020‑06‑03
 
-<p>Clarified the definition of Subscription denied in the Webhooks Guide.</p>
+<p>Clarified the definition of Subscription denied in the <a href="https://dev.twitch.tv/docs/api/webhooks-guide#subscriptions">Webhooks Guide</a>.</p>
 
 ### 2020‑05‑12
 
@@ -841,7 +831,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p>Updated the <a href="https://dev.twitch.tv/docs/authentication">Authentication Guide</a> to include new OAuth scopes. </p>
 
-<p>Updated the Webhooks Reference to show that authorization is now required authorization for every web hook.</p>
+<p>Updated the <a href="https://dev.twitch.tv/docs/api/webhooks-reference">Webhooks Reference</a> to show that authorization is now required authorization for every web hook.</p>
 
 ### 2020‑04‑27
 
@@ -923,7 +913,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p>Removed the link to the deprecated form to increase webhook subscription limits.</p>
 
-<p>Added <code class="highlighter-rouge">gifter_id</code> and <code class="highlighter-rouge">gifter_name</code> fields to the Get Broadcaster Subscriptions <a href="https://dev.twitch.tv/docs/api/reference#get-broadcaster-subscriptions">endpoint</a> and webhook.</p>
+<p>Added <code class="highlighter-rouge">gifter_id</code> and <code class="highlighter-rouge">gifter_name</code> fields to the Get Broadcaster Subscriptions <a href="https://dev.twitch.tv/docs/api/reference#get-broadcaster-subscriptions">endpoint</a> and <a href="https://dev.twitch.tv/docs/api/webhooks-reference#topic-subscription-events">webhook</a>.</p>
 
 ### 2020‑02‑13
 
@@ -1023,7 +1013,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2019‑08‑22
 
-<p>Edited the payload example in Topic: Subscription Events.</p>
+<p>Edited the payload example in <a href="https://dev.twitch.tv/docs/api/webhooks-reference/#topic-subscription-events" target="_blank">Topic: Subscription Events.</a></p>
 
 ### 2019‑08‑14
 
@@ -1083,7 +1073,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p>Added documentation for Get Subscription Events <a href="https://dev.twitch.tv/docs/api/reference" target="_blank">endpoint</a>.</p>
 
-<p>Added documentation for Subscription Events webhook.</p>
+<p>Added documentation for Subscription Events <a href="https://dev.twitch.tv/docs/api/webhooks-reference" target="_blank">webhook</a>.</p>
 
 ### 2019‑06‑25
 
@@ -1092,8 +1082,8 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 <p>Documented two new webhooks:</p>
 
 <ul>
-  <li>Moderator Change Events</li>
-  <li>Channel Ban Change Events</li>
+  <li><a href="https://dev.twitch.tv/docs/api/webhooks-reference/#topic-moderator-change-events" target="_blank">Moderator Change Events</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/webhooks-reference/#topic-channel-ban-change-events" target="_blank">Channel Ban Change Events</a></li>
 </ul>
 
 ### 2019‑06‑21
@@ -1136,7 +1126,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p>Added Get Extension Transactions to the <a href="https://dev.twitch.tv/docs/api" target="_blank">Twitch API Reference</a>.</p>
 
-<p>Added Extension Transaction Created to the Webhooks Reference.</p>
+<p>Added Extension Transaction Created to the <a href="https://dev.twitch.tv/docs/api/webhooks-reference" target="_blank">Webhooks Reference</a>.</p>
 
 ### 2019‑05‑30
 
@@ -1205,7 +1195,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2019‑03‑14
 
-<p>Websub: Updated documentation to make it clear that the order of query parameters matters.</p>
+<p><a href="https://dev.twitch.tv/docs/api/webhooks-reference">Websub</a>: Updated documentation to make it clear that the order of query parameters matters.</p>
 
 <p><a href="https://dev.twitch.tv/docs/extensions/monetization">Bits</a>: Small edits to documentation, for clarity.</p>
 
@@ -1301,7 +1291,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>: New <a href="https://dev.twitch.tv/docs/extensions/reference/#jwt-schema">JWT schema</a> field, <code class="highlighter-rouge">is_unlinked</code>.</p>
 
-<p><a href="https://dev.twitch.tv/docs/api/reference">New Twitch API Reference</a>: New description and example in Get Webhook Subscriptions, which requires a Bearer token.</p>
+<p><a href="https://dev.twitch.tv/docs/api/reference">New Twitch API Reference</a>: New description and example in <a href="https://dev.twitch.tv/docs/api/reference/#get-webhook-subscriptions">Get Webhook Subscriptions</a>, which requires a Bearer token.</p>
 
 ### 2018‑10‑24
 
@@ -1309,7 +1299,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2018‑10‑23
 
-<p>New Twitch API Reference, New Twitch API: Webhooks Reference: Added a display-name response field to several endpoints and webhooks. Endpoints affected: Get Bits Leaderboard, Get Clips, Get Streams, Get Streams Metadata, Get Stream Markers, Get Users Follows, Get Videos. Webhooks affected: Stream Changed, User Follows.</p>
+<p><a href="https://dev.twitch.tv/docs/api/reference">New Twitch API Reference</a>, <a href="https://dev.twitch.tv/docs/api/webhooks-reference">New Twitch API: Webhooks Reference</a>: Added a display-name response field to several endpoints and webhooks. Endpoints affected: Get Bits Leaderboard, Get Clips, Get Streams, Get Streams Metadata, Get Stream Markers, Get Users Follows, Get Videos. Webhooks affected: Stream Changed, User Follows.</p>
 
 <p>Building Extensions: Added information about pre-release disclosures. 3/7/19 update: Moved to <a href="https://dev.twitch.tv/docs/extensions/life-cycle">Extensions Life Cycle Mangement</a>.</p>
 
@@ -1357,7 +1347,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p><a href="https://dev.twitch.tv/docs/drops">Drops Guide</a>: Added recommendations for campaigns.</p>
 
-<p>Webhooks Reference: Clarified the functionality of the Stream Changed webhook (formerly called Stream Up/Down).</p>
+<p><a href="https://dev.twitch.tv/docs/api/webhooks-reference">Webhooks Reference</a>: Clarified the functionality of the Stream Changed webhook (formerly called Stream Up/Down).</p>
 
 ### 2018‑10‑01
 
@@ -1377,7 +1367,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2018‑09‑14
 
-<p>New Twitch API: Webhooks Guide: There are changes to subscription limits. Each client ID can have at most 10,000 subscriptions. Also, you can subscribe to the same topic at most 3 times.</p>
+<p><a href="https://dev.twitch.tv/docs/api/webhooks-guide">New Twitch API: Webhooks Guide</a>: There are changes to <a href="https://dev.twitch.tv/docs/api/webhooks-guide/#subscriptions">subscription limits</a>. Each client ID can have at most 10,000 subscriptions. Also, you can subscribe to the same topic at most 3 times.</p>
 
 ### 2018‑09‑11
 
@@ -1426,7 +1416,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p><a href="https://dev.twitch.tv/docs/api/reference">New Twitch API Reference</a>: Updated the <a href="https://dev.twitch.tv/docs/api/reference/#get-extension-analytics">Get Extension Analytics</a> endpoint for V2.</p>
 
-<p>New Twitch API: Webhooks Reference: Added new webhook, Extension Analytics.</p>
+<p><a href="https://dev.twitch.tv/docs/api/webhooks-reference">New Twitch API: Webhooks Reference</a>: Added new webhook, Extension Analytics.</p>
 
 ### 2018‑08‑02
 
@@ -1434,7 +1424,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2018‑07‑31
 
-<p>New Twitch API Reference: Added Get Webhook Subscriptions endpoint.</p>
+<p><a href="https://dev.twitch.tv/docs/api/reference">New Twitch API Reference</a>: Added <a href="https://dev.twitch.tv/docs/api/reference/#get-webhook-subscriptions">Get Webhook Subscriptions</a> endpoint.</p>
 
 ### 2018‑07‑27
 
@@ -1510,7 +1500,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 
 
-<p>New Twitch API: Webhooks Reference: Added two webhooks (User Changed, Game Analytics).</p>
+<p><a href="https://dev.twitch.tv/docs/api/webhooks-reference">New Twitch API: Webhooks Reference</a>: Added two webhooks (User Changed, Game Analytics).</p>
 
 <p><a href="https://dev.twitch.tv/docs/insights">Insights &amp; Analytics</a>: New doc, with information on both game developer analytics and extensions developer analytics. (Replaces the Game Developer Analytics doc.)</p>
 
