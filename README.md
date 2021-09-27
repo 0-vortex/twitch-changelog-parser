@@ -7,12 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2021‑09‑24
-
-<p>Reformatted Goals <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types">EventSub Subscription Types</a> for consistency.</p>
-
-<p>Retitled the “Get Live Channels” to “<a href="https://dev.twitch.tv/docs/api/reference#get-extension-live-channels">Get Extension Live Channels</a>” to clarify the endpoint is specific to Extensions activated on live channels.</p>
-
 ### 2021‑09‑16
 
 <p>Decommissioned WebSub-based webhooks, which resulted in the following documentation changes:</p>
@@ -105,7 +99,7 @@
   <li><a href="https://dev.twitch.tv/docs/api/reference#set-extension-configuration-segment">Set Extension Configuration Segment</a></li>
   <li><a href="https://dev.twitch.tv/docs/api/reference#set-extension-required-configuration">Set Extension Required Configuration</a></li>
   <li><a href="https://dev.twitch.tv/docs/api/reference#send-extension-pubsub-message">Send Extension PubSub Message</a></li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#get-extension-live-channels">Get Extension Live Channels</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-live-channels">Get Live Channels</a></li>
   <li><a href="https://dev.twitch.tv/docs/api/reference#get-extension-secrets">Get Extension Secrets</a></li>
   <li><a href="https://dev.twitch.tv/docs/api/reference#create-extension-secret">Create Extension Secret</a></li>
   <li><a href="https://dev.twitch.tv/docs/api/reference#send-extension-chat-message">Send Extension Chat Message</a></li>
