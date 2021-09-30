@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2021‑09‑29
-
-<p><a href="https://dev.twitch.tv/docs/drops">Drops Guide</a> received minor updates.</p>
-
 ### 2021‑09‑24
 
 <p>Reformatted Goals <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types">EventSub Subscription Types</a> for consistency.</p>
