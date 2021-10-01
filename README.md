@@ -7,6 +7,12 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2021‑09‑30
+
+<p><a href="https://dev.twitch.tv/docs/extensions/guidelines-and-policies">Extensions Policy 2.12</a> has been added in regards to defining the domains from which Twitch Extensions can load content. More information is available in the announcement, <a href="https://discuss.dev.twitch.tv/c/announcements/13" target="_blank">New Extensions policy for Content Security Policy (CSP) directives and timeline for enforcement</a>.</p>
+
+<p><a href="https://dev.twitch.tv/docs/extensions">Get started with Twitch Extensions</a> - “Restrictions on content” section updated to reflect Extensions policy 2.12 and the timeline mentioned in the announcement.</p>
+
 ### 2021‑09‑29
 
 <p><a href="https://dev.twitch.tv/docs/drops">Drops Guide</a> received minor updates.</p>
