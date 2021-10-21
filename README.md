@@ -7,9 +7,13 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2021‑10‑20
+
+<p>Added documenation for Twitch’s <a href="https://dev.twitch.tv/docs/cli">command-line interface</a> (CLI).</p>
+
 ### 2021‑10‑01
 
-<p>Add the <code class="highlighter-rouge">points</code> field to the <a href="https://dev.twitch.tv/docs/api/reference#get-broadcaster-subscriptions">Get Broadcaster Subscriptions</a> response. This field provides the current number of subscriber points earned by this broadcaster.</p>
+<p>Added the <code class="highlighter-rouge">points</code> field to the <a href="https://dev.twitch.tv/docs/api/reference#get-broadcaster-subscriptions">Get Broadcaster Subscriptions</a> response. This field provides the current number of subscriber points earned by this broadcaster.</p>
 
 ### 2021‑09‑30
 
