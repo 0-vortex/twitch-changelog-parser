@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2021‑10‑27
+
+<p><a href="https://dev.twitch.tv/docs/companies">Organization Management</a> updated to reflect IGDB will power Twitch game cover art as of November 17, 2021.</p>
+
 ### 2021‑10‑20
 
 <p>Added documenation for Twitch’s <a href="https://dev.twitch.tv/docs/cli">command-line interface</a> (CLI).</p>
