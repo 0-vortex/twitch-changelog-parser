@@ -7,6 +7,12 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2021‑11‑09
+
+<p>Reorganization of EventSub documentation, moving <a href="https://dev.twitch.tv/docs/eventsub/handling-webhook-events">handling events</a> to a dedicated page.</p>
+
+<p>Explicitly including the “Content-Type: application/json” header in <a href="https://dev.twitch.tv/docs/api/reference">API reference</a> examples.</p>
+
 ### 2021‑10‑27
 
 <p><a href="https://dev.twitch.tv/docs/companies">Organization Management</a> updated to reflect IGDB will power Twitch game cover art as of November 17, 2021.</p>
@@ -369,7 +375,7 @@
 
 <p>Added <a href="https://dev.twitch.tv/docs/api/reference#check-user-subscription">Check User Subscription</a> to the Twitch API.</p>
 
-<p>EventSub’s cost-based system for <a href="https://dev.twitch.tv/docs/eventsub/#subscription-limits">subscription limits</a> has been added. Thanks for the feedback on <a href="https://discuss.dev.twitch.tv/t/rfc-0014-eventsub-subscription-limit-changes/30312/">RFC 0014</a>.</p>
+<p>EventSub’s cost-based system for <a href="https://dev.twitch.tv/docs/eventsub/manage-subscriptions/#subscription-limits">subscription limits</a> has been added. Thanks for the feedback on <a href="https://discuss.dev.twitch.tv/t/rfc-0014-eventsub-subscription-limit-changes/30312/">RFC 0014</a>.</p>
 
 <p>Improved the instructions and information regarding the creation of Twitch applications for <a href="https://dev.twitch.tv/docs/drops">Drops campaigns</a>.</p>
 
@@ -394,7 +400,7 @@
 
 <p>EventSub updates</p>
 <ul>
-  <li>Added clarification in steps 4-5 on <a href="https://dev.twitch.tv/docs/eventsub/#create-a-subscription">Create a subscription</a>.</li>
+  <li>Added clarification in steps 4-5 on “Create a subscription.”</li>
   <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference#channel-follow-event">Channel Follow</a> now includes the timestamp of when the follow occurred.</li>
   <li>Clarified the <code class="highlighter-rouge">id</code> field in the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference#stream-online-event">EventSub Stream Online</a> notification payload.</li>
 </ul>
