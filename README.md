@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2021‑11‑16
+
+<p>Updated the <a href="https://dev.twitch.tv/docs/eventsub">EventSub</a> content to move the objects that were defined in the reference topic into the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types">Subscription Types</a> topic.</p>
+
 ### 2021‑11‑09
 
 <p>Reorganization of EventSub documentation, moving <a href="https://dev.twitch.tv/docs/eventsub/handling-webhook-events">handling events</a> to a dedicated page.</p>
@@ -156,13 +160,13 @@
 
 <p><a href="https://dev.twitch.tv/docs/api/reference/#update-drops-entitlements">Update Drops Entitlements</a> - Added to the Twitch API reference.</p>
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#userauthorizationgrant">User Authorization Grant</a> EventSub subscription type added as v1.</p>
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#user-authorization-grant">User Authorization Grant</a> EventSub subscription type added as v1.</p>
 
 <p><a href="https://dev.twitch.tv/docs/drops">Drops</a> guide - Minor changes and updates regarding the additions above.</p>
 
 ### 2021‑06‑25
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#dropentitlementgrant">Drop Entitlement Grant</a> EventSub subscription type added.</p>
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#drop-entitlement-grant">Drop Entitlement Grant</a> EventSub subscription type added.</p>
 
 <p>Update regarding the temporary pause of chatbot verification added to the <a href="https://dev.twitch.tv/docs/irc/guide#verified-bots">Twitch Chat Guide</a>.</p>
 
@@ -170,7 +174,7 @@
 
 <p><a href="https://dev.twitch.tv/docs/api/reference#get-channel-chat-badges">Get Channel Chat Badges</a> - Now supports OAuth app access tokens in addition to OAuth user access tokens.</p>
 
-<p>EventSub - <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-subscription-end-event">Channel Subscription End Event</a> added <code class="highlighter-rouge">tier</code> and <code class="highlighter-rouge">is_gift</code>.</p>
+<p>EventSub - <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#subscription-end">Subscription End</a> added <code class="highlighter-rouge">tier</code> and <code class="highlighter-rouge">is_gift</code>.</p>
 
 <p><a href="https://dev.twitch.tv/docs/authentication">Authentication</a> - The existing <code class="highlighter-rouge">user:read:email </code> scope has been added.</p>
 
@@ -186,11 +190,11 @@
   <li><a href="https://dev.twitch.tv/docs/api/reference/#delete-channel-stream-schedule-segment">Delete Channel Stream Schedule Segment</a></li>
 </ul>
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelsubscriptionmessage">Channel Subscription Message</a> has moved from public beta to v1.</p>
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#subscription-start">Channel Subscription Message</a> has moved from public beta to v1.</p>
 
 ### 2021‑06‑11
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelsubscriptiongift">Channel Subscription Gift</a> has moved from public beta to v1.</p>
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#subscription-gift">Channel Subscription Gift</a> has moved from public beta to v1.</p>
 
 <p><a href="https://dev.twitch.tv/docs/api/reference#get-videos">Get Videos</a> updated to explicitly mention the 500 results limit when specifying <code class="highlighter-rouge">game_id</code>.</p>
 
@@ -205,9 +209,9 @@
 
 ### 2021‑06‑07
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelsubscriptionmessage">Channel Subscription Message</a> EventSub subscription type added as a public beta.</p>
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#subscription-start">Channel Subscription Message</a> EventSub subscription type added as a public beta.</p>
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#extensionbits_transactioncreate">Extension Bits Transaction Create</a> EventSub subscription type has moved from public beta to version 1.</p>
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#bits-transaction">Extension Bits Transaction Create</a> EventSub subscription type has moved from public beta to version 1.</p>
 
 ### 2021‑06‑03
 
@@ -231,29 +235,29 @@
 
 <p>EventSub subscription type updates.</p>
 <ul>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelsubscriptionend">Channel Subscription End</a> has moved from public beta to v1. This was previously known as “Channel Unsubscribe.”</li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelsubscriptiongift">Channel Subscription Gift</a> has been added as a public beta.</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#subscription-end">Channel Subscription End</a> has moved from public beta to v1. This was previously known as “Channel Unsubscribe.”</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#subscription-gift">Channel Subscription Gift</a> has been added as a public beta.</li>
 </ul>
 
 ### 2021‑05‑24
 
 <p><a href="https://dev.twitch.tv/docs/api/reference#get-polls">Polls</a> and <a href="https://dev.twitch.tv/docs/api/reference#get-predictions">Channel Points Predictions</a> Twitch API endpoints have moved from public beta to general availability.</p>
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelpollbegin">Polls</a> and <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelpredictionbegin">Channel Points Predictions</a> EventSub subscription types have moved from public beta to version 1.</p>
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#poll-begin">Polls</a> and <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#prediction-begin">Channel Points Predictions</a> EventSub subscription types have moved from public beta to version 1.</p>
 
 <p>AutoMod Queue and User Moderation Notification topics added to <a href="https://dev.twitch.tv/docs/pubsub">PubSub reference</a>.</p>
 
 ### 2021‑05‑21
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#extensionbits_transactioncreate">Extension Bits Transaction Create</a> EventSub subscription type has been added as a public beta.</p>
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#bits-transaction">Extension Bits Transaction Create</a> EventSub subscription type has been added as a public beta.</p>
 
 <p><a href="https://dev.twitch.tv/docs/api/reference/#create-custom-rewards">Channel Points Custom Rewards</a> - The API reference for Custom Rewards endpoints has been updated for consistency and to clarify conditional requirements for body parameters. For example, <code class="highlighter-rouge">max_per_stream</code> is required if a value for <code class="highlighter-rouge">is_max_per_stream_enabled</code> is also provided.</p>
 
 ### 2021‑05‑14
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelpredictionlock">Channel Prediction Lock</a> EventSub subscription type - corrected the name of the lock timestamp to <code class="highlighter-rouge">locked_at</code>.</p>
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#prediction-lock">Channel Prediction Lock</a> EventSub subscription type - corrected the name of the lock timestamp to <code class="highlighter-rouge">locked_at</code>.</p>
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelpredictionend">Channel Prediction End</a> EventSub subscription type - removed the <code class="highlighter-rouge">locked_at</code> field due to edge cases with Predictions that are cancelled or closed early.</p>
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#prediction-end">Channel Prediction End</a> EventSub subscription type - removed the <code class="highlighter-rouge">locked_at</code> field due to edge cases with Predictions that are cancelled or closed early.</p>
 
 <p><a href="https://dev.twitch.tv/docs/api/reference/#create-eventsub-subscription">Create EventSub Subscription</a> and <a href="https://dev.twitch.tv/docs/api/reference/#get-eventsub-subscriptions">Get EventSub Subscriptions</a> - <code class="highlighter-rouge">limit</code> removed following the new <a href="https://discuss.dev.twitch.tv/t/eventsub-subscription-limit-cost-based-system-and-limit-field-deprecation/31377" target="_blank">EventSub subscription limit cost-based system</a>.</p>
 
@@ -267,7 +271,7 @@
 
 ### 2021‑05‑06
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelsubscriptionend">Channel Subscription End</a> EventSub subscription type has been added as a public beta.</p>
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#subscription-end">Channel Subscription End</a> EventSub subscription type has been added as a public beta.</p>
 
 <p><em>This entry has been updated, the subscription type has been renamed from “Channel Unsubscribe” to “Channel Subscription End” after moving from beta to v1.</em></p>
 
@@ -287,24 +291,24 @@
 <p>EventSub subscriptions types added for polls and Channel Points Predictions as a public beta.</p>
 
 <ul>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelpollbegin">Channel Poll Begin</a></li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelpollprogress">Channel Poll Progress</a></li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelpollend">Channel Poll End</a></li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelpredictionbegin">Channel Prediction Begin</a></li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelpredictionprogress">Channel Prediction Progress</a></li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelpredictionlock">Channel Prediction Lock</a></li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelpredictionend">Channel Prediction End</a></li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#poll-begin">Channel Poll Begin</a></li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#poll-progress">Channel Poll Progress</a></li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#poll-end">Channel Poll End</a></li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#prediction-begin">Channel Prediction Begin</a></li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#prediction-progress">Channel Prediction Progress</a></li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#prediction-lock">Channel Prediction Lock</a></li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#prediction-end">Channel Prediction End</a></li>
 </ul>
 
 ### 2021‑04‑30
 
 <p><a href="https://dev.twitch.tv/docs/">Overview page</a> - New information and organization.</p>
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#public-beta-program">EventSub Subscriptions Types</a> - Added information regarding the expected availability of EventSub subscription types when released as a public beta.</p>
+<p>Added information regarding the expected availability of EventSub subscription types when released as a public beta. See <a href="https://dev.twitch.tv/docs/product-lifecycle#api-endpoint-and-subscription-classifications">API Endpoint and Subscription Classifications</a></p>
 
 ### 2021‑04‑26
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#userauthorizationrevoke">Notification Example</a> for <code class="highlighter-rouge">user.authorization.revoke</code> updated to show the cost is 1.</p>
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#user-authorization-revoke">Notification Example</a> for <code class="highlighter-rouge">user.authorization.revoke</code> updated to show the cost is 1.</p>
 
 <p><a href="https://dev.twitch.tv/docs/embed">Embedding Twitch</a> - Minor documentation updates.</p>
 
@@ -353,7 +357,7 @@
 
 ### 2021‑03‑26
 
-<p>EventSub’s <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelmoderatoradd">Channel Moderator Add</a> and <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelmoderatorremove">Channel Moderator Remove</a> subscriptions types have been moved from beta to v1.</p>
+<p>EventSub’s <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#moderator-add">Channel Moderator Add</a> and <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#moderator-remove">Channel Moderator Remove</a> subscriptions types have been moved from beta to v1.</p>
 
 <p>Added associated Twitch API endpoints to the <a href="https://dev.twitch.tv/docs/authentication/#scopes">scopes section</a> of the Authentication guide.</p>
 
@@ -392,8 +396,8 @@
 
 <p>EventSub</p>
 <ul>
-  <li>The <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelraid">Channel Raid</a> subscription type has been moved from beta to v1.</li>
-  <li>The <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelmoderatoradd">Channel Moderator Add</a> and <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelmoderatorremove">Channel Moderator Remove</a> subscription types have been added as a public beta.</li>
+  <li>The <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#raid">Channel Raid</a> subscription type has been moved from beta to v1.</li>
+  <li>The <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#moderator-add">Channel Moderator Add</a> and <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#moderator-remove">Channel Moderator Remove</a> subscription types have been added as a public beta.</li>
 </ul>
 
 ### 2021‑02‑26
@@ -401,8 +405,8 @@
 <p>EventSub updates</p>
 <ul>
   <li>Added clarification in steps 4-5 on “Create a subscription.”</li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference#channel-follow-event">Channel Follow</a> now includes the timestamp of when the follow occurred.</li>
-  <li>Clarified the <code class="highlighter-rouge">id</code> field in the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference#stream-online-event">EventSub Stream Online</a> notification payload.</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channel-follow">Channel Follow</a> now includes the timestamp of when the follow occurred.</li>
+  <li>Clarified the <code class="highlighter-rouge">id</code> field in the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#stream-online">EventSub Stream Online</a> notification payload.</li>
 </ul>
 
 <p>The following endpoints were updated to use the <code class="highlighter-rouge">channel:manage:broadcast</code> scope. The previous scope remains valid.</p>
@@ -465,7 +469,7 @@
 <p>EventSub</p>
 <ul>
   <li>The Channel Raid subscription type has been added as a public beta.</li>
-  <li>The <code class="highlighter-rouge">started_at</code> timestamp has been added to the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference#stream-online-event">Stream Online Event</a>.</li>
+  <li>The <code class="highlighter-rouge">started_at</code> timestamp has been added to the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#stream-online">Stream Online Event</a>.</li>
 </ul>
 
 <p>A note about removing <a href="https://dev.twitch.tv/docs/extensions/guidelines-and-policies">Extensions Policy 7.5</a> has been added since Twitch Extensions no longer load for banned users.</p>
