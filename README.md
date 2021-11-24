@@ -7,37 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2021‑11‑23
-
-<p>Added the following chat and moderation APIs that let developers create experiences that help broadcasters combat harassment and hate raids.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>What do you want to do?</th>
-      <th>How to do it…</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Ban users or put them in a timeout</td>
-      <td>Send a <a href="https://dev.twitch.tv/docs/api/reference#ban-users">POST /moderation/bans</a> request.<br><br>You can also <a href="https://dev.twitch.tv/docs/api/reference#unban-user">remove</a> a ban or timeout.</td>
-    </tr>
-    <tr>
-      <td>Block terms that the broadcaster doesn’t want used in their chat room</td>
-      <td>Send a <a href="https://dev.twitch.tv/docs/api/reference#add-blocked-term">POST /moderation/blocked_terms</a> request.<br><br>You can also <a href="https://dev.twitch.tv/docs/api/reference#get-blocked-terms">get</a> a list of blocked terms and <a href="https://dev.twitch.tv/docs/api/reference#remove-blocked-term">delete</a> blocked terms.</td>
-    </tr>
-    <tr>
-      <td>Update the broadcaster’s AutoMod settings</td>
-      <td>Send a <a href="https://dev.twitch.tv/docs/api/reference#update-automod-settings">PUT /moderation/automod/settings</a> request.<br><br>You can also <a href="https://dev.twitch.tv/docs/api/reference#get-automod-settings">get</a> a list of the current AutoMod settings.</td>
-    </tr>
-    <tr>
-      <td>Update the broadcaster’s chat settings</td>
-      <td>Send a <a href="https://dev.twitch.tv/docs/api/reference#update-chat-settings">PATCH /chat/settings</a> request.<br><br>You can also <a href="https://dev.twitch.tv/docs/api/reference#get-chat-settings">get</a> a list of the current chat settings.</td>
-    </tr>
-  </tbody>
-</table>
-
 ### 2021‑11‑16
 
 <p>Updated the <a href="https://dev.twitch.tv/docs/eventsub">EventSub</a> content to move the objects that were defined in the reference topic into the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types">Subscription Types</a> topic.</p>
@@ -471,9 +440,9 @@
 
 ### 2021‑02‑12
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channel-ban">EventSub Channel Ban</a> v1 now includes moderator information, reason for ban, and timeout duration if the ban was a timeout.</p>
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference#channel-ban-event">EventSub Channel Ban</a> v1 now includes moderator information, reason for ban, and timeout duration if the ban was a timeout.</p>
 
-<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channel-unban">EventSub Channel Unban</a> v1 now includes moderator information.</p>
+<p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference#channel-unban-event">EventSub Channel Unban</a> v1 now includes moderator information.</p>
 
 <p>Section 7.5 of the <a href="https://dev.twitch.tv/docs/extensions/guidelines-and-policies">Extensions Guidelines and Policies</a> has been removed following the <a href="https://discuss.dev.twitch.tv/t/extension-policy-update-moderation/30215">original announcement</a>.</p>
 
