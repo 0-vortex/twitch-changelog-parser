@@ -7,6 +7,12 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2021‑12‑03
+
+<p>Updated <a href="https://dev.twitch.tv/docs/companies">Organizations</a> to reflect <a href="https://discuss.dev.twitch.tv/c/announcements" target="_blank">cover art powered by IGDB</a>.</p>
+
+<p>Updates <a href="https://dev.twitch.tv/docs/product-lifecycle">Product Lifecycle</a> to include <a href="https://discuss.dev.twitch.tv/t/deprecation-of-twitch-api-event-endpoints-that-supported-websub-based-webhooks/35137" target="_blank">the deprecation</a> of a few Twitch API endpoints that supported WebSub-based webhooks.</p>
+
 ### 2021‑11‑23
 
 <p>Added the following chat and moderation APIs that let developers create experiences that help broadcasters combat harassment and hate raids.</p>
