@@ -7,16 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2021‑12‑09
-
-<p>Added the following Soundtrack APIs:</p>
-
-<ol>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#get-soundtrack-current-track">Get Soundtrack Current Track</a> — Gets the Soundtrack track that the specified broadcaster is playing.</li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#get-soundtrack-playlists">Get Soundtrack Playlists</a> — Gets the list of Soundtrack playlists.</li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#get-soundtrack-playlist">Get Soundtrack Playlist</a> — Gets the specified Soundtrack playlist.</li>
-</ol>
-
 ### 2021‑12‑03
 
 <p>Updated <a href="https://dev.twitch.tv/docs/companies">Organizations</a> to reflect <a href="https://discuss.dev.twitch.tv/c/announcements" target="_blank">cover art powered by IGDB</a>.</p>
