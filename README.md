@@ -7,21 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2021‑12‑16
-
-<p>The <a href="https://dev.twitch.tv/docs/api/reference#update-chat-settings">Update Chat Settings</a> endpoint now lets you:</p>
-
-<ul>
-  <li>Set the <code class="highlighter-rouge">follower_mode_duration</code> field to any value between 0 and 129600, inclusive.</li>
-  <li>Set the <code class="highlighter-rouge">slow_mode_wait_time</code> field to any value between 3 and 120, inclusive.</li>
-</ul>
-
-<p>Open beta changes:</p>
-<ul>
-  <li>For <a href="https://dev.twitch.tv/docs/api/reference#ban-user">Ban Users</a>, bulk requests have been removed until a more scalable solution is available.</li>
-  <li>For <a href="https://dev.twitch.tv/docs/api/reference#ban-user">Ban Users</a> and <a href="https://dev.twitch.tv/docs/api/reference#unban-user">Unban User</a>, error message formatting now utilizes the same structure as other API endpoints since bulk requests have been removed. HTTP 429 errors may also be returned if there are too many requests even within normal Twitch API rate limits.</li>
-</ul>
-
 ### 2021‑12‑09
 
 <p>Added the following Soundtrack APIs:</p>
@@ -52,7 +37,7 @@
   <tbody>
     <tr>
       <td>Ban users or put them in a timeout</td>
-      <td>Send a <a href="https://dev.twitch.tv/docs/api/reference#ban-user">POST /moderation/bans</a> request.<br><br>You can also <a href="https://dev.twitch.tv/docs/api/reference#unban-user">remove</a> a ban or timeout.</td>
+      <td>Send a <a href="https://dev.twitch.tv/docs/api/reference#ban-users">POST /moderation/bans</a> request.<br><br>You can also <a href="https://dev.twitch.tv/docs/api/reference#unban-user">remove</a> a ban or timeout.</td>
     </tr>
     <tr>
       <td>Block terms that the broadcaster doesn’t want used in their chat room</td>
