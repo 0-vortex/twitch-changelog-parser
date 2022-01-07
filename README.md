@@ -7,6 +7,15 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑01‑06
+
+<p>Added the <code class="highlighter-rouge">new_subscription</code> Creator Goals type, which reports all new subscriptions since the goal’s inception. This type differs from the <code class="highlighter-rouge">subscription</code> type, which reports the net increase or decrease in subscriptions. See the <code class="highlighter-rouge">type</code> field of:</p>
+
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference#goals-event">Goals Event</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-creator-goals">Get Creator Goals</a></li>
+</ul>
+
 ### 2021‑12‑16
 
 <p>The <a href="https://dev.twitch.tv/docs/api/reference#update-chat-settings">Update Chat Settings</a> endpoint now lets you:</p>
