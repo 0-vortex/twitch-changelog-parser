@@ -7,12 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑01‑21
-
-<p><a href="https://dev.twitch.tv/docs/extensions/#restrictions-on-content">Restrictions on content</a> updated to reflect the new Twitch Extensions policy for <a href="https://discuss.dev.twitch.tv/t/new-extensions-policy-for-content-security-policy-csp-directives-and-timeline-for-enforcement/33695" target="_blank">Content Security Policy (CSP) directives and enforcement</a>.</p>
-
-<p><a href="https://dev.twitch.tv/docs/api/reference#ban-user">Moderation API endpoints</a> have moved from public beta to generally available.</p>
-
 ### 2022‑01‑06
 
 <p>Added the <code class="highlighter-rouge">new_subscription</code> Creator Goals type, which reports all new subscriptions since the goal’s inception. This type differs from the <code class="highlighter-rouge">subscription</code> type, which reports the net increase or decrease in subscriptions. See the <code class="highlighter-rouge">type</code> field of:</p>
