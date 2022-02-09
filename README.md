@@ -7,6 +7,29 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑02‑08
+
+<p><a href="https://dev.twitch.tv/docs/api/reference#get-channel-information">Get channel information</a> endpoint</p>
+
+<ul>
+  <li>Changed the description for the <code class="highlighter-rouge">broadcaster_id</code> query parameter to indicate that you may specify a maximum of 100 IDs.</li>
+</ul>
+
+<p><a href="https://dev.twitch.tv/docs/api/reference#get-soundtrack-current-track">Get Soundtrack Current Track</a> endpoint</p>
+
+<ul>
+  <li>Changed the description for the <code class="highlighter-rouge">data</code> response field to remove the part that states that the list is empty if the broadcaster is not playing a track. The correct behavior is that if the broadcaster is not playing a track, the endpoint returns HTTP status code 404 Not Found.</li>
+  <li>Changed the description for the <code class="highlighter-rouge">creator_channel_id</code> response field to indicate that its value is an empty string if a Twitch user didn’t create the track instead of <strong>null</strong>.</li>
+</ul>
+
+<p><a href="https://dev.twitch.tv/docs/api/reference#get-soundtrack-playlist">Get Soundtrack Playlist</a> endpoint</p>
+
+<ul>
+  <li>Changed the description for the <code class="highlighter-rouge">creator_channel_id</code> response field to indicate that its value is an empty string if a Twitch user didn’t create the track instead of <strong>null</strong>.</li>
+</ul>
+
+<p><a href="https://dev.twitch.tv/docs/extensions/guidelines-and-policies">Extension Policy 2.9</a> updated to clarify that the Twitch Extension Helper must be included as the first script in all front-end HTML files.</p>
+
 ### 2022‑01‑21
 
 <p><a href="https://dev.twitch.tv/docs/extensions/#restrictions-on-content">Restrictions on content</a> updated to reflect the new Twitch Extensions policy for <a href="https://discuss.dev.twitch.tv/t/new-extensions-policy-for-content-security-policy-csp-directives-and-timeline-for-enforcement/33695" target="_blank">Content Security Policy (CSP) directives and enforcement</a>.</p>
