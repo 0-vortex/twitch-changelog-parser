@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑02‑25
+
+<p><a href="https://dev.twitch.tv/docs/irc/msg-id">Chat msg-id tags</a> updated for accuracy.</p>
+
 ### 2022‑02‑08
 
 <p><a href="https://dev.twitch.tv/docs/api/reference#get-channel-information">Get channel information</a> endpoint</p>
