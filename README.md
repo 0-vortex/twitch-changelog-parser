@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑02‑28
-
-<p>Twitch API v5 endpoints (i.e. kraken) are no longer available. Documentation for these endpoints have been removed.</p>
-
 ### 2022‑02‑25
 
 <p><a href="https://dev.twitch.tv/docs/irc/msg-id">Chat msg-id tags</a> updated for accuracy.</p>
@@ -422,7 +418,7 @@
 
 <p><a href="https://dev.twitch.tv/docs/authentication#scopes">Authentication</a> - <code class="highlighter-rouge">user:read:follows</code> scope added for <a href="https://dev.twitch.tv/docs/api/reference/#get-followed-streams">Get Followed Streams</a>.</p>
 
-<p><a href="https://dev.twitch.tv/docs/api/migration">v5 Migration Guide</a> - Updated to mention <a href="https://dev.twitch.tv/docs/api/reference/#get-followed-streams">Get Followed Streams</a> equivalence.</p>
+<p><a href="https://dev.twitch.tv/docs/">v5 Migration Guide</a> - Updated to mention <a href="https://dev.twitch.tv/docs/api/reference/#get-followed-streams">Get Followed Streams</a> equivalence.</p>
 
 ### 2021‑04‑15
 
@@ -443,7 +439,7 @@
 
 <p><a href="https://dev.twitch.tv/docs/api/reference#update-user">Update User</a> - Clarifying why <code class="highlighter-rouge">description</code> is optional and what results if not provided.</p>
 
-<p>Extensions Reference - Parameter tables reordered to match the order they should be passed into their respective functions.</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a> - Parameter tables reordered to match the order they should be passed into their respective functions.</p>
 
 <p>Other minor corrections.</p>
 
@@ -520,7 +516,7 @@
   <li><a href="https://dev.twitch.tv/docs/api/reference#replace-stream-tags">Replace Stream Tags</a></li>
 </ul>
 
-<p>Updated the v5 Video Upload Guide introduction for visitors looking for information regarding uploads via the Creator Dashboard.</p>
+<p>Updated the v5 <a href="https://dev.twitch.tv/docs/v5/guides/video-upload">Video Upload Guide</a> introduction for visitors looking for information regarding uploads via the Creator Dashboard.</p>
 
 <p>Fixed broken links in <a href="https://dev.twitch.tv/docs/irc">chat</a> references.</p>
 
@@ -621,7 +617,7 @@
 
 <p>Additional updates:</p>
 <ul>
-  <li><code class="highlighter-rouge">offset</code> removed from Get Channel Followers endpoint in v5 as it is no longer supported. <code class="highlighter-rouge">cursor</code> should be used for pagination.</li>
+  <li><code class="highlighter-rouge">offset</code> removed from <a href="https://dev.twitch.tv/docs/v5/reference/channels#get-channel-followers">Get Channel Followers</a> endpoint in v5 as it is no longer supported. <code class="highlighter-rouge">cursor</code> should be used for pagination.</li>
   <li>Extensions tutorial updated to use Gists instead of image.</li>
   <li>Several UserVoice suggestions and GitHub Issues addressed.</li>
 </ul>
@@ -651,7 +647,7 @@
   <li>Five endpoint equivalence definitions have been added for the above endpoints.</li>
 </ul>
 
-<p><code class="highlighter-rouge">giantbomb_id</code> set to 0 in the v5 Get Top Games response example to reflect a <a href="https://discuss.dev.twitch.tv/t/legacy-endpoints-returning-0-for-giantbomb-id-following-igdb-migration/29125">game data migration</a>.</p>
+<p><code class="highlighter-rouge">giantbomb_id</code> set to 0 in the v5 <a href="https://dev.twitch.tv/docs/v5/reference/games/#get-top-games">Get Top Games</a> response example to reflect a <a href="https://discuss.dev.twitch.tv/t/legacy-endpoints-returning-0-for-giantbomb-id-following-igdb-migration/29125">game data migration</a>.</p>
 
 ### 2021‑01‑08
 
@@ -820,7 +816,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2020‑09‑17
 
-<p>Added to the v5 API Get Channel Subscribers endpoint the information that if a user in the subscribers list has been banned, the subscription information will be provided, but the user object will have a value of <code class="highlighter-rouge">null</code>.</p>
+<p>Added to the <a href="https://dev.twitch.tv/docs/v5/reference/channels#get-channel-subscribers">v5 API Get Channel Subscribers</a> endpoint the information that if a user in the subscribers list has been banned, the subscription information will be provided, but the user object will have a value of <code class="highlighter-rouge">null</code>.</p>
 
 ### 2020‑09‑15
 
@@ -1002,7 +998,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2020‑04‑01
 
-<p>Deleted documentation of these deprecated v5 endpoints:</p>
+<p>Deleted documentation of these deprecated v5 endpoints: </p>
 
 <ul>
   <li>Get Channel Communities</li>
@@ -1014,7 +1010,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2020‑03‑30
 
-<p>Updated definition of “language” in v5 Streams API Reference.</p>
+<p>Updated definition of “language” in <a href="https://dev.twitch.tv/docs/v5/reference/streams">v5 Streams API Reference</a>.</p>
 
 ### 2020‑03‑27
 
@@ -1039,13 +1035,13 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 <p>Edited the following endpoints in the v. 5 API Reference:</p>
 
 <ul>
-  <li>v5 Get Live Streams
+  <li><a href="https://dev.twitch.tv/docs/v5/reference/streams#get-live-streams">Get Live Streams</a>
     <ul>
       <li>Removed <code class="highlighter-rouge">_total</code> field</li>
       <li>Documented that the offset is capped at 900</li>
     </ul>
   </li>
-  <li>v5 Get Followed Streams
+  <li><a href="https://dev.twitch.tv/docs/v5/reference/streams#get-followed-streams">Get Followed Streams</a>
     <ul>
       <li>Removed <code class="highlighter-rouge">_total</code> field</li>
       <li>Documented that the offset is capped at 900</li>
@@ -1061,7 +1057,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p>Updated the <code class="highlighter-rouge">game_id</code> parameter in the <a href="https://dev.twitch.tv/docs/api/reference#get-streams">Get Streams</a> endpoint from up to 100 IDs to up to 10 IDs.</p>
 
-<p>Documented the <code class="highlighter-rouge">isBitsEnabled</code> feature flag in the Extensions Reference.</p>
+<p>Documented the <code class="highlighter-rouge">isBitsEnabled</code> feature flag in the <a href="https://dev.twitch.tv/docs/extensions/reference#helper-feature-flags">Extensions Reference</a>.</p>
 
 <p>Removed the link to the deprecated form to increase webhook subscription limits.</p>
 
@@ -1070,8 +1066,8 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 ### 2020‑02‑13
 
 <ul>
-  <li>Removed the <code class="highlighter-rouge">live</code> query string parameter from the Search Games v5 endpoint documentation.</li>
-  <li>Removed the <code class="highlighter-rouge">popularity</code> response field from the Search Games v5 endpoint and the Get Top Games v5 endpoint documentation.</li>
+  <li>Removed the <code class="highlighter-rouge">live</code> query string parameter from the <a href="https://dev.twitch.tv/docs/v5/reference/search#search-games">Search Games</a> endpoint documentation.</li>
+  <li>Removed the <code class="highlighter-rouge">popularity</code> response field from the <a href="https://dev.twitch.tv/docs/v5/reference/search#search-games">Search Games</a> and the <a href="https://dev.twitch.tv/docs/v5/reference/games#get-top-games">Get Top Games</a> endpoint documentation.</li>
 </ul>
 
 ### 2020‑01‑24
@@ -1248,9 +1244,9 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2019‑06‑19
 
-<p>Added clarification to the <a href="https://dev.twitch.tv/docs/api/reference/#get-users">Get Users</a> endpoint in the Twitch API Reference that the limit of 100 IDs and login names is a total limit, not 100 of each.</p>
+<p>Added clarification to the <a href="https://dev.twitch.tv/docs/api/reference/#get-users" target="_blank">Get Users</a> endpoint in the Twitch API Reference that the limit of 100 IDs and login names is a total limit, not 100 of each.</p>
 
-<p>Changes to Helper Bits in the Extensions Reference:</p>
+<p>Changes to <a href="https://dev.twitch.tv/docs/extensions/reference/#helper-bits" target="_blank">Helper Bits</a> in the Extensions Reference:</p>
 
 <ul>
   <li>The field should be “<code class="highlighter-rouge">exp</code>” rather than “<code class="highlighter-rouge">expires</code>”.</li>
@@ -1282,7 +1278,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2019‑05‑30
 
-<p>Updated v5 API Guide: New third-party development will be limited to the API versions Kraken v5 and Helix. Limitation of new development will be enforced on client ID created on or after 5/31/2019.</p>
+<p class="present-before-paste">Updated <a href="https://dev.twitch.tv/docs/v5" target="_blank">v5 API Guide</a>: New third-party development will be limited to the API versions Kraken v5 and Helix. Limitation of new development will be enforced on client ID created on or after 5/31/2019.</p>
 
 ### 2019‑05‑08
 
@@ -1317,7 +1313,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p>Updated link to download the Developer Rig for Windows.</p>
 
-<p>Updated the v5 API Reference to indicate that the version is deprecated.</p>
+<p>Updated the <a href="https://dev.twitch.tv/docs/v5" target="_blank">v5 API Reference</a> to indicate that the version is deprecated.</p>
 
 ### 2019‑04‑16
 
@@ -1325,7 +1321,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2019‑04‑15
 
-<p>Video: Updated v5 Video Upload Guide and v5 Video Reference to note that you must be a Partner or Affiliate to upload VODs.</p>
+<p>Video: Updated <a href="https://dev.twitch.tv/docs/v5/guides/video-upload" target="_blank">Video Upload Guide</a> and <a href="https://dev.twitch.tv/docs/v5/reference/videos" target="_blank">Video Reference</a> to note that you must be a Partner or Affiliate to upload VODs.</p>
 
 ### 2019‑03‑27
 
@@ -1341,7 +1337,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2019‑03‑15
 
-<p>Extensions Reference: Added information related to Monetization.</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference" target="_blank">Extensions Reference</a>: Added information related to Monetization.</p>
 
 <p><a href="https://dev.twitch.tv/docs/extensions/monetization">Extensions Monetization Guide</a>{: target=”_blank” (formerly Bits in Extensions), <a href="https://dev.twitch.tv/docs/extensions/life-cycle">Extensions Life Cycle Management</a>: Added Monetization tab to Extensions manager, for selecting Bits support and/or new subscription status support, and for going to the monetization onboarding process.</p>
 
@@ -1389,7 +1385,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2019‑01‑22
 
-<p>Extensions Reference: Added <code class="highlighter-rouge">locale</code> parameter to “Client Query Parameters.”</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>: Added <code class="highlighter-rouge">locale</code> parameter to “<a href="https://dev.twitch.tv/docs/extensions/reference/#client-query-parameters">Client Query Parameters</a>.”</p>
 
 ### 2019‑01‑18
 
@@ -1417,7 +1413,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2018‑11‑30
 
-<p>Extensions Reference: Moved Bits-related reference information (JS helper functions) here, to consolidate all Extensions reference info in one place. The <a href="https://dev.twitch.tv/docs/extensions/monetization">Bits in Extensions</a> document is now purely a guide.</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>: Moved Bits-related reference information (JS helper functions) here, to consolidate all Extensions reference info in one place. The <a href="https://dev.twitch.tv/docs/extensions/monetization">Bits in Extensions</a> document is now purely a guide.</p>
 
 ### 2018‑11‑28
 
@@ -1441,7 +1437,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p><a href="https://dev.twitch.tv/docs/irc/msg-id">Twitch IRC Capability: msd-ID Tags</a>: This new document (under Chatbots &amp; IRC) contains a complete (lengthy) list of all <code class="highlighter-rouge">msg-id</code> tags that apply to the <code class="highlighter-rouge">NOTICE</code> (Twitch Commands) and <code class="highlighter-rouge">NOTICE</code> (Twitch Chat Rooms) commands.</p>
 
-<p>Extensions Reference: New JWT schema field, <code class="highlighter-rouge">is_unlinked</code>.</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>: New <a href="https://dev.twitch.tv/docs/extensions/reference/#jwt-schema">JWT schema</a> field, <code class="highlighter-rouge">is_unlinked</code>.</p>
 
 <p><a href="https://dev.twitch.tv/docs/api/reference">New Twitch API Reference</a>: New description and example in Get Webhook Subscriptions, which requires a Bearer token.</p>
 
@@ -1478,7 +1474,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <ul>
   <li><a href="https://dev.twitch.tv/docs/extensions/building">Building Extensions</a>: New “Configuration Service” section.</li>
-  <li>Extensions Reference:
+  <li><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>:
     <ul>
       <li>Three new endpoints (Set Extension Configuration Segment, Get Extension Channel Configuration, Get Extension Configuration Segment).</li>
       <li>New Twitch Extensions configuration helper functions (see “Helper: Configuration”).</li>
@@ -1509,7 +1505,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p><a href="https://dev.twitch.tv/docs/extensions/rig">Extensions Developer Rig</a>: New document focusing on the rig. Also see changes to the Developer Rig section of <a href="https://dev.twitch.tv/docs/extensions">Getting Started with Extensions</a>.</p>
 
-<p>Extensions Reference: New <code class="highlighter-rouge">hostingInfo</code> property in the <code class="highlighter-rouge">onContext</code> JS helper function. New <code class="highlighter-rouge">onHighlightChanged</code> JS helper function.</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>: New <code class="highlighter-rouge">hostingInfo</code> property in the <code class="highlighter-rouge">onContext</code> JS helper function. New <code class="highlighter-rouge">onHighlightChanged</code> JS helper function.</p>
 
 <p><a href="https://dev.twitch.tv/docs/authentication">Apps &amp; Authentication Guide</a>: The <code class="highlighter-rouge">chat_login</code> scope is deprecated. See the section on new scopes for chat and PubSub.</p>
 
@@ -1527,7 +1523,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2018‑09‑07
 
-<p>Extensions Reference: New JS helper function, <code class="highlighter-rouge">minimize</code>. See Helper: Actions.</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>: New JS helper function, <code class="highlighter-rouge">minimize</code>. See <a href="https://dev.twitch.tv/docs/extensions/reference/#helper-actions">Helper: Actions</a></p>
 
 ### 2018‑09‑06
 
@@ -1545,7 +1541,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p>Extensions (several docs): Added pop-out Extensions. Start reading <a href="https://dev.twitch.tv/docs/extensions/required-technical-background/#pop-out-extensions">here</a> in Required Technical Background (this links to relevant info elsewhere in the doc set).</p>
 
-<p>Extensions Reference: Added Send Extension Chat Message endpoint and Helper: Feature Flags (JS helper functions).</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>: Added <a href="https://dev.twitch.tv/docs/extensions/reference/#send-extension-chat-message">Send Extension Chat Message</a> endpoint and <a href="https://dev.twitch.tv/docs/extensions/reference/#helper-feature-flags">Helper: Feature Flags</a> (JS helper functions).</p>
 
 ### 2018‑08‑21
 
@@ -1560,7 +1556,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
   <li>If you develop a new mobile extension for iOS, please set up an Apple developer account (if you do not already have one), then contact Twitch (developer_support@twitch.tv) to add iOS support.</li>
 </ul>
 
-<p>Extensions Reference: In Helper: Extensions, added new property (<code class="highlighter-rouge">arePlayerControlsVisible</code>) to the <code class="highlighter-rouge">onContext</code> JS helper function.</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>: In <a href="https://dev.twitch.tv/docs/extensions/reference/#helper-extensions">Helper: Extensions</a>, added new property (<code class="highlighter-rouge">arePlayerControlsVisible</code>) to the <code class="highlighter-rouge">onContext</code> JS helper function.</p>
 
 ### 2018‑08‑07
 
@@ -1602,7 +1598,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p><a href="https://dev.twitch.tv/docs/extensions/guidelines-and-policies">Extensions Guidelines &amp; Policies</a>: Added a note about which versions of Android and iOS must be supported by mobile extensions.</p>
 
-<p>Extensions Reference: Added two new fields to the <code class="highlighter-rouge">onContext</code> JS helper function (<code class="highlighter-rouge">isMuted</code>, <code class="highlighter-rouge">volume</code>).</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>: Added two new fields to the <code class="highlighter-rouge">onContext</code> JS helper function (<code class="highlighter-rouge">isMuted</code>, <code class="highlighter-rouge">volume</code>).</p>
 
 <p><a href="https://dev.twitch.tv/docs/authentication">Apps &amp; Authentication</a>: Split this large document into several smaller docs, to make it easier to read and find information.</p>
 
@@ -1616,7 +1612,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2018‑06‑19
 
-<p>Extensions Reference: Expanded the definition of <code class="highlighter-rouge">onPositionChanged</code> JS helper function.</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>: Expanded the definition of <code class="highlighter-rouge">onPositionChanged</code> JS helper function.</p>
 
 <p><a href="https://dev.twitch.tv/docs/extensions/building">Building Extensions</a>: In “Local Test,” added information about the new Invite Only tab, for seeing allowlisted extensions in the Extensions Manager.</p>
 
@@ -1626,7 +1622,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p><a href="https://dev.twitch.tv/docs/embed/everything">Embedding Twitch: Everything</a>: For the <code class="highlighter-rouge">layout</code> parameter, changed the valid value from <code class="highlighter-rouge">video-and-chat</code> to <code class="highlighter-rouge">video-with-chat</code>.</p>
 
-<p>Twitch API v5: In “Which API Version Can You Use?” indicated that there is no scheduled deletion date for v5.</p>
+<p><a href="https://dev.twitch.tv/docs/v5">Twitch API v5</a>: In “Which API Version Can You Use?” indicated that there is no scheduled deletion date for v5.</p>
 
 ### 2018‑06‑07
 
@@ -1648,7 +1644,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
   <li><a href="https://dev.twitch.tv/docs/api">Getting Started with the New Twitch API</a>: New doc.</li>
 </ul>
 
-<p>Extensions Reference: Changes to Send Extension PubSub Message (messages can be sent globally), <code class="highlighter-rouge">listen</code> and <code class="highlighter-rouge">send</code> JS Helper functions, and Example JWT Payload.</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>: Changes to Send Extension PubSub Message (messages can be sent globally), <code class="highlighter-rouge">listen</code> and <code class="highlighter-rouge">send</code> JS Helper functions, and Example JWT Payload.</p>
 
 
 
@@ -1660,7 +1656,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p><a href="https://dev.twitch.tv/docs/embed">Embedding Twitch</a> and <a href="https://dev.twitch.tv/docs/irc">Chatbots &amp; IRC</a>: These large documents were spit into several smaller docs, to make it easier to read and find information.</p>
 
-<p>Extensions Reference: The <code class="highlighter-rouge">onVisibilityChanged</code> JS helper function now works with component extensions.</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>: The <a href="https://dev.twitch.tv/docs/extensions/reference"><code class="highlighter-rouge">onVisibilityChanged</code></a> JS helper function now works with component extensions.</p>
 
 ### 2018‑05‑15
 
@@ -1686,9 +1682,9 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p><a href="https://dev.twitch.tv/docs/embed/video-and-clips">Embedding Video and Clips</a>: In “Interactive Frames for Live Streams and VODs” &gt; “Optional Parameter,” the default of the parameter <code class="highlighter-rouge">playsinline</code> parameter was changed to <code class="highlighter-rouge">true</code>.</p>
 
-<p>Extensions Guide: Video-component extensions were added. Broadcasters can activate up to six extensions at a time: 3 panel, 1 video overlay (full screen), and 2 video component (smaller).</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Guide</a>: Video-component extensions were added. Broadcasters can activate up to six extensions at a time: 3 panel, 1 video overlay (full screen), and 2 video component (smaller).</p>
 
-<p>Extensions Reference: Info was added about video-component extensions (new JS Helper function, <code class="highlighter-rouge">onPositionChanged</code>).</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>: Info was added about video-component extensions (new JS Helper function, <code class="highlighter-rouge">onPositionChanged</code>).</p>
 
 <p><a href="https://dev.twitch.tv/docs/api/reference">New Twitch API Reference</a>: In Get Clip, 4 query params were added (<code class="highlighter-rouge">broadcaster_id</code>, <code class="highlighter-rouge">game_id</code>, <code class="highlighter-rouge">before</code>, <code class="highlighter-rouge">after</code>).</p>
 
@@ -1706,7 +1702,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p>Extensions Guide: In “Appendix B: Guidelines and Practices,” the policy for audio was revised: “Extensions can include audio only if they include controls which allow viewers to adjust the volume, and by default, these controls are set to off/muted.” 5/2/18 update: Now that the Extensions Guide is split up, this information is in <a href="https://dev.twitch.tv/docs/extensions/guidelines-and-policies">Extensions Guidelines &amp; Policies</a>.</p>
 
-<p>Extensions Reference: Changes related to the introduction of dynamic anchors. Search for “anchor” in the doc.</p>
+<p><a href="https://dev.twitch.tv/docs/extensions/reference">Extensions Reference</a>: Changes related to the introduction of dynamic anchors. Search for “anchor” in the doc.</p>
 
 
 <!--END_SECTION:static-->
