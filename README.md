@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑03‑18
-
-<p>Removed documentation for “Get Banned Events” and “Get Moderator Events” Twitch API endpoints. For more information about the deprecation and removal of these endpoints, see the <a href="https://discuss.dev.twitch.tv/t/deprecation-of-twitch-api-event-endpoints-that-supported-websub-based-webhooks/35137" target="_blank">deprecation announcement</a>.</p>
-
 ### 2022‑02‑28
 
 <p>Twitch API v5 endpoints (i.e. kraken) are no longer available. Documentation for these endpoints have been removed.</p>
@@ -225,7 +221,7 @@
 
 ### 2021‑07‑23
 
-<p><a href="https://dev.twitch.tv/docs/api/reference/#get-banned-users">Get Banned Users</a> and “Get Banned Events” updated to include ban reason and information for the moderator who initiated the ban.</p>
+<p><a href="https://dev.twitch.tv/docs/api/reference/#get-banned-users">Get Banned Users</a> and <a href="https://dev.twitch.tv/docs/api/reference/#get-banned-events">Get Banned Events</a> updated to include ban reason and information for the moderator who initiated the ban.</p>
 
 <p><a href="https://dev.twitch.tv/docs/irc/emotes">Twitch Emotes Guide</a> - Added to document how developers can customize Twitch Emote image URLs to optimize their rendering in third-party applications.</p>
 
@@ -599,9 +595,9 @@
   <li><a href="https://dev.twitch.tv/docs/api/reference#update-redemption-status">PATCH helix/channel_points/custom_rewards/redemptions</a></li>
   <li><a href="https://dev.twitch.tv/docs/api/reference#get-extension-transactions">GET helix/extensions/transactions</a></li>
   <li><a href="https://dev.twitch.tv/docs/api/reference#get-banned-users">GET helix/moderation/banned</a></li>
-  <li>GET helix/moderation/banned/events</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-banned-events">GET helix/moderation/banned/events</a></li>
   <li><a href="https://dev.twitch.tv/docs/api/reference#get-moderators">GET helix/moderation/moderators</a></li>
-  <li>GET helix/moderation/moderators/events</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-moderator-events">GET helix/moderation/moderators/events</a></li>
   <li><a href="https://dev.twitch.tv/docs/api/reference#search-channels">GET helix/search/channels</a></li>
   <li><a href="https://dev.twitch.tv/docs/api/reference#get-streams">GET helix/streams</a></li>
   <li><a href="https://dev.twitch.tv/docs/api/reference#get-stream-markers">GET helix/streams/markers</a></li>
@@ -1205,7 +1201,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2019‑07‑29
 
-<p>Corrected URL for endpoint “Get Moderator Events”.</p>
+<p>Corrected URL for endpoint <a href="https://dev.twitch.tv/docs/api/reference#get-moderator-events">Get Moderator Events</a>.</p>
 
 ### 2019‑07‑22
 
