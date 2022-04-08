@@ -7,6 +7,12 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑04‑07
+
+<p><a href="https://dev.twitch.tv/docs/authentication">Authentication</a> - Organization and writing for this section has been improved for a better developer experience.</p>
+
+<p><a href="https://dev.twitch.tv/docs/api/reference/#get-hype-train-events">Get Hype Train Events</a> - Removed <code class="highlighter-rouge">id</code> query parameter. See the <a href="https://discuss.dev.twitch.tv/t/get-hype-train-events-api-endpoint-id-query-parameter-deprecation/37613" target="_blank">deprecation announcement</a> for more information.</p>
+
 ### 2022‑03‑18
 
 <p>Removed documentation for “Get Banned Events” and “Get Moderator Events” Twitch API endpoints. For more information about the deprecation and removal of these endpoints, see the <a href="https://discuss.dev.twitch.tv/t/deprecation-of-twitch-api-event-endpoints-that-supported-websub-based-webhooks/35137" target="_blank">deprecation announcement</a>.</p>
@@ -187,7 +193,7 @@
 
 ### 2021‑08‑20
 
-<p>Updated examples for <a href="https://dev.twitch.tv/docs/authentication#validating-requests">validating</a> and <a href="https://dev.twitch.tv/docs/authentication#revoking-access-tokens">revoking</a> OAuth tokens.</p>
+<p>Updated examples for <a href="https://dev.twitch.tv/docs/authentication/validate-tokens">validating</a> and <a href="https://dev.twitch.tv/docs/authentication/revoke-tokens">revoking</a> OAuth tokens.</p>
 
 <p>Updated <a href="https://dev.twitch.tv/docs/extensions/building#extension-helper-library">Extension Helper Library</a> to clarify that all HTML files should include the Extension Helper.</p>
 
@@ -284,7 +290,7 @@
 
 <p>EventSub - <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-subscription-end-event">Channel Subscription End Event</a> added <code class="highlighter-rouge">tier</code> and <code class="highlighter-rouge">is_gift</code>.</p>
 
-<p><a href="https://dev.twitch.tv/docs/authentication">Authentication</a> - The existing <code class="highlighter-rouge">user:read:email </code> scope has been added.</p>
+<p><a href="https://dev.twitch.tv/docs/authentication/scopes">Authentication</a> - The existing <code class="highlighter-rouge">user:read:email </code> scope has been added.</p>
 
 ### 2021‑06‑15
 
@@ -375,7 +381,7 @@
 
 <p><a href="https://dev.twitch.tv/docs/api/reference#manage-held-automod-messages">Manage Held AutoMod Messages</a> – Added to the Twitch API reference.</p>
 
-<p><a href="https://dev.twitch.tv/docs/authentication">Authentication</a> - <code class="highlighter-rouge">moderator:manage:automod</code> scope added for <a href="https://dev.twitch.tv/docs/api/reference#manage-held-automod-messages">Manage Held AutoMod Messages</a>.</p>
+<p><a href="https://dev.twitch.tv/docs/authentication/scopes">Authentication</a> - <code class="highlighter-rouge">moderator:manage:automod</code> scope added for <a href="https://dev.twitch.tv/docs/api/reference#manage-held-automod-messages">Manage Held AutoMod Messages</a>.</p>
 
 ### 2021‑05‑06
 
@@ -424,7 +430,7 @@
 
 <p><a href="https://dev.twitch.tv/docs/api/reference/#get-followed-streams">Get Followed Streams</a> - Added to the Twitch API reference.</p>
 
-<p><a href="https://dev.twitch.tv/docs/authentication#scopes">Authentication</a> - <code class="highlighter-rouge">user:read:follows</code> scope added for <a href="https://dev.twitch.tv/docs/api/reference/#get-followed-streams">Get Followed Streams</a>.</p>
+<p><a href="https://dev.twitch.tv/docs/authentication/scopes">Authentication</a> - <code class="highlighter-rouge">user:read:follows</code> scope added for <a href="https://dev.twitch.tv/docs/api/reference/#get-followed-streams">Get Followed Streams</a>.</p>
 
 <p><a href="https://dev.twitch.tv/docs/api/migration">v5 Migration Guide</a> - Updated to mention <a href="https://dev.twitch.tv/docs/api/reference/#get-followed-streams">Get Followed Streams</a> equivalence.</p>
 
@@ -467,7 +473,7 @@
 
 <p>EventSub’s <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelmoderatoradd">Channel Moderator Add</a> and <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelmoderatorremove">Channel Moderator Remove</a> subscriptions types have been moved from beta to v1.</p>
 
-<p>Added associated Twitch API endpoints to the <a href="https://dev.twitch.tv/docs/authentication/#scopes">scopes section</a> of the Authentication guide.</p>
+<p>Added associated Twitch API endpoints to the <a href="https://dev.twitch.tv/docs/authentication/scopes">scopes section</a> of the Authentication guide.</p>
 
 <p>Minor design improvements.</p>
 
@@ -641,7 +647,7 @@
   <li><a href="https://dev.twitch.tv/docs/api/reference#unblock-user">Unblock User</a></li>
 </ul>
 
-<p>The new scopes for these endpoints have also been added to <a href="https://dev.twitch.tv/docs/authentication">Authentication</a>. Updated the descriptions of existing scopes for consistency and accuracy.</p>
+<p>The new scopes for these endpoints have also been added to <a href="https://dev.twitch.tv/docs/authentication/scopes">Authentication</a>. Updated the descriptions of existing scopes for consistency and accuracy.</p>
 <ul>
   <li><code class="highlighter-rouge">channel:read:editors</code></li>
   <li><code class="highlighter-rouge">channel:manage:videos</code></li>
@@ -1381,7 +1387,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2019‑01‑30
 
-<p><a href="https://dev.twitch.tv/docs/authentication/#scopes">Apps &amp; Authentication</a>: Added the scope <code class="highlighter-rouge">channel:read:subscriptions</code>.</p>
+<p><a href="https://dev.twitch.tv/docs/authentication/scopes">Apps &amp; Authentication</a>: Added the scope <code class="highlighter-rouge">channel:read:subscriptions</code>.</p>
 
 <p><a href="https://dev.twitch.tv/docs/api/reference">New Twitch API Reference</a>: Added new endpoints: Get Broadcaster Subscriptions and Get User Subscriptions.</p>
 
@@ -1461,7 +1467,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2018‑10‑22
 
-<p><a href="https://dev.twitch.tv/docs/authentication">Apps &amp; Authentication Guide</a>: In “<a href="https://dev.twitch.tv/docs/authentication/#types-of-tokens">Types of Tokens</a>,” added a clarification about bearer tokens.</p>
+<p><a href="https://dev.twitch.tv/docs/authentication">Apps &amp; Authentication Guide</a>: In “<a href="https://dev.twitch.tv/docs/authentication#passing-the-access-token-to-the-api">Types of Tokens</a>,” added a clarification about bearer tokens.</p>
 
 <p><a href="https://dev.twitch.tv/docs/api/guide">New Twitch API Guide</a>: New information in “<a href="https://dev.twitch.tv/docs/api/guide/#rate-limits">Rate Limits.</a>”</p>
 
