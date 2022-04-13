@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑04‑12
-
-<p>Enhanced Experiences and Event-based Drops have been <a href="https://discuss.dev.twitch.tv/c/announcements" target="_blank">decommissioned</a> and documentation has been removed.</p>
-
 ### 2022‑04‑07
 
 <p><a href="https://dev.twitch.tv/docs/authentication">Authentication</a> - Organization and writing for this section has been improved for a better developer experience.</p>
@@ -272,7 +268,7 @@
 
 ### 2021‑06‑30
 
-<p>Enhanced Experiences and Event-based Drops are now generally available.</p>
+<p><a href="https://dev.twitch.tv/docs/enhanced-experiences">Enhanced Experiences</a> and <a href="https://dev.twitch.tv/docs/drops/#event-based-drops">Event-based Drops</a> are now generally available.</p>
 
 <p><a href="https://dev.twitch.tv/docs/api/reference/#get-drops-entitlements">Get Drops Entitlements</a> - Updated to include <code class="highlighter-rouge">fulfillment_status</code>.</p>
 
