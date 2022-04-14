@@ -7,6 +7,12 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑04‑13
+
+<p>Added 409 Conflict as a possible response code to <a href="https://dev.twitch.tv/docs/api/reference#ban-user">Ban User</a> and <a href="https://dev.twitch.tv/docs/api/reference#unban-user">Unban User</a>.</p>
+
+<p>Added information about when the Twitch API may introduce breaking and non-breaking changes to the API. For details, see <a href="https://dev.twitch.tv/docs/api/guide#breaking-changes">Breaking Changes</a>.</p>
+
 ### 2022‑04‑12
 
 <p>Enhanced Experiences and Event-based Drops have been <a href="https://discuss.dev.twitch.tv/c/announcements" target="_blank">decommissioned</a> and documentation has been removed.</p>
