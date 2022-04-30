@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑04‑29
-
-<p><a href="https://dev.twitch.tv/docs/irc">Chat &amp; Chatbots</a> - Organization and content for this section has been improved for a better developer experience.</p>
-
 ### 2022‑04‑13
 
 <p>Added 409 Conflict as a possible response code to <a href="https://dev.twitch.tv/docs/api/reference#ban-user">Ban User</a> and <a href="https://dev.twitch.tv/docs/api/reference#unban-user">Unban User</a>.</p>
@@ -38,27 +34,6 @@
 ### 2022‑02‑25
 
 <p><a href="https://dev.twitch.tv/docs/irc/msg-id">Chat msg-id tags</a> updated for accuracy.</p>
-
-### 2022‑02‑11
-
-<p>Updated the <a href="https://dev.twitch.tv/docs/irc">Chatbots</a> content with the following changes:</p>
-
-<ul>
-  <li>
-    <p>Replaced the /r9kbeta and /r9kbetaoff <a href="https://dev.twitch.tv/docs/irc/chat-commands">Twitch chat commands</a> to /uniquechat and /uniquechatoff, respectively, to match the commands used in Twitch Chat. The /r9kbeta and /r9kbetaoff continue to work but you should start using /uniquechat and /uniquechatoff at your earliest convenience.</p>
-  </li>
-  <li>
-    <p>Removed the following tags from the list of possible <a href="https://dev.twitch.tv/docs/irc/tags#usernotice-tags">USERNOTICE tags</a>:</p>
-
-    <ul>
-      <li>anonsubgift</li>
-      <li>anonsubmysterygift</li>
-    </ul>
-  </li>
-  <li>
-    <p>Added the <code class="highlighter-rouge">WHISPER</code> command to the <a href="https://dev.twitch.tv/docs/irc/commands#whisper">list of commands</a> that the Twitch IRC server may send your bot.</p>
-  </li>
-</ul>
 
 ### 2022‑02‑08
 
@@ -262,7 +237,7 @@
 
 ### 2021‑07‑26
 
-<p><a href="https://dev.twitch.tv/docs/irc#verified-bots">Twitch Chat Guide</a> - Updated information regarding verified chatbots including rate limits. Known bots have been removed. More information can be found in the <a href="https://discuss.dev.twitch.tv/t/an-update-for-the-delayed-bot-verification-request-process/32325" target="_blank">chatbot verification update announcement</a>.</p>
+<p><a href="https://dev.twitch.tv/docs/irc/guide#verified-bots">Twitch Chat Guide</a> - Updated information regarding verified chatbots including rate limits. Known bots have been removed. More information can be found in the <a href="https://discuss.dev.twitch.tv/t/an-update-for-the-delayed-bot-verification-request-process/32325" target="_blank">chatbot verification update announcement</a>.</p>
 
 ### 2021‑07‑23
 
@@ -317,7 +292,7 @@
 
 <p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#dropentitlementgrant">Drop Entitlement Grant</a> EventSub subscription type added.</p>
 
-<p>Update regarding the temporary pause of chatbot verification added to the <a href="https://dev.twitch.tv/docs/irc#verified-bots">Twitch Chat Guide</a>.</p>
+<p>Update regarding the temporary pause of chatbot verification added to the <a href="https://dev.twitch.tv/docs/irc/guide#verified-bots">Twitch Chat Guide</a>.</p>
 
 ### 2021‑06‑17
 
@@ -585,7 +560,7 @@
 
 <p>Further clarification for <code class="highlighter-rouge">game_id</code> and <code class="highlighter-rouge">title</code> added for <a href="https://dev.twitch.tv/docs/api/reference#modify-channel-information">Modify Channel Information</a>.</p>
 
-<p>Minor updates to the <a href="https://dev.twitch.tv/docs/api/guide">API guide</a> and <a href="https://dev.twitch.tv/docs/irc">Chat guide</a>.</p>
+<p>Minor updates to the <a href="https://dev.twitch.tv/docs/api/guide">API guide</a> and <a href="https://dev.twitch.tv/docs/irc/guide">Chat guide</a>.</p>
 
 ### 2021‑02‑12
 
@@ -776,7 +751,7 @@
 ### 2020‑11‑30
 
 <p>Corrections and edits to the <a href="https://dev.twitch.tv/docs/eventsub">EventSub</a> documentation.
-Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.tv/docs/irc/tags#usernotice-tags">IRC usernotices</a>.</p>
+Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.tv/docs/irc/tags#usernotice-twitch-tags">IRC usernotices</a>.</p>
 
 ### 2020‑11‑19
 
@@ -972,7 +947,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2020‑07‑01
 
-<p>Added new fields to the <a href="https://dev.twitch.tv/docs/pubsub/#example-channel-subscriptions-event-message" target="_blank">Channel Subscriptions Event Pubsub topic</a> and a new <a href="https://dev.twitch.tv/docs/irc/tags#usernotice-tags">USERNOTICE tag parameter</a> in support of Multi-Month Subscription Gifting.</p>
+<p>Added new fields to the <a href="https://dev.twitch.tv/docs/pubsub/#example-channel-subscriptions-event-message" target="_blank">Channel Subscriptions Event Pubsub topic</a> and a new <a href="https://dev.twitch.tv/docs/irc/tags/#usernotice-twitch-tags" target="_blank">USERNOTICE tag parameter</a> in support of Multi-Month Subscription Gifting.</p>
 
 ### 2020‑06‑22
 
@@ -1418,7 +1393,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2019‑02‑04
 
-<p><a href="https://dev.twitch.tv/docs/irc/tags">Chatbots &amp; IRC: Twitch Tags</a>: For <a href="https://dev.twitch.tv/docs/irc/tags#usernotice-tags">USERNOTICE</a>, added three fields (<code class="highlighter-rouge">msg-param-cumulative-months</code>, <code class="highlighter-rouge">msg-param-should-share-streak</code>, <code class="highlighter-rouge">msg-param-streak-months</code>) and changed when <code class="highlighter-rouge">msg-param-months</code> is sent.</p>
+<p><a href="https://dev.twitch.tv/docs/irc/tags">Chatbots &amp; IRC: Twitch Tags</a>: For <a href="https://dev.twitch.tv/docs/irc/tags/#usernotice-twitch-tags">USERNOTICE</a>, added three fields (<code class="highlighter-rouge">msg-param-cumulative-months</code>, <code class="highlighter-rouge">msg-param-should-share-streak</code>, <code class="highlighter-rouge">msg-param-streak-months</code>) and changed when <code class="highlighter-rouge">msg-param-months</code> is sent.</p>
 
 ### 2019‑01‑30
 
@@ -1476,9 +1451,9 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p><a href="https://dev.twitch.tv/docs/authentication/getting-tokens-oidc">Apps &amp; Authentication: Getting Tokens: OIDC</a>: Added claims and UserInfo endpoint.</p>
 
-<p><a href="https://dev.twitch.tv/docs/irc">Chatbots &amp; IRC Guide</a>: Added scopes for /vip, /unvip, and /vips commands.</p>
+<p><a href="https://dev.twitch.tv/docs/irc/guide">Chatbots &amp; IRC Guide</a>: Added <a href="https://dev.twitch.tv/docs/irc/guide/#scopes-for-irc-commands">scopes</a> for /vip, /unvip, and /vips commands.</p>
 
-<p><a href="https://dev.twitch.tv/docs/irc/tags">Chatbots &amp; IRC: Twitch Tags</a>: In <a href="https://dev.twitch.tv/docs/irc/tags#usernotice-tags">USERNOTICE</a>, added anonsubgift.</p>
+<p><a href="https://dev.twitch.tv/docs/irc/tags">Chatbots &amp; IRC: Twitch Tags</a>: In <a href="https://dev.twitch.tv/docs/irc/tags/#usernotice-twitch-tags">USERNOTICE</a>, added anonsubgift.</p>
 
 <p><a href="https://dev.twitch.tv/docs/pubsub">PubSub Guide</a>: Added sample message for anonsubgift.</p>
 
@@ -1558,7 +1533,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p><a href="https://dev.twitch.tv/docs/authentication">Apps &amp; Authentication Guide</a>: The <code class="highlighter-rouge">chat_login</code> scope is deprecated. See the section on new scopes for chat and PubSub.</p>
 
-<p><a href="https://dev.twitch.tv/docs/irc">Chatbots &amp; IRC Guide</a>: New section on Scopes for IRC Commands.</p>
+<p><a href="https://dev.twitch.tv/docs/irc/guide">Chatbots &amp; IRC Guide</a>: New section on <a href="https://dev.twitch.tv/docs/irc/guide/#scopes-for-irc-commands">Scopes for IRC Commands</a>.</p>
 
 <p><a href="https://dev.twitch.tv/docs/mobile-deeplinks">Mobile Deep Links</a>: New section on launching the Twitch app with universal links (recommended).</p>
 
@@ -1657,7 +1632,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p><a href="https://dev.twitch.tv/docs/api/reference">New Twitch API Reference</a>: Updated the <a href="https://dev.twitch.tv/docs/api/reference/#get-game-analytics">Get Game Analytics</a> endpoint, to enable selection of report version and date/time range.</p>
 
-<p><a href="https://dev.twitch.tv/docs/irc">Chatbots &amp; IRC Guide</a>: Updated the information on “Connecting to Twitch IRC.”</p>
+<p><a href="https://dev.twitch.tv/docs/irc/guide">Chatbots &amp; IRC Guide</a>: Updated the information on “Connecting to Twitch IRC.”</p>
 
 ### 2018‑06‑19
 
