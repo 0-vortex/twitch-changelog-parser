@@ -901,9 +901,13 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 ### 2020‑09‑07
 
-<p>Documented <a href="https://dev.twitch.tv/docs/irc/authenticate-bot">authentication</a> and <a href="https://dev.twitch.tv/docs/irc#rate-limits">Join rate limits</a> for <a href="https://dev.twitch.tv/docs/irc">chat</a>.</p>
+<p>Documented authentication and Join rate limits for <a href="https://dev.twitch.tv/docs/irc/guide">chat</a>.</p>
 
 <p>Removed documentation for chat rooms, because the feature is deprecated.</p>
+
+<p> </p>
+
+<p> </p>
 
 ### 2020‑08‑28
 
