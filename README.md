@@ -7,20 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑05‑09
-
-<p><a href="https://dev.twitch.tv/docs/extensions/submission-best-practices">Extension Submission Best Practices</a></p>
-<ul>
-  <li>Added a section for content in Extensions</li>
-  <li>Amended the quicker reviews section with information regarding what types of domains are valid for an Extension’s content security policy allowlists.</li>
-</ul>
-
-<p><a href="https://dev.twitch.tv/docs/extensions/guidelines-and-policies">Extension Guidelines and Policies</a></p>
-<ul>
-  <li>Added section 4.10 regarding global overlay Extensions. See more details in <a href="https://discuss.dev.twitch.tv/t/new-extensions-policy-for-global-overlay-extensions/37286/8" target="_blank">our announcement</a>.</li>
-  <li>Added section 2.13 to regarding what types of domains are valid for an Extension’s content security policy allowlists</li>
-</ul>
-
 ### 2022‑04‑29
 
 <p><a href="https://dev.twitch.tv/docs/irc">Chat &amp; Chatbots</a> - Organization and content for this section has been improved for a better developer experience.</p>
