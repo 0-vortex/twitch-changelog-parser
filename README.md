@@ -7,18 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑05‑17
-
-<p>Added fields to the following EventSub subscription types:</p>
-
-<ul>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#userupdate">user.update</a> — Added the <code class="highlighter-rouge">email_verified</code> field, which indicates whether Twitch has verified the user’s email.</li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelban">channel.ban</a> — Added the <code class="highlighter-rouge">banned_at</code> field, which indicates the UTC date and time of when the user was banned or put in a timeout.</li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelhype_trainbegin">channel.hype_train.begin</a> — Added the <code class="highlighter-rouge">level</code> field, which indicates the level at which the Hype Train started.</li>
-</ul>
-
-<p><a href="https://dev.twitch.tv/docs/extensions/guidelines-and-policies">Extension Guidelines and Policies</a> - Added section 4.11 regarding NFTs in Twitch Extensions.</p>
-
 ### 2022‑05‑09
 
 <p><a href="https://dev.twitch.tv/docs/extensions/submission-best-practices">Extension Submission Best Practices</a></p>
