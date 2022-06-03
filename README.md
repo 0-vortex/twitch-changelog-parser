@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑06‑02
-
-<p><a href="https://dev.twitch.tv/docs/api/reference#create-prediction">Create Prediction</a> - Updated to allow up to ten outcomes rather than just two outcomes.</p>
-
 ### 2022‑05‑17
 
 <p>Added fields to the following EventSub subscription types:</p>
