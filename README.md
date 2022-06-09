@@ -7,6 +7,28 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑06‑08
+
+<p>Added the ability for your application to start or cancel a raid. <a href="https://dev.twitch.tv/docs/api/raids">Read more</a></p>
+
+<p>This update adds the following endpoints:</p>
+
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#start-a-raid">Start a Raid</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#cancel-a-raid">Cancel a Raid</a></li>
+</ul>
+
+<p>Added the <code class="highlighter-rouge">created_at</code> field to the response object of the following endpoints:</p>
+
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#ban-user">Ban User</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-banned-users">Get Banned Users</a></li>
+</ul>
+
+### 2022‑06‑03
+
+<p>Updated <a href="https://dev.twitch.tv/docs/api/reference#create-prediction">Create Prediction</a> to allow specifying up to a maximum of 10 outcomes.</p>
+
 ### 2022‑06‑02
 
 <p><a href="https://dev.twitch.tv/docs/api/reference#create-prediction">Create Prediction</a> - Updated to allow up to ten outcomes rather than just two outcomes.</p>
