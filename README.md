@@ -7,49 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑06‑27
-
-<p><a href="https://dev.twitch.tv/docs/api/reference#check-automod-status">Check AutoMod Status</a> — Includes the following changes:</p>
-
-<ul>
-  <li>Deprecated and removed the <code class="highlighter-rouge">user_id</code> field from the request body. The endpoint ignores the field if you include it.</li>
-  <li>Added endpoint-specific rate limits.</li>
-</ul>
-
-<p>For information about these changes, see <a href="https://discuss.dev.twitch.tv/t/upcoming-changes-to-the-check-automod-status-api-endpoint/38512" target="_blank">Upcoming changes to the Check AutoMod Status API</a>.</p>
-
-<p><a href="https://dev.twitch.tv/docs/api/reference#get-users">Get Users</a> — Includes the following change:</p>
-
-<ul>
-  <li>Deprecated the <code class="highlighter-rouge">view_count</code> field in the response. The response continues to include the field; however, it contains stale data. You should stop displaying this data at your earliest convenience.</li>
-</ul>
-
-<p><a href="https://dev.twitch.tv/docs/api/reference#start-a-raid">Start a Raid</a>, <a href="https://dev.twitch.tv/docs/api/reference#cancel-a-raid">Cancel a Raid</a> — Includes the following change:</p>
-
-<ul>
-  <li>These endpoints were removed from Beta and are now generally available (replaced the Beta tag to New).</li>
-</ul>
-
-<p><a href="https://dev.twitch.tv/docs/api/reference#get-eventsub-subscriptions">Get EventSub Subscriptions</a> — Includes the following change:</p>
-
-<ul>
-  <li>Added the <em>user_id</em> query parameter that you can use to filter your list of subscriptions by. The response contains subscriptions where the user ID matches a user ID that you specified in the <strong>Condition</strong> object when you <a href="https://dev.twitch.tv/docs/api/reference#create-eventsub-subscription">created the subscription</a>.</li>
-</ul>
-
-<p><strong>BREAKING CHANGES</strong></p>
-
-<p><a href="https://dev.twitch.tv/docs/api/reference#get-soundtrack-playlist">Get Soundtrack Playlist</a> — Removed the following playlist fields from the response:</p>
-
-<ul>
-  <li><code class="highlighter-rouge">description</code></li>
-  <li><code class="highlighter-rouge">id</code></li>
-  <li><code class="highlighter-rouge">image_url</code></li>
-  <li><code class="highlighter-rouge">title</code></li>
-  <li><code class="highlighter-rouge">tracks</code> (the <code class="highlighter-rouge">data</code> field now contains the playlist’s tracks)</li>
-</ul>
-
-<p><a href="https://dev.twitch.tv/docs/api/reference#get-soundtrack-playlists">Get Soundtrack Playlists</a> — Added the <em>id</em> query parameter, which you can use to get metadata information about a single playlist.</p>
-
 ### 2022‑06‑08
 
 <p>Added the ability for your application to start or cancel a raid. <a href="https://dev.twitch.tv/docs/api/raids">Read more</a></p>
