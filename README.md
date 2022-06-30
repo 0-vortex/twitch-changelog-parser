@@ -7,12 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑06‑29
-
-<p><a href="https://dev.twitch.tv/docs/api">Twitch API</a> - Organization and content for this section has been improved for a better developer experience.</p>
-
-<p><a href="https://dev.twitch.tv/docs/ja/drops">Twitch Drops</a> - Japanese localization added.</p>
-
 ### 2022‑06‑27
 
 <p><a href="https://dev.twitch.tv/docs/api/reference#check-automod-status">Check AutoMod Status</a> — Includes the following changes:</p>
@@ -1601,7 +1595,7 @@ Fixed a typo for “msg-param-gift-months” under <a href="https://dev.twitch.t
 
 <p><a href="https://dev.twitch.tv/docs/authentication">Apps &amp; Authentication Guide</a>: In “<a href="https://dev.twitch.tv/docs/authentication#passing-the-access-token-to-the-api">Types of Tokens</a>,” added a clarification about bearer tokens.</p>
 
-<p><a href="https://dev.twitch.tv/docs/api/guide">New Twitch API Guide</a>: New information in “<a href="https://dev.twitch.tv/docs/api/guide#twitch-rate-limits">Rate Limits.</a>”</p>
+<p><a href="https://dev.twitch.tv/docs/api/guide">New Twitch API Guide</a>: New information in “<a href="https://dev.twitch.tv/docs/api/guide/#rate-limits">Rate Limits.</a>”</p>
 
 <p><a href="https://dev.twitch.tv/docs/extensions">Getting Started with Extensions</a>: Added the new Extensions Developer Sandbox.</p>
 
