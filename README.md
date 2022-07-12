@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑07‑11
-
-<p><a href="https://dev.twitch.tv/docs/extensions/submission-best-practices">Submission Best Practices</a> - Updated the “Content in Extensions” section to define the expected functionality of global overlay Extensions and examples.</p>
-
 ### 2022‑06‑29
 
 <p><a href="https://dev.twitch.tv/docs/api">Twitch API</a> - Organization and content for this section has been improved for a better developer experience.</p>
