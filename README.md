@@ -7,34 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑07‑15
-
-<p>This release adds the following endpoints. See :</p>
-
-<ul>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#send-chat-announcement">Send Chat Announcement</a> — Sends an announcement to the broadcaster’s chat room.</li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#delete-chat-messages">Delete Chat Messages</a> — Removes a single chat message or all chat messages from the broadcaster’s chat room.</li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#update-user-chat-color">Update User Chat Color</a> — Updates the color used for the user’s name in chat.</li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#get-user-chat-color">Get User Chat Color</a> — Gets the color used for the user’s name in chat.</li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#add-channel-moderator">Add Channel Moderator</a> — Adds a moderator to the broadcaster’s chat room.</li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#remove-channel-moderator">Remove Channel Moderator</a> — Removes a moderator from the broadcaster’s chat room.</li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#get-vips">Get VIPs</a> — Gets a list of the channel’s VIPs.</li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#add-channel-vip">Add Channel VIP</a> — Adds a VIP to the broadcaster’s chat room.</li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#remove-channel-vip">Remove Channel VIP</a> — Removes a VIP from the broadcaster’s chat room.</li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#send-whisper">Send Whisper</a> — Sends a whisper message to the specified user.</li>
-</ul>
-
-<p>The following <a href="https://dev.twitch.tv/docs/authentication/scopes">authentication scopes</a> have also been added for the endpoints above:</p>
-<ul>
-  <li><code class="highlighter-rouge">moderator:manage:announcements</code></li>
-  <li><code class="highlighter-rouge">moderator:manage:chat_messages</code></li>
-  <li><code class="highlighter-rouge">user:manage:chat_color</code></li>
-  <li><code class="highlighter-rouge">channel:manage:moderators</code></li>
-  <li><code class="highlighter-rouge">channel:read:vips</code></li>
-  <li><code class="highlighter-rouge">channel:manage:vips</code></li>
-  <li><code class="highlighter-rouge">user:manage:whispers</code></li>
-</ul>
-
 ### 2022‑07‑11
 
 <p><a href="https://dev.twitch.tv/docs/extensions/submission-best-practices">Submission Best Practices</a> - Updated the “Content in Extensions” section to define the expected functionality of global overlay Extensions and examples.</p>
