@@ -7,6 +7,17 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑07‑20
+
+<p>Added the <code class="highlighter-rouge">vod_offset</code> field to the <a href="https://dev.twitch.tv/docs/api/reference#get-clips">Get Clips</a> API response. The offset is the number of seconds from the start of the video to the beginning of the clip.</p>
+
+<p>Updated the list of possible values that the <code class="highlighter-rouge">type</code> field in the <a href="https://dev.twitch.tv/docs/api/reference#get-creator-goals">Get Creator Goals</a> API response may be set to. The following values were added to the list:</p>
+
+<ul>
+  <li>subscription_count — The goal is to increase subscriptions. This type shows the net increase or decrease in the number of subscriptions.</li>
+  <li>new_subscription_count — The goal is to increase subscriptions. This type shows only the net increase in the number of subscriptions (it does not account for users that unsubscribed since the goal started).</li>
+</ul>
+
 ### 2022‑07‑15
 
 <p>This release adds the following endpoints. See :</p>
