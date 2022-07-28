@@ -7,6 +7,15 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑07‑22
+
+<p>Added the following guides:</p>
+
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/api/clips">Creating Clips</a> — Shows how to create and get clips.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/markers">Creating Markers</a> — Shows how to create and get stream markers.</li>
+</ul>
+
 ### 2022‑07‑20
 
 <p>Added the <code class="highlighter-rouge">vod_offset</code> field to the <a href="https://dev.twitch.tv/docs/api/reference#get-clips">Get Clips</a> API response. The offset is the number of seconds from the start of the video to the beginning of the clip.</p>
@@ -117,13 +126,9 @@
   <li><a href="https://dev.twitch.tv/docs/api/reference#get-banned-users">Get Banned Users</a></li>
 </ul>
 
-### 2022‑06‑03
-
-<p>Updated <a href="https://dev.twitch.tv/docs/api/reference#create-prediction">Create Prediction</a> to allow specifying up to a maximum of 10 outcomes.</p>
-
 ### 2022‑06‑02
 
-<p><a href="https://dev.twitch.tv/docs/api/reference#create-prediction">Create Prediction</a> - Updated to allow up to ten outcomes rather than just two outcomes.</p>
+<p><a href="https://dev.twitch.tv/docs/api/reference#create-prediction">Create Prediction</a> - Updated to allow specifying up to ten outcomes.</p>
 
 ### 2022‑05‑17
 
