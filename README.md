@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑07‑29
+
+<p>All Twitch API endpoints introduced on 2022-07-15 have moved from public beta to general availability.</p>
+
 ### 2022‑07‑22
 
 <p>Added the following guides:</p>
