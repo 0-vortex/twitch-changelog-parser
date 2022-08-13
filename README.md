@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑08‑12
-
-<p>Added the <a href="https://dev.twitch.tv/docs/api/moderation">Moderation Guide</a> that shows how to use the moderation APIs such as adding and removing moderators, banning users or putting them in a timeout, and updating your AutoMod settings.</p>
-
 ### 2022‑07‑29
 
 <p>All Twitch API endpoints introduced on 2022-07-15 have moved from public beta to general availability.</p>
