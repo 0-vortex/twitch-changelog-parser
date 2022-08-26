@@ -7,15 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑08‑25
-
-<p>Adds the following API and subscription type that you can use to get information about the charity campaign that the broadcaster is running.</p>
-
-<ul>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#get-charity-campaign">Get Charity Campaign</a> — Gets information about the charity campaign that the broadcaster is running, such as their fundraising goal and the amount that’s been donated so far.</li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaigndonate">channel.charity_campaign.donate</a> — Sends an event notification when a user donates to the broadcaster’s charity campaign.</li>
-</ul>
-
 ### 2022‑08‑12
 
 <p>Added the <a href="https://dev.twitch.tv/docs/api/moderation">Moderation Guide</a> that shows how to use the moderation APIs such as adding and removing moderators, banning users or putting them in a timeout, and updating your AutoMod settings.</p>
