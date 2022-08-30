@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑08‑26
-
-<p>Added the <code class="highlighter-rouge">vip</code> tag to <a href="https://dev.twitch.tv/docs/irc/tags#privmsg-tags">PRIVMSG</a>. You can use the tag to determine whether the user that sent the chat is a VIP.</p>
-
 ### 2022‑08‑25
 
 <p>Adds the following API and subscription type that you can use to get information about the charity campaign that the broadcaster is running.</p>
