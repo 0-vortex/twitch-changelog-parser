@@ -7,33 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑09‑01
-
-<p>Updated the <a href="https://dev.twitch.tv/docs/api/reference#create-poll">Create Poll</a> endpoint to remove support for voting with Bits. This change removes the following optional request fields from the documentation:</p>
-
-<ul>
-  <li><code class="highlighter-rouge">bits_voting_enabled</code></li>
-  <li><code class="highlighter-rouge">bits_per_vote</code></li>
-</ul>
-
-<p>If your request includes these fields, the endpoint ignores them. The following response fields will be set to default values.</p>
-
-<ul>
-  <li><code class="highlighter-rouge">bits_votes</code> — set to 0.</li>
-  <li><code class="highlighter-rouge">bits_voting_enabled</code> — set to <strong>false</strong>.</li>
-  <li><code class="highlighter-rouge">bits_per_vote</code> — set to 0.</li>
-</ul>
-
-<p>The <a href="https://dev.twitch.tv/docs/api/reference#get-polls">Get Polls</a> and <a href="https://dev.twitch.tv/docs/api/reference#end-poll">End Poll</a> responses will show the above values for polls created on or after August 29, 2022; otherwise, the response contains Bits values if enabled.</p>
-
-<p>The above Bits-related fields should also be ignored for the following EventSub events:</p>
-
-<ul>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelpollbegin">channel.poll.begin</a></li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelpollprogress">channel.poll.progress</a></li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelpollend">channel.poll.end</a></li>
-</ul>
-
 ### 2022‑08‑26
 
 <p>Added the <code class="highlighter-rouge">vip</code> tag to <a href="https://dev.twitch.tv/docs/irc/tags#privmsg-tags">PRIVMSG</a>. You can use the tag to determine whether the user that sent the chat is a VIP.</p>
