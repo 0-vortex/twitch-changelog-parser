@@ -7,12 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑09‑16
-
-<p><strong>Breaking change to the Beta <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaigndonate">channel.charity_campaign.donate</a> EventSub subscription type</strong>:</p>
-
-<p>The <code class="highlighter-rouge">id</code> field of the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#charity-donation-event">Charity Donation Event</a> object will change to <code class="highlighter-rouge">campaign_id</code> to better reflect its content on Tuesday, September 20 at 1:00pm PDT.</p>
-
 ### 2022‑09‑01
 
 <p>Updated the <a href="https://dev.twitch.tv/docs/api/reference#create-poll">Create Poll</a> endpoint to remove support for voting with Bits. This change removes the following optional request fields from the documentation:</p>
