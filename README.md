@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑09‑29
-
-<p>Added the <a href="https://dev.twitch.tv/docs/api/reference#get-chatters">Get Chatters</a> endpoint, which you use to get the list of users that are connected to the specified broadcaster’s chat session.</p>
-
 ### 2022‑09‑16
 
 <p><strong>Breaking change to the Beta <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaigndonate">channel.charity_campaign.donate</a> EventSub subscription type</strong>:</p>
