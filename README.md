@@ -7,6 +7,23 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑11‑01
+
+<p>Added WebSocket support for <a href="https://dev.twitch.tv/docs/eventsub">EventSub</a> notifications. See <a href="https://dev.twitch.tv/docs/eventsub/handling-websocket-events">Handling WebSocket Events</a>.</p>
+
+<p>Updated the <a href="https://dev.twitch.tv/docs/cli">Twitch CLI</a> to support testing your WebSocket client (you’ll need to upgrade to the latest version). The server sends the client a <a href="https://dev.twitch.tv/docs/eventsub/handling-websocket-events#welcome-message">welcome</a> message followed by <a href="https://dev.twitch.tv/docs/eventsub/handling-websocket-events#ping-message">ping</a> and <a href="https://dev.twitch.tv/docs/eventsub/handling-websocket-events#keepalive-message">keepalive</a> messages. You’ll mostly use the mock server to send a <a href="https://dev.twitch.tv/docs/eventsub/handling-websocket-events#reconnect-message">reconnect</a> message to test your client’s reconnect code flow. For details, see the <a href="https://dev.twitch.tv/docs/cli/websocket-event-command">start-websocket-server</a> sub-command.</p>
+
+<p>Updated the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport">Transport</a> object that you use to <a href="https://dev.twitch.tv/docs/api/reference#create-eventsub-subscription">subscribe</a> to events:</p>
+
+<ul>
+  <li>Added <strong>websocket</strong> as a possible value to the <code class="highlighter-rouge">method</code> field.</li>
+  <li>Require the <code class="highlighter-rouge">callback</code> field only if the <code class="highlighter-rouge">method</code> field is set to <strong>webhook</strong>.</li>
+  <li>Require the <code class="highlighter-rouge">secret</code> field only if the <code class="highlighter-rouge">method</code> field is set to <strong>webhook</strong>.</li>
+  <li>Add the <code class="highlighter-rouge">session_id</code> field, which identifies the WebSocket to send notifications to. This field is required only if the <code class="highlighter-rouge">method</code> field is set to <strong>websocket</strong>.</li>
+  <li>Added the <code class="highlighter-rouge">connected_at</code> field, which contains the UTC date and time that the WebSocket connection was established. This is a response-only field that <a href="https://dev.twitch.tv/docs/api/reference#create-eventsub-subscription">Create EventSub Subscription</a> and <a href="https://dev.twitch.tv/docs/api/reference#get-eventsub-subscriptions">Get EventSub Subscription</a> returns if the <code class="highlighter-rouge">method</code> field is set to <strong>websocket</strong>.</li>
+  <li>Added the <code class="highlighter-rouge">disconnected_at</code> field, which contains the UTC date and time that the WebSocket connection was lost. This is a response-only field that <a href="https://dev.twitch.tv/docs/api/reference#get-eventsub-subscriptions">Get EventSub Subscription</a> returns if the <code class="highlighter-rouge">method</code> field is set to <strong>websocket</strong>.</li>
+</ul>
+
 ### 2022‑09‑29
 
 <p>Added the <a href="https://dev.twitch.tv/docs/api/reference#get-chatters">Get Chatters</a> endpoint, which you use to get the list of users that are connected to the specified broadcaster’s chat session.</p>
