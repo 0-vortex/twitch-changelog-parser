@@ -7,15 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑11‑02
-
-<p>Updated the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaigndonate">channel.charity_campaign.donate</a> subscription type to include the following fields in the event’s data:</p>
-
-<ul>
-  <li><code class="highlighter-rouge">charity_name</code> — The charity’s name.</li>
-  <li><code class="highlighter-rouge">charity_logo</code> — A URL to the charity’s logo.</li>
-</ul>
-
 ### 2022‑11‑01
 
 <p>Added WebSocket support for <a href="https://dev.twitch.tv/docs/eventsub">EventSub</a> notifications. See <a href="https://dev.twitch.tv/docs/eventsub/handling-websocket-events">Handling WebSocket Events</a>.</p>
