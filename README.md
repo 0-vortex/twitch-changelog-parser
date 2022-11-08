@@ -7,6 +7,32 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑11‑04
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li>
+    <p>Updated the CLI’s <a href="https://dev.twitch.tv/docs/cli/mock-api-command">Generating Mock Data and Starting the Server</a> topic to remove the erroneous <code class="highlighter-rouge">user_id</code> parameter from the table under <strong>Getting an app access token</strong>.</p>
+  </li>
+  <li>
+    <p>Updated the <a href="https://dev.twitch.tv/docs/api/reference#get-hype-train-events">Get Hype Train Events</a> endpoint to include the following new contribution type:</p>
+
+    <ul>
+      <li>OTHER — Covers contribution methods other than Bits and Subscriptions. See the <code class="highlighter-rouge">type</code> field under the <code class="highlighter-rouge">last_contribution</code> and <code class="highlighter-rouge">top_contributions</code> fields.</li>
+    </ul>
+
+    <p>Updated the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference#hype-train-begin-event">begin</a>, <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference#hype-train-progress-event">progress</a>, and <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference#hype-train-end-event">end</a> Hype Train events to include the following new contribution type:</p>
+
+    <ul>
+      <li>other — Covers contribution methods other than Bits and Subscriptions. See the <code class="highlighter-rouge">type</code> field under the <code class="highlighter-rouge">last_contribution</code> and <code class="highlighter-rouge">top_contributions</code> fields.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Added the <a href="https://dev.twitch.tv/docs/api/schedule">Broadcast Scheduling Guide</a>.</p>
+  </li>
+</ol>
+
 ### 2022‑11‑02
 
 <p>Updated the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaigndonate">channel.charity_campaign.donate</a> subscription type to include the following fields in the event’s data:</p>
