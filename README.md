@@ -7,6 +7,23 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑11‑17
+
+<p>Added the <code class="highlighter-rouge">user_id</code> and <code class="highlighter-rouge">user_name</code> fields to the <a href="https://dev.twitch.tv/docs/api/reference#get-chatters">Get Chatters</a> response.</p>
+
+<p>Added the <a href="https://dev.twitch.tv/docs/api/reference#get-charity-campaign-donations">Get Charity Campaign Donations</a> endpoint, which returns the list of donations that users have made to the broadcaster’s active charity campaign.</p>
+
+<p>Added the following subscription types to <a href="https://dev.twitch.tv/docs/eventsub">EventSub</a>.</p>
+
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaignstart">channel.charity_campaign.start</a> — Sends a notification when the broadcaster starts a charity campaign.</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaignprogress">channel.charity_campaign.progress</a> — Sends a notification when the broadcaster changes the fundraiser’s target goal or when progress is made towards the goal.</li>
+  <li>
+    <p><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaignstop">channel.charity_campaign.stop</a> — Sends a notification when the broadcaster stops a charity campaign.</p>
+  </li>
+  <li>Added <code class="highlighter-rouge">version_removed</code> as a possible status value to EventSub. The subscription’s <code class="highlighter-rouge">status</code> field is set to <code class="highlighter-rouge">version_removed</code> if EventSub stops supporting the subscribed to subscription type and version. EventSub sends the status in a revocation message.</li>
+</ul>
+
 ### 2022‑11‑04
 
 <p>This release includes the following updates:</p>
