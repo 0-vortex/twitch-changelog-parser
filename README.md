@@ -7,12 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑11‑21
-
-<p>Added the <a href="https://www.igdb.com/" target="_blank">IGDB</a> ID to the <a href="https://dev.twitch.tv/docs/api/reference#get-games">Get Games</a> and <a href="https://dev.twitch.tv/docs/api/reference#get-top-games">Get Top Games</a> responses (see the <code class="highlighter-rouge">igdb_id</code> field).</p>
-
-<p>Updated the Get Games endpoint to let you search by IGDB ID.</p>
-
 ### 2022‑11‑17
 
 <p>Added the <code class="highlighter-rouge">user_id</code> and <code class="highlighter-rouge">user_name</code> fields to the <a href="https://dev.twitch.tv/docs/api/reference#get-chatters">Get Chatters</a> response.</p>
