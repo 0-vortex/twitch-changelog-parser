@@ -7,6 +7,25 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑11‑22
+
+<p>Updated the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaignstop">channel.charity_campaign.stop</a> subscription type to include the following fields:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">charity_name</code></li>
+  <li><code class="highlighter-rouge">charity_description</code></li>
+  <li><code class="highlighter-rouge">charity_logo</code></li>
+  <li><code class="highlighter-rouge">charity_website</code></li>
+</ul>
+
+<p>Updated the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaigndonate">channel.charity_campaign.donate</a> and 
+<a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaignprogress">channel.charity_campaign.progress</a> subscription types to include the following fields:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">charity_description</code></li>
+  <li><code class="highlighter-rouge">charity_website</code></li>
+</ul>
+
 ### 2022‑11‑21
 
 <p>Added the <a href="https://www.igdb.com/" target="_blank">IGDB</a> ID to the <a href="https://dev.twitch.tv/docs/api/reference#get-games">Get Games</a> and <a href="https://dev.twitch.tv/docs/api/reference#get-top-games">Get Top Games</a> responses (see the <code class="highlighter-rouge">igdb_id</code> field).</p>
