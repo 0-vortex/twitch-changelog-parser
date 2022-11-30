@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑11‑29
+
+<p>Updated the <a href="https://dev.twitch.tv/docs/api/reference#get-channel-information">Get Channel Information</a> endpoint to require a user access token to return the Partner’s stream delay value (see the <code class="highlighter-rouge">delay</code> field). By default, the <code class="highlighter-rouge">delay</code> field’s value is zero.</p>
+
 ### 2022‑11‑22
 
 <p>Updated the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaignstop">channel.charity_campaign.stop</a> subscription type to include the following fields:</p>
