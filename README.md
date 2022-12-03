@@ -7,6 +7,23 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2022‑12‑02
+
+<p>This release includes the following updates to the Twitch <a href="https://dev.twitch.tv/docs/api/reference">endpoints</a>:</p>
+
+<ol>
+  <li>Added the <a href="https://dev.twitch.tv/docs/api/reference#update-shield-mode-status">Update Shield Mode Status</a> endpoint, which activates or deactivates the broadcaster’s Shield Mode. Twitch’s Shield Mode feature is like a panic button that broadcasters can push to protect themselves from chat abuse coming from one or more accounts. When activated, Shield Mode applies the overrides that the broadcaster configured in the Twitch UX. If the broadcaster hasn’t configured Shield Mode, it applies default overrides.</li>
+  <li>Added the <a href="https://dev.twitch.tv/docs/api/reference#get-shield-mode-status">Get Shield Mode Status</a> endpoint, which gets the broadcaster’s Shield Mode activation status.</li>
+  <li>Updated the status of the <a href="https://dev.twitch.tv/docs/api/reference#get-chatters">Get Chatters</a> endpoint from Beta to generally available.</li>
+</ol>
+
+<p>This release includes the following updates to the EventSub <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types">subscription types</a>:</p>
+
+<ol>
+  <li>Added the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelshield_modebegin">channel.shield_mode.begin</a> subscription type, which sends a notification when the broadcaster activates Shield Mode.</li>
+  <li>Added the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelshield_modebegin">channel.shield_mode.end</a> subscription type, which sends a notification when the broadcaster deactivates Shield Mode.</li>
+</ol>
+
 ### 2022‑11‑29
 
 <p>Updated the <a href="https://dev.twitch.tv/docs/api/reference#get-channel-information">Get Channel Information</a> endpoint to require a user access token to return the Partner’s stream delay value (see the <code class="highlighter-rouge">delay</code> field). By default, the <code class="highlighter-rouge">delay</code> field’s value is zero.</p>
