@@ -7,28 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑12‑05
-
-<p>This release updates Twitch’s <a href="https://dev.twitch.tv/docs/cli">CLI</a> with the following changes:</p>
-
-<ol>
-  <li>Adds the following events that you can trigger (see <a href="https://dev.twitch.tv/docs/cli/event-command">Testing webhook events</a>).
-    <ul>
-      <li><code class="highlighter-rouge">charity-donation</code> — Triggers an event to mimic when a user donations to the broadcaster’s charity campaign.</li>
-      <li><code class="highlighter-rouge">charity-start</code> — Triggers an event to mimic when a broadcaster starts a charity campaign.</li>
-      <li><code class="highlighter-rouge">charity-progress</code> — Triggers an event to mimic when progress is made towards the campaign’s goal or when the broadcaster changes the fundraising goal.</li>
-      <li><code class="highlighter-rouge">charity-stop</code> — Triggers an event to mimic when a broadcaster stops a charity campaign.</li>
-    </ul>
-  </li>
-  <li>Adds the following flags that you can use with the charity events.
-    <ul>
-      <li><code class="highlighter-rouge">charity-current-value</code> — Use to specify the amount of money that’s donated for charity donation events or the current amount raised for the charity campaign events.</li>
-      <li><code class="highlighter-rouge">charity-target-value</code> — Use to specify the fundraising target amount for the charity campaign events.</li>
-    </ul>
-  </li>
-  <li>Changed the <code class="highlighter-rouge">user.update</code> event name in the documentation to <code class="highlighter-rouge">user-update</code> to match the convention used by the other events.</li>
-</ol>
-
 ### 2022‑12‑02
 
 <p>This release includes the following updates to the Twitch <a href="https://dev.twitch.tv/docs/api/reference">endpoints</a>:</p>
