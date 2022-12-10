@@ -7,25 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2022‑12‑09
-
-<p>This release includes the following updates:</p>
-
-<ol>
-  <li>Added the following missing status values that <a href="https://dev.twitch.tv/docs/api/reference#get-eventsub-subscriptions">Get EventSub Subscriptions</a> may return in the <code class="highlighter-rouge">status</code> field. All of these statuses indicate that the subscription is now disabled. You may also use the status values to filter the list of subscriptions that Get EventSub Subscriptions returns.
-    <ul>
-      <li><strong>websocket_disconnected</strong> — The client closed the connection.</li>
-      <li><strong>websocket_failed_ping_pong</strong> — The client failed to respond to a ping message.</li>
-      <li><strong>websocket_received_inbound_traffic</strong> — The client sent a non-pong message. Clients may only send pong messages (and only in response to a ping message).</li>
-      <li><strong>websocket_connection_unused</strong> — The client failed to subscribe to events within the required time.</li>
-      <li><strong>websocket_internal_error</strong> — The Twitch WebSocket server experienced an unexpected error.</li>
-      <li><strong>websocket_network_timeout</strong> — The Twitch WebSocket server timed out writing the message to the client.</li>
-      <li><strong>websocket_network_error</strong> — The Twitch WebSocket server experienced a network error writing the message to the client.</li>
-      <li><strong>moderator_removed</strong> — The moderator that authorized the subscription is no longer one of the broadcaster’s moderators.</li>
-    </ul>
-  </li>
-</ol>
-
 ### 2022‑12‑05
 
 <p>This release updates Twitch’s <a href="https://dev.twitch.tv/docs/cli">CLI</a> with the following changes:</p>
