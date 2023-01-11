@@ -7,6 +7,34 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2023‑01‑10
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li>Moved the following Shield Mode endpoints and subscription types from open beta to generally available:
+    <ul>
+      <li><a href="https://dev.twitch.tv/docs/api/reference#get-shield-mode-status">Get Shield Mode Status</a> — This endpoint gets the broadcaster’s Shield Mode activation status.</li>
+      <li><a href="https://dev.twitch.tv/docs/api/reference#update-shield-mode-status">Update Shield Mode Status</a> — This endpoint activates or deactivates the broadcaster’s Shield Mode.</li>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelshield_modebegin">channel.shield_mode.begin</a> — This subscription type sends a notification when the broadcaster activates Shield Mode.</li>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelshield_modeend">channel.shield_mode.end</a> — This subscription type sends a notification when the broadcaster deactivates Shield Mode.</li>
+    </ul>
+  </li>
+  <li>Added the <code class="highlighter-rouge">tags</code> field to the following endpoints:
+    <ul>
+      <li><a href="https://dev.twitch.tv/docs/api/reference#get-streams">Get Streams</a></li>
+      <li><a href="https://dev.twitch.tv/docs/api/reference#get-followed-streams">Get Followed Streams</a></li>
+      <li><a href="https://dev.twitch.tv/docs/api/reference#search-channels">Search Channels</a></li>
+      <li><a href="https://dev.twitch.tv/docs/api/reference#get-channel-information">Get Channel Information</a></li>
+    </ul>
+
+    <p>The <code class="highlighter-rouge">tags</code> field contains the tags that the broadcaster or Twitch added to help identify the content that the broadcaster streams.</p>
+  </li>
+  <li>Added the <code class="highlighter-rouge">tags</code> field to the <a href="https://dev.twitch.tv/docs/api/reference#modify-channel-information">Modify Channel Information</a> endpoint to let broadcasters add or remove tags. Broadcasters use the tags to help identify the content that they stream.</li>
+  <li>Added the <code class="highlighter-rouge">id</code> field to the <a href="https://dev.twitch.tv/docs/api/reference#get-charity-campaign-donations">Get Charity Campaign Donations</a> response to identify the donation.</li>
+  <li>Added the <code class="highlighter-rouge">id</code> field to the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference#charity-donation-event">Charity Donation</a> event data to identify the donation.</li>
+</ol>
+
 ### 2022‑12‑09
 
 <p>This release includes the following updates:</p>
