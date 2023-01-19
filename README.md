@@ -7,6 +7,31 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2023‑01‑19
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li>Added the following Shoutout endpoint and subscription types to open beta:
+    <ul>
+      <li><a href="https://dev.twitch.tv/docs/api/reference#send-a-shoutout">Send a Shoutout</a> — This endpoint sends a Shoutout to the specified broadcaster.</li>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelshoutoutcreate">channel.shoutout.create</a> — This subscription type sends a notification when the specified broadcaster sends a Shoutout.</li>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelshoutoutreceive">channel.shoutout.receive</a> — This subscription type sends a notification when the specified broadcaster receives a Shoutout.</li>
+    </ul>
+  </li>
+  <li>Moved the following Charity endpoints and subscription types from open beta to generally available:
+    <ul>
+      <li><a href="https://dev.twitch.tv/docs/api/reference#get-charity-campaign-donations">Get Charity Campaign Donations</a> — Returns the list of donations that users have made to the broadcaster’s active charity campaign.</li>
+      <li><a href="https://dev.twitch.tv/docs/api/reference#get-charity-campaign">Get Charity Campaign</a> — Gets information about the charity campaign that the broadcaster is running, such as their fundraising goal and the amount that’s been donated so far.</li>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaignstart">channel.charity_campaign.start</a> — Sends a notification when the broadcaster starts a charity campaign.</li>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaignprogress">channel.charity_campaign.progress</a> — Sends a notification when the broadcaster changes the fundraiser’s target goal or when progress is made towards the goal.</li>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaignstop">channel.charity_campaign.stop</a> — Sends a notification when the broadcaster stops a charity campaign.</li>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelcharity_campaigndonate">channel.charity_campaign.donate</a> — Sends an event notification when a user donates to the broadcaster’s charity campaign.</li>
+    </ul>
+  </li>
+</ol>
+
+
 ### 2023‑01‑10
 
 <p>This release includes the following updates:</p>
