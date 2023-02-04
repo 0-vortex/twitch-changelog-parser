@@ -7,17 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2023‑02‑03
-
-<p>Added the following Twitch API endpoints and subscription types to open beta.</p>
-<ul>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#get-followed-channels">Get Followed Channels</a> — Gets a list of broadcasters that the specified user follows.</li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#get-channel-followers">Get Channel Followers</a> — Gets a list of users that follow the specified broadcaster.Send a Shoutout — This endpoint sends a Shoutout to the specified broadcaster.</li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelfollow">channel.follows</a> (beta) — Beta version of the existing subscription type that will now require the <code class="highlighter-rouge">moderator:read:followers</code> scope.</li>
-</ul>
-
-<p><code class="highlighter-rouge">low-trust-users</code> has been added to <a href="https://dev.twitch.tv/docs/pubsub">PubSub reference</a>.</p>
-
 ### 2023‑01‑19
 
 <p>This release includes the following updates:</p>
