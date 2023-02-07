@@ -12,7 +12,7 @@
 <p>Added the following Twitch API endpoints and subscription types to open beta.</p>
 <ul>
   <li><a href="https://dev.twitch.tv/docs/api/reference#get-followed-channels">Get Followed Channels</a> — Gets a list of broadcasters that the specified user follows.</li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#get-channel-followers">Get Channel Followers</a> — Gets a list of users that follow the specified broadcaster.Send a Shoutout — This endpoint sends a Shoutout to the specified broadcaster.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-channel-followers">Get Channel Followers</a> — Gets a list of users that follow the specified broadcaster.</li>
   <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelfollow">channel.follows</a> (beta) — Beta version of the existing subscription type that will now require the <code class="highlighter-rouge">moderator:read:followers</code> scope.</li>
 </ul>
 
