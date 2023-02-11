@@ -7,16 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2023‑02‑09
-
-<p>Moved the following Shoutout endpoint and subscription types from open beta to generally available:</p>
-<ul>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#send-a-shoutout">Send a Shoutout</a> — This endpoint sends a Shoutout to the specified broadcaster.</li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelshoutoutcreate">channel.shoutout.create</a> — This subscription type sends a notification when the specified broadcaster sends a Shoutout.</li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#channelshoutoutreceive">channel.shoutout.receive</a> — This subscription type sends a notification when the specified broadcaster receives a Shoutout.</li>
-</ul>
-
-
 ### 2023‑02‑03
 
 <p>Added the following Twitch API endpoints and subscription types to open beta.</p>
