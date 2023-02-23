@@ -7,6 +7,27 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2023‑02‑22
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li>Moved the following Channel Follows endpoints and subscription type from open beta to generally available:
+    <ul>
+      <li><a href="https://dev.twitch.tv/docs/api/reference#get-followed-channels">Get Followed Channels</a> — Gets a list of broadcasters that the specified user follows.</li>
+      <li><a href="https://dev.twitch.tv/docs/api/reference#get-channel-followers">Get Channel Followers</a> — Gets a list of users that follow the specified broadcaster.</li>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelfollow">channel.follows</a> — Version 2 of the existing subscription type that will now require the <code class="highlighter-rouge">moderator:read:followers</code> scope.</li>
+    </ul>
+  </li>
+  <li>Added deprecation notices to the following:
+    <ul>
+      <li><a href="https://dev.twitch.tv/docs/api/reference#get-users-follows">Get User Follows</a></li>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelfollow">channel.follows</a> (v1)</li>
+    </ul>
+  </li>
+  <li>Updated the <a href="https://dev.twitch.tv/docs/product-lifecycle">Product Lifecycle</a> with the above deprecation notice.</li>
+</ol>
+
 ### 2023‑02‑09
 
 <p>Moved the following Shoutout endpoint and subscription types from open beta to generally available:</p>
