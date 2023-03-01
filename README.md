@@ -7,6 +7,31 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2023‑02‑28
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#search-channels">Search Channels</a>, <a href="https://dev.twitch.tv/docs/api/reference#get-streams">Get Streams</a>, <a href="https://dev.twitch.tv/docs/api/reference#get-followed-streams">Get Followed Streams</a>  — Include the following changes:
+    <ul>
+      <li>Added customizable tags via a new <code class="highlighter-rouge">tags</code> field.</li>
+      <li>Deprecated the <code class="highlighter-rouge">tag_ids</code> field in the response. The response continues to include the field; however, it will only return an empty array.</li>
+    </ul>
+  </li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-users">Get All Stream Tags</a> and <a href="https://dev.twitch.tv/docs/api/reference#get-users">Get Stream Tags</a> — Include the following change:
+    <ul>
+      <li>Deprecated the <code class="highlighter-rouge">tag_ids</code> field in the response. The response continues to include the field; however, it will only return an empty array. These endpoints will return a 410 response on July 13, 2023</li>
+    </ul>
+  </li>
+  <li>Additionally, removed the Replace Stream Tags endpoint.</li>
+</ol>
+
+<p>For information about these changes, see <a href="https://discuss.dev.twitch.tv/t/adding-customizable-tags-to-the-twitch-api/42921" target="_blank">Adding customizable tags to the Twitch API</a>.</p>
+
+### 2023‑02‑27
+
+<p>“Get Code Status” and “Redeem Code” Twitch API endpoints have been decommissioned and removed from documentation.</p>
+
 ### 2023‑02‑22
 
 <p>This release includes the following updates:</p>
