@@ -18,7 +18,7 @@
       <li>Deprecated the <code class="highlighter-rouge">tag_ids</code> field in the response. The response continues to include the field; however, it will only return an empty array.</li>
     </ul>
   </li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference#get-all-stream-tags">Get All Stream Tags</a> and <a href="https://dev.twitch.tv/docs/api/reference#get-stream-tags">Get Stream Tags</a> — Include the following change:
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-users">Get All Stream Tags</a> and <a href="https://dev.twitch.tv/docs/api/reference#get-users">Get Stream Tags</a> — Include the following change:
     <ul>
       <li>Deprecated the <code class="highlighter-rouge">tag_ids</code> field in the response. The response continues to include the field; however, it will only return an empty array. These endpoints will return a 410 response on July 13, 2023</li>
     </ul>
