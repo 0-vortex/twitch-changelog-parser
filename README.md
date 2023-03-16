@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2023‑03‑15
-
-<p>References to the Twitch Developer Rig have been updated or removed following the <a href="https://discuss.dev.twitch.tv/t/end-of-support-for-the-twitch-developer-rig/42995" target="_blank">end of support announcement</a>.</p>
-
 ### 2023‑02‑28
 
 <p>This release includes the following updates:</p>
