@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2023‑04‑05
-
-<p>Twitch’s <a href="https://dev.twitch.tv/docs/cli">CLI</a> has been updated to allow for testing <a href="https://dev.twitch.tv/docs/cli/websocket-event-command/#testing-reconnect-messages">Reconnect message flow</a> and <a href="https://dev.twitch.tv/docs/cli/websocket-event-command/#forwarding-mock-events-to-clients">forwarding EventSub events</a> to the mock WebSocket server.</p>
-
 ### 2023‑03‑30
 
 <p><a href="https://dev.twitch.tv/docs/api/reference#get-channel-chat-badges">Get Channel Chat Badges</a> and <a href="https://dev.twitch.tv/docs/api/reference#get-global-chat-badges">Get Global Chat Badges</a> have been updated to include the following return fields; <code class="highlighter-rouge">title</code>, <code class="highlighter-rouge">description</code>, <code class="highlighter-rouge">click_action</code>, and <code class="highlighter-rouge">click_url</code>. See <a href="https://discuss.dev.twitch.tv/t/legacy-badges-endpoint-shutdown-details-and-timeline-june-2023/44621" target="_blank">the announcement</a> for more information.</p>
