@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2023‑04‑12
+
+<p>The EventSub WebSockets connection URL has been updated to <code class="highlighter-rouge">wss://eventsub.wss.twitch.tv/ws</code>.  See <a href="https://discuss.dev.twitch.tv/t/update-required-for-eventsub-websockets-beta-connection-url/45079" target="_blank">the announcement</a> for more details.</p>
+
 ### 2023‑04‑05
 
 <p>Twitch’s <a href="https://dev.twitch.tv/docs/cli">CLI</a> has been updated to allow for testing <a href="https://dev.twitch.tv/docs/cli/websocket-event-command/#testing-reconnect-messages">Reconnect message flow</a> and <a href="https://dev.twitch.tv/docs/cli/websocket-event-command/#forwarding-mock-events-to-clients">forwarding EventSub events</a> to the mock WebSocket server.</p>
