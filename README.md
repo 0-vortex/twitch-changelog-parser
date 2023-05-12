@@ -7,6 +7,30 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2023‑05‑11
+
+<p>Added the following Twitch API endpoints and subscription types to open beta.</p>
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#get-channel-guest-star-settings">Get Channel Guest Star Settings</a> - Gets the channel settings for configuration of the Guest Star feature for a particular host.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#update-channel-guest-star-settings">Update Channel Guest Star Settings</a> - Mutates the channel settings for configuration of the Guest Star feature for a particular host.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#get-guest-star-session">Get Guest Star Session</a> - Gets information about an ongoing Guest Star session for a particular channel.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#create-guest-star-session">Create Guest Star Session</a> - Programmatically creates a Guest Star session on behalf of the broadcaster.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#end-guest-star-session">End Guest Star Session</a> - Programmatically ends a Guest Star session on behalf of the broadcaster.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#get-guest-star-invites">Get Guest Star Invites</a> - Provides the caller with a list of pending invites to a Guest Star session.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#send-guest-star-invite">Send Guest Star Invite</a> - Sends an invite to a specified guest on behalf of the broadcaster for a Guest Star session in progress.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#delete-guest-star-invite">Delete Guest Star Invite</a> - Revokes a previously sent invite for a Guest Star session.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#assign-guest-star-slot">Assign Guest Star Slot</a> - Allows a previously invited user to be assigned a slot within the active Guest Star session.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#update-guest-star-slot">Update Guest Star Slot</a> - Allows a user to update the assigned slot for a particular user within the active Guest Star session.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#delete-guest-star-slot">Delete Guest Star Slot</a> - Allows a caller to remove a slot assignment from a user participating in an active Guest Star session.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#update-guest-star-slot-settings">Update Guest Star Slot Settings</a> - Allows a user to update slot settings for a particular guest within a Guest Star session.</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelguest_star_sessionbegin">channel.guest_star_session.begin</a> - The host began a new Guest Star session.</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelguest_star_sessionend">channel.guest_star_session.end</a> - A running Guest Star session has ended.</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelguest_star_guestupdate">channel.guest_star_guest.update</a> - A guest has moved between interaction states in an active Guest Star session.</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelguest_star_slotupdate">channel.guest_star_slot.update</a> - A slot setting has been updated in an active Guest Star session.</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelguest_star_settingsupdate">channel.guest_star_settings.update</a> - The host preferences for Guest Star have been updated.</li>
+</ul>
+
+
 ### 2023‑04‑12
 
 <p>The EventSub WebSockets connection URL has been updated to <code class="highlighter-rouge">wss://eventsub.wss.twitch.tv/ws</code>.  See <a href="https://discuss.dev.twitch.tv/t/update-required-for-eventsub-websockets-beta-connection-url/45079" target="_blank">the announcement</a> for more details.</p>
