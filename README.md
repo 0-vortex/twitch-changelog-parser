@@ -7,28 +7,9 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2023‑05‑22
-
-<p>This release includes the following updates:</p>
-
-<ol>
-  <li>Made the following changes to <a href="https://dev.twitch.tv/docs/api/reference/#get-channel-guest-star-settings">Get Channel Guest Star Settings</a>:
-    <ul>
-      <li>The following <a href="https://dev.twitch.tv/docs/authentication/scopes">authentication scopes</a> have been added
-        <ul>
-          <li><code class="highlighter-rouge">moderator:read:guest_star</code></li>
-          <li><code class="highlighter-rouge">moderator:manage:guest_star</code></li>
-        </ul>
-      </li>
-      <li>A <code class="highlighter-rouge">moderator_id</code> is now required in the request query parameters</li>
-    </ul>
-  </li>
-  <li>Removed the Twitch API v5 Migration Guide</li>
-</ol>
-
 ### 2023‑05‑11
 
-<p>Added the following Twitch API endpoints and subscription types to open beta:</p>
+<p>Added the following Twitch API endpoints and subscription types to open beta.</p>
 <ul>
   <li><a href="https://dev.twitch.tv/docs/api/reference/#get-channel-guest-star-settings">Get Channel Guest Star Settings</a> - Gets the channel settings for configuration of the Guest Star feature for a particular host.</li>
   <li><a href="https://dev.twitch.tv/docs/api/reference/#update-channel-guest-star-settings">Update Channel Guest Star Settings</a> - Mutates the channel settings for configuration of the Guest Star feature for a particular host.</li>
@@ -49,13 +30,6 @@
   <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelguest_star_settingsupdate">channel.guest_star_settings.update</a> - The host preferences for Guest Star have been updated.</li>
 </ul>
 
-<p>The following <a href="https://dev.twitch.tv/docs/authentication/scopes">authentication scopes</a> have been added:</p>
-<ul>
-  <li><code class="highlighter-rouge">channel:read:guest_star</code></li>
-  <li><code class="highlighter-rouge">channel:manage:guest_star</code></li>
-  <li><code class="highlighter-rouge">moderator:read:guest_star</code></li>
-  <li><code class="highlighter-rouge">moderator:manage:guest_star</code></li>
-</ul>
 
 ### 2023‑04‑12
 
