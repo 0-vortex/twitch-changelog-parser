@@ -9,22 +9,16 @@
 <!--START_SECTION:static-->
 ### 2023‑05‑22
 
-<p>This release includes the following updates:</p>
-
-<ol>
-  <li>Made the following changes to <a href="https://dev.twitch.tv/docs/api/reference/#get-channel-guest-star-settings">Get Channel Guest Star Settings</a>:
+<p>Made the following changes to <a href="https://dev.twitch.tv/docs/api/reference/#get-channel-guest-star-settings">Get Channel Guest Star Settings</a>:</p>
+<ul>
+  <li>The following <a href="https://dev.twitch.tv/docs/authentication/scopes">authentication scopes</a> have been added
     <ul>
-      <li>The following <a href="https://dev.twitch.tv/docs/authentication/scopes">authentication scopes</a> have been added
-        <ul>
-          <li><code class="highlighter-rouge">moderator:read:guest_star</code></li>
-          <li><code class="highlighter-rouge">moderator:manage:guest_star</code></li>
-        </ul>
-      </li>
-      <li>A <code class="highlighter-rouge">moderator_id</code> is now required in the request query parameters</li>
+      <li><code class="highlighter-rouge">moderator:read:guest_star</code></li>
+      <li><code class="highlighter-rouge">moderator:manage:guest_star</code></li>
     </ul>
   </li>
-  <li>Removed the Twitch API v5 Migration Guide</li>
-</ol>
+  <li>A <code class="highlighter-rouge">moderator_id</code> is now required in the request query parameters</li>
+</ul>
 
 ### 2023‑05‑11
 
