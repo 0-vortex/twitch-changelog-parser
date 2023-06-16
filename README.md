@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2023‑06‑15
+
+<p><a href="https://dev.twitch.tv/docs/pubsub/#authorization-revoked">Authorization Revoked</a> has been added for PubSub.</p>
+
 ### 2023‑05‑22
 
 <p>This release includes the following updates:</p>
