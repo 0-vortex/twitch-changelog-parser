@@ -7,6 +7,14 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2023‑06‑29
+
+<p>Moved the following changes to existing subscription type <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelupdate">channel.update</a> to open beta:</p>
+<ul>
+  <li>Removed the <code class="highlighter-rouge">is_mature</code> boolean flag</li>
+  <li>Added a new <code class="highlighter-rouge">content_classification_labels</code> field that lists the IDs of any <a href="https://safety.twitch.tv/s/article/Content-Classification-Guidelines">content classification labels</a> applied on the channel</li>
+</ul>
+
 ### 2023‑06‑15
 
 <p><a href="https://dev.twitch.tv/docs/pubsub/#authorization-revoked">Authorization Revoked</a> has been added for PubSub.</p>
