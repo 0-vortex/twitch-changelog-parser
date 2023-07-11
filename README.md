@@ -7,27 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2023‑07‑10
-
-<p>This release includes the following updates related to content classification labels and branded content:</p>
-
-<ol>
-  <li>Made the following changes to <a href="https://dev.twitch.tv/docs/api/reference/#get-channel-information">Get Channel Information</a>
-    <ul>
-      <li>Added the <i>ccl_locale</i> query parameter for specifying the locale for the returned content classification labels.</li>
-      <li>Added the <i>content_classification_labels</i> field to the response, which returns the CCLs currently applied to the channel.</li>
-      <li>Added the <i>is_branded_content</i> field to the response, which indicates if the channel has branded content.</li>
-    </ul>
-  </li>
-  <li>Made the following changes to <a href="https://dev.twitch.tv/docs/api/reference/#modify-channel-information">Modify Channel Information</a>
-    <ul>
-      <li>Added the <i>content_classification_labels</i> field to the request body, which lets you enable or disable specific content classification labels for the channel.</li>
-      <li>Added the <i>is_branded_content</i> field to the request body, which lets you specify if the channel has branded content.</li>
-    </ul>
-  </li>
-  <li>Added the Twitch API endpoint <a href="https://dev.twitch.tv/docs/api/reference/#get-content-classification-labels">Get Content Classification Labels</a>, which shows you the available content classification labels.</li>
-</ol>
-
 ### 2023‑06‑29
 
 <p>Moved the following changes to existing subscription type <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelupdate">channel.update</a> to open beta:</p>
