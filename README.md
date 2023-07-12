@@ -12,14 +12,13 @@
 <p>This release includes the following updates related to content classification labels and branded content:</p>
 
 <ol>
-  <li>Made the following changes to <a href="https://dev.twitch.tv/docs/api/reference/#get-channel-information">Get Channel Information</a>
+  <li>Made the following changes to <a href="https://dev.twitch.tv/docs/api/reference/#get-channel-information">Get Channel Information</a>:
     <ul>
-      <li>Added the <i>ccl_locale</i> query parameter for specifying the locale for the returned content classification labels.</li>
       <li>Added the <i>content_classification_labels</i> field to the response, which returns the CCLs currently applied to the channel.</li>
       <li>Added the <i>is_branded_content</i> field to the response, which indicates if the channel has branded content.</li>
     </ul>
   </li>
-  <li>Made the following changes to <a href="https://dev.twitch.tv/docs/api/reference/#modify-channel-information">Modify Channel Information</a>
+  <li>Made the following changes to <a href="https://dev.twitch.tv/docs/api/reference/#modify-channel-information">Modify Channel Information</a>:
     <ul>
       <li>Added the <i>content_classification_labels</i> field to the request body, which lets you enable or disable specific content classification labels for the channel.</li>
       <li>Added the <i>is_branded_content</i> field to the request body, which lets you specify if the channel has branded content.</li>
