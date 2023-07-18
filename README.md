@@ -7,20 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2023‑07‑17
-
-<p>This release includes the following updates:</p>
-<ol>
-  <li>Moved Version 2 of <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelupdate">channel.update</a> from open beta to generally available.</li>
-  <li>The following Twitch API endpoints have been <a href="https://discuss.dev.twitch.tv/t/withdrawal-of-twitch-api-endpoints-for-soundtrack/46021">decommissioned</a> and removed from documentation:
-    <ul>
-      <li>“Get Soundtrack Current Track”</li>
-      <li>“Get Soundtrack Playlist”</li>
-      <li>“Get Soundtrack Playlists”</li>
-    </ul>
-  </li>
-</ol>
-
 ### 2023‑07‑10
 
 <p>This release includes the following updates related to content classification labels and branded content:</p>
