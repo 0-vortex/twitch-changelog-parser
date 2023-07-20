@@ -7,6 +7,12 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2023‑07‑19
+
+<p><a href="https://dev.twitch.tv/docs/irc/tags/#privmsg-tags">IRC Tags</a> for PRIVMSG have been updated to include Hype Chat.</p>
+
+<p><a href="https://dev.twitch.tv/docs/video-broadcast">Video Broadcast</a> updated to refer to the latest broadcasting guidelines.</p>
+
 ### 2023‑07‑17
 
 <p>This release includes the following updates:</p>
@@ -19,6 +25,7 @@
       <li>“Get Soundtrack Playlists”</li>
     </ul>
   </li>
+  <li>Increased the maximum number of enabled subscriptions per WebSocket connection from 100 to 300.</li>
 </ol>
 
 ### 2023‑07‑10
