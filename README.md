@@ -7,6 +7,21 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2023‑08‑04
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li><a href="https://dev.twitch.tv/docs/irc/tags/#privmsg-tags">IRC Tags</a> for PRIVMSG have been updated to include changes to Chat Replies:
+    <ul>
+      <li>Updated existing <em>reply-parent-*</em> tags to refer to only referencing their direct parent message</li>
+      <li>Added <em>reply-thread-parent-msg-id</em></li>
+      <li>Added <em>reply-thread-parent-user-login</em></li>
+    </ul>
+  </li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-guest-star-guest-update-event">Guest Star Guest Update</a> now includes the <code class="highlighter-rouge">accepted</code> state for when a guest has accepted their invitation to the Guest Star session.</li>
+</ol>
+
 ### 2023‑07‑19
 
 <p><a href="https://dev.twitch.tv/docs/irc/tags/#privmsg-tags">IRC Tags</a> for PRIVMSG have been updated to include Hype Chat.</p>
