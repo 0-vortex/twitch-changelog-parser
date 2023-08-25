@@ -7,21 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2023‑08‑24
-
-<p>This release includes the following updates:</p>
-
-<ol>
-  <li>The <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-guest-star-guest-update-event">Channel Guest Star Guest Update</a> notification now sends when a slot is updated, and includes information about the slot, if applicable.</li>
-  <li>The Guest Star Slot Update event has been removed, as its information is now included in the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-guest-star-guest-update-event">Channel Guest Star Guest Update</a> event.</li>
-  <li>The <code class="highlighter-rouge">moderator:read:guest_star</code> and <code class="highlighter-rouge">moderator:manage:guest_star</code> scopes have been added to the following subscription types:
-    <ul>
-      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelguest_star_sessionbegin">Channel Guest Star Session Begin</a></li>
-      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelguest_star_sessionend">Channel Guest Star Session End</a></li>
-    </ul>
-  </li>
-</ol>
-
 ### 2023‑08‑04
 
 <p>This release includes the following updates:</p>
