@@ -7,6 +7,16 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2023‑09‑06
+
+<p>This release includes the following updates, detailed in the <a href="https://discuss.dev.twitch.tv/t/legacy-follows-api-and-eventsub-shutdown-timeline-updated/46769">Legacy Follows API and Eventsub Shutdown Timeline post here</a>:</p>
+
+<ol>
+  <li>The Get Users Follows API endpoint has been removed.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#get-channel-followers">Get Channel Followers</a> now requires the user access token to contain both the <strong>moderator:read:followers</strong> scope and have either the user ID match the <code class="highlighter-rouge">broadcaster_id</code> or the user must be a moderator for the specified broadcaster in order to return data about specific followers. This condition is also required for using the <code class="highlighter-rouge">user_id</code> parameter.</li>
+  <li>V1 of <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelfollow">channel.follow</a> has been removed.</li>
+</ol>
+
 ### 2023‑08‑24
 
 <p>This release includes the following updates:</p>
