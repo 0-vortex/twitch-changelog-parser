@@ -7,6 +7,15 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2023‑09‑12
+
+<p>This release includes the following updates to the <a href="https://dev.twitch.tv/docs/api/reference/#get-clips">Get Clips</a> API endpoint:</p>
+
+<ol>
+  <li>The optional <code class="highlighter-rouge">is_featured</code> field has been added to the request parameters to allow returning only featured clips, non-featured clips, or both if the parameter is not present.</li>
+  <li>The <code class="highlighter-rouge">is_featured</code> field has been added to the response body, indicating if the clip is featured or not.</li>
+</ol>
+
 ### 2023‑09‑06
 
 <p>This release includes the following updates, detailed in the <a href="https://discuss.dev.twitch.tv/t/legacy-follows-api-and-eventsub-shutdown-timeline-updated/46769">Legacy Follows API and Eventsub Shutdown Timeline post here</a>:</p>
