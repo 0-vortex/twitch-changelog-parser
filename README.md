@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2023‑10‑18
+
+<p>The <a href="https://dev.twitch.tv/docs/drops">Twitch Drops guide</a> has been updated for the latest version as announced on <a href="https://discuss.dev.twitch.com/t/improving-the-flexibility-of-twitch-drops" target="_blank">Improving the Flexibility of Twitch Drops</a>.</p>
+
 ### 2023‑09‑12
 
 <p>This release includes the following updates to the <a href="https://dev.twitch.tv/docs/api/reference/#get-clips">Get Clips</a> API endpoint:</p>
