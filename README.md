@@ -7,38 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2023‑10‑19
-
-<p>Added the following Twitch API endpoints and EventSub subscription types to open beta:</p>
-
-<ul>
-  <li>Chat on Eventsub
-    <ol>
-      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatclear">channel.chat.clear</a> - sends a notification when a moderator or bot clears all messages from the chat room.</li>
-      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatclear_user_messages">channel.chat.clear_user_messages</a> - sends a notification when a moderator or bot clears all messages for a specific user.</li>
-      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatmessage_delete">channel.chat.message_delete</a> - sends a notification when a moderator removes a specific message.</li>
-      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatnotification">channel.chat.notification</a> - sends a notification when an event that appears in chat occurs, such as someone subscribing to the channel or a subscription is gifted.</li>
-    </ol>
-  </li>
-  <li>Ads Manager
-    <ol>
-      <li><a href="https://dev.twitch.tv/docs/api/reference/#get-ad-schedule">Get Ad Schedule</a> - Returns ad schedule related information, including snooze, when the last ad was run, when the next ad is scheduled, and if the channel is currently in pre-roll free time.</li>
-      <li><a href="https://dev.twitch.tv/docs/api/reference/#snooze-next-ad">Snooze Next Ad</a> - Pushes back the timestamp of the upcoming automatic mid-roll ad by 5 minutes.</li>
-      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelad_breakbegin">channel.ad_break.begin</a> - sends a notification when a midroll commercial break begins on a channel.</li>
-    </ol>
-  </li>
-</ul>
-
-<p>Added the following <a href="https://dev.twitch.tv/docs/authentication/scopes">authentication scopes</a> for the above API endpoionts and subscription types:</p>
-
-<ol>
-  <li><code class="highlighter-rouge">channel:bot</code> - Allows the client’s bot users access to a channel.</li>
-  <li><code class="highlighter-rouge">user:bot</code> - Allows client’s bot to act as this user.</li>
-  <li><code class="highlighter-rouge">user:read:chat</code> - View live stream chat and room messages.</li>
-  <li><code class="highlighter-rouge">channel:manage:ads</code> - Manage ads schedule on a channel.</li>
-  <li><code class="highlighter-rouge">channel:read:ads</code> - Read the ads schedule and details on your channel.</li>
-</ol>
-
 ### 2023‑10‑18
 
 <p>The <a href="https://dev.twitch.tv/docs/drops">Twitch Drops guide</a> has been updated for the latest version as announced on <a href="https://discuss.dev.twitch.com/t/improving-the-flexibility-of-twitch-drops" target="_blank">Improving the Flexibility of Twitch Drops</a>.</p>
