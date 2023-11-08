@@ -7,17 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2023‑11‑07
-
-<p>Made the following changes to the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-chat-notification-event">channel.chat.notification</a> EventSub subscription type in open beta:</p>
-
-<ul>
-  <li>All instances of <code class="highlighter-rouge">sub_plan</code> have been renamed to <code class="highlighter-rouge">sub_tier</code>.</li>
-  <li>For the <code class="highlighter-rouge">sub</code> and <code class="highlighter-rouge">resub</code> events, the <code class="highlighter-rouge">Prime</code> value has been removed from <code class="highlighter-rouge">sub_tier</code>.</li>
-  <li>For the <code class="highlighter-rouge">sub</code> and <code class="highlighter-rouge">resub</code> events, a new <code class="highlighter-rouge">is_prime</code> field has been added to indicate if the subscription was purchased through Prime. Prime subs will only have a <code class="highlighter-rouge">sub_tier</code> value of <code class="highlighter-rouge">1000</code>.</li>
-  <li>A new <code class="highlighter-rouge">badges</code> field has been added, which returns a list of chat badges.</li>
-</ul>
-
 ### 2023‑10‑19
 
 <p>Added the following Twitch API endpoints and EventSub subscription types to open beta:</p>
