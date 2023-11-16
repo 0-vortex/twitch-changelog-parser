@@ -7,6 +7,21 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2023‑11‑15
+
+<p>The following EventSub subscription types have been moved from open beta to generally available:</p>
+
+<ol>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatclear">channel.chat.clear</a></li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatclear_user_messages">channel.chat.clear_user_messages</a></li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatmessage_delete">channel.chat.message_delete</a></li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatnotification">channel.chat.notification</a>
+    <ul>
+      <li>Additionally, removed <code class="highlighter-rouge">sub.cumulative_months</code> from the event payload</li>
+    </ul>
+  </li>
+</ol>
+
 ### 2023‑11‑07
 
 <p>Made the following changes to the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-chat-notification-event">channel.chat.notification</a> EventSub subscription type in open beta:</p>
