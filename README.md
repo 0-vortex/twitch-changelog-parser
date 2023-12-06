@@ -7,12 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2023‑12‑05
-
-<p>Device Code Flow (DCF) is now generally available.</p>
-
-<p>Refer to <a href="https://dev.twitch.tv/docs/authentication">Authentication Overview</a> and <a href="https://dev.twitch.tv/docs/authentication/getting-tokens-oauth/#device-code-grant-flow">Device code grant flow</a> for more information.</p>
-
 ### 2023‑11‑15
 
 <p>The following EventSub subscription types have been moved from open beta to generally available:</p>
