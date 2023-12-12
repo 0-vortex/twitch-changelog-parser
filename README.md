@@ -7,24 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2023‑12‑11
-
-<p>The following Ads Manager endpoints and subscription type have been moved from open beta to generally available with the following changes, where applicable:</p>
-<ul>
-  <li><a href="https://dev.twitch.tv/docs/api/reference/#get-ad-schedule">Get Ad Schedule</a>
-    <ul>
-      <li><code class="highlighter-rouge">length_seconds</code> has been renamed to <code class="highlighter-rouge">duration</code>.</li>
-      <li><code class="highlighter-rouge">preroll_free_time_seconds</code> has been renamed to <code class="highlighter-rouge">preroll_free_time</code>.</li>
-    </ul>
-  </li>
-  <li><a href="https://dev.twitch.tv/docs/api/reference/#snooze-next-ad">Snooze Next Ad</a></li>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channeladbreakbegin">channel.ad_break.begin</a>
-    <ul>
-      <li><code class="highlighter-rouge">length_seconds</code> has been renamed to <code class="highlighter-rouge">duration_seconds</code>.</li>
-    </ul>
-  </li>
-</ul>
-
 ### 2023‑12‑05
 
 <p>Device Code Flow (DCF) is now generally available.</p>
