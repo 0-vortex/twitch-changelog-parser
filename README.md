@@ -7,6 +7,14 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑01‑08
+
+<p>This release includes the following updates:</p>
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#get-moderated-channels">Get Moderated Channels</a> and <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchat_settingsupdate">channel.chat_settings.update</a> have been added to open beta.</li>
+  <li><code class="highlighter-rouge">user:read:moderated_channels</code> has been added to the <a href="https://dev.twitch.tv/docs/authentication/scopes/#twitch-api-scopes">Twitch API scopes</a>.</li>
+</ul>
+
 ### 2023‑12‑11
 
 <p>The following Ads Manager endpoints and subscription type have been moved from open beta to generally available with the following changes, where applicable:</p>
