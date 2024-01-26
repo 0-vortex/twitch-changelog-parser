@@ -7,6 +7,58 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑01‑25
+
+<p>This release includes the following updates:</p>
+
+<ul>
+  <li>Conduits
+    <ul>
+      <li>Conduit event and transport method features are now generally available. See, <a href="https://dev.twitch.tv/docs/eventsub/handling-conduit-events">Handling Conduit Events</a>.</li>
+      <li>Updated <a href="https://dev.twitch.tv/docs/api/reference/#create-eventsub-subscription">Create EventSub Subscription</a> to include examples for all three supported transport methods types:
+        <ul>
+          <li>webhook</li>
+          <li>websocket</li>
+          <li>conduit</li>
+        </ul>
+      </li>
+      <li>Added the following Twitch API endpoints and EventSub subscription types:
+        <ul>
+          <li>Twitch API:
+            <ul>
+              <li><a href="https://dev.twitch.tv/docs/api/reference/#create-conduits">Create Conduits</a> - Creates a new conduit.</li>
+              <li><a href="https://dev.twitch.tv/docs/api/reference/#get-conduits">Get Conduits</a> - Retrieves the conduits for a client ID.</li>
+              <li><a href="https://dev.twitch.tv/docs/api/reference/#update-conduits">Update Conduits</a> - Updates a conduit’s shard count. </li>
+              <li><a href="https://dev.twitch.tv/docs/api/reference/#delete-conduit">Delete Conduit</a> - Deletes a conduit.</li>
+              <li><a href="https://dev.twitch.tv/docs/api/reference/#get-conduit-shards">Get Conduit Shards</a> - Lists all shards for a conduit.</li>
+              <li><a href="https://dev.twitch.tv/docs/api/reference/#update-conduit-shards">Update Conduit Shards</a> - Updates shard(s) for a conduit.</li>
+            </ul>
+          </li>
+          <li>EventSub subscription types:
+            <ul>
+              <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#conduitsharddisabled">conduit.shard.disabled</a> - Sends a notification when EventSub disables a shard due to the status of the underlying transport changing.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Chat
+    <ul>
+      <li>Added a new Twitch API endpoint:
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/api/reference/#send-chat-message">Send Chat Message</a> - Sends a message to the broadcaster’s chat room.</li>
+        </ul>
+      </li>
+      <li>Added new EventSub subscription type:
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatmessage">channel.chat.message</a> - Any user sends a message to a specific chat room.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
 ### 2024‑01‑08
 
 <p>This release includes the following updates:</p>
