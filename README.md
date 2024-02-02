@@ -7,49 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2024‑01‑31
-
-<p>The following releases and changes have been made:</p>
-<ol>
-  <li>The Twitch <a href="https://dev.twitch.tv/docs/game-engine-plugins">Game Engine Plugins</a> are now generally available for building integrations in Unity, Unreal, and other C++ engines.</li>
-  <li> <a href="https://dev.twitch.tv/docs/api/reference/#get-moderated-channels">Get Moderated Channels</a> has moved from public beta to v1. </li>
-  <li>Made the following changes to specific EventSub references in open beta:</li>
-</ol>
-
-<ul>
-  <li>Events
-    <ul>
-      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-guest-star-session-end-event">Channel Guest Star Session End Event</a> and <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-guest-star-guest-update-event">Channel Guest Star Session Update Event</a>:
-        <ul>
-          <li>Added three new fields:
-            <ul>
-              <li><code class="highlighter-rouge">host_user_id</code></li>
-              <li><code class="highlighter-rouge">host_user_name</code></li>
-              <li><code class="highlighter-rouge">host_user_login</code></li>
-            </ul>
-          </li>
-          <li>Updated definitions for all <code class="highlighter-rouge">broadcaster_*</code> fields to reference the <strong>non-hosting</strong> streamer in a channel:
-            <ul>
-              <li><code class="highlighter-rouge">broadcaster_user_id</code></li>
-              <li><code class="highlighter-rouge">broadcaster_user_name</code></li>
-              <li><code class="highlighter-rouge">broadcaster_user_login</code></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>Conditions
-    <ul>
-      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-guest-star-session-end-condition-1">Channel Guest Star Session End Condition</a> and <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-guest-star-guest-update-condition-1">Channel Guest Star Session Update Condition</a>:
-        <ul>
-          <li>Updated the definition for <code class="highlighter-rouge">broadcaster_user_id</code> to refer to the non-hosting broadcaster of the channel.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
 ### 2024‑01‑25
 
 <p>This release includes the following updates:</p>
