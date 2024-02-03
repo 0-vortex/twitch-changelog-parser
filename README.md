@@ -7,7 +7,7 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2024‑01‑31
+### 2024‑02‑01
 
 <p>The following releases and changes have been made:</p>
 <ol>
