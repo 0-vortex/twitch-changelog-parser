@@ -7,45 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2024‑03‑07
-
-<p>This release includes the following updates:</p>
-
-<ol>
-  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchat_settingsupdate">Channel Chat Settings Update</a> has moved from public beta to v1.</li>
-  <li>Added the following Twitch API endpoints and EventSub subscription types in open beta:
-    <ul>
-      <li>Twitch API:
-        <ul>
-          <li><a href="https://dev.twitch.tv/docs/api/reference/#get-unban-requests">Get Unban Requests</a> - Gets a list of unban requests for a broadcaster’s channel.</li>
-          <li><a href="https://dev.twitch.tv/docs/api/reference/#resolve-unban-requests">Resolve Unban Requests</a> - Resolve an unban request by approving or denying it.</li>
-          <li><a href="https://dev.twitch.tv/docs/api/reference/#get-user-emotes">Get User Emotes</a> - Retrieves emotes available to the user.</li>
-        </ul>
-      </li>
-      <li>EventSub subscription types:
-        <ul>
-          <li>Unban Requests
-            <ul>
-              <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelunban_requestcreate">channel.unban_request.create</a> - Sends a notification when a user creates an unban request.</li>
-              <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelunban_requestresolve">channel.unban_request.resolve</a> -  Sends a notification when an unban request has been resolved.</li>
-            </ul>
-          </li>
-          <li>Automod
-            <ul>
-              <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#automodmessagehold">automod.message.hold</a> - Notifies a user when a message is caught by automod for review.</li>
-              <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#automodmessageupdate">automod.message.update</a> - Sends a notification when a message in the automod queue had its status changed.</li>
-              <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#automodsettingsupdate">automod.settings.update</a> - Sends a notification when a broadcaster’s automod settings are updated.</li>
-              <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#automodtermsupdate">automod.terms.update</a> - A notification is sent when a broadcaster’s automod terms are updated. Changes to private terms are not sent.</li>
-              <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatuser_message_hold">channel.chat.user_message_hold</a> - A user is notified if their message is caught by automod.</li>
-              <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatuser_message_update">channel.chat.user_message_update</a> - A user is notified if their message’s automod status is updated.</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ol>
-
 ### 2024‑02‑01
 
 <p>The following releases and changes have been made:</p>
