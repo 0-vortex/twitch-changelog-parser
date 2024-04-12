@@ -7,28 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2024‑04‑12
-
-<p>This release includes the following updates:</p>
-
-<ol>
-  <li>The following items were updated from open beta to V1:
-    <ul>
-      <li>Low Trust User (Suspicious User)
-        <ul>
-          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelsuspicious_usermessage">channel.suspicious_user.message</a> - A chat message has been sent by a suspicious user.</li>
-          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelsuspicious_userupdate">channel.suspicious_user.update</a> - A suspicious user has been updated.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>Made updates to <a href="https://dev.twitch.tv/docs/api/reference/#get-user-emotes">Get User Emotes</a> API endpoint:
-    <ul>
-      <li>Re-added <code class="highlighter-rouge">broadcaster_id</code> query parameter. The description of this query parameter was updated to reflect it’s purpose.</li>
-    </ul>
-  </li>
-</ol>
-
 ### 2024‑04‑05
 
 <p>This release includes the following updates:</p>
