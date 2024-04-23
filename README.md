@@ -7,6 +7,19 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑04‑22
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li>All <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#goal-subscriptions">Goal Subscription</a> EventSub events were updated to include two new goal <code class="highlighter-rouge">type</code> values:
+    <ul>
+      <li>new_bit</li>
+      <li>new_cheerer</li>
+    </ul>
+  </li>
+</ol>
+
 ### 2024‑04‑12
 
 <p>This release includes the following updates:</p>
