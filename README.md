@@ -7,6 +7,39 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑05‑22
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-chat-message-event">Channel Chat Message</a> now supports:
+    <ul>
+      <li>A new field:
+        <ul>
+          <li><code class="highlighter-rouge">channel_points_animation_id</code></li>
+        </ul>
+      </li>
+      <li>The following new enum values for the <code class="highlighter-rouge">message_type</code> field:
+        <ul>
+          <li>animated</li>
+          <li>gigantified_emote</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-points-automatic-reward-redemption-add-event">Automatic Point Redemption Add</a> now supports:
+    <ul>
+      <li>The following new enum values for the <code class="highlighter-rouge">reward_type</code> field:
+        <ul>
+          <li>send_animated_message</li>
+          <li>send_gigantified_emote</li>
+          <li>celebration</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
 ### 2024‑04‑22
 
 <p>This release includes the following updates:</p>
