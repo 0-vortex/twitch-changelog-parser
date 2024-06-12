@@ -7,6 +7,21 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑06‑11
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li>General improvements made to <a href="https://dev.twitch.tv/docs/game-engine-plugins/unity-guide">Unity Guide</a>
+    <ul>
+      <li>Fixed Typos</li>
+      <li>General code improvements</li>
+      <li>General rewording to improve readability</li>
+      <li>Updated unitypackage to include experiemental Mac support</li>
+    </ul>
+  </li>
+</ol>
+
 ### 2024‑05‑22
 
 <p>This release includes the following updates:</p>
