@@ -7,6 +7,33 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑06‑13
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-chat-message-event">Channel Chat Message</a>:
+    <ul>
+      <li>The following enum values for the <code class="highlighter-rouge">message_type</code> field have been changed:
+        <ul>
+          <li><code class="highlighter-rouge">animated</code> has been renamed to <code class="highlighter-rouge">power_ups_message_effect</code></li>
+          <li><code class="highlighter-rouge">gigantified_emote</code> has been renamed to <code class="highlighter-rouge">power_ups_gigantified_emote</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-points-automatic-reward-redemption-add-event">Automatic Point Redemption Add</a>:
+    <ul>
+      <li>The following enum values for the <code class="highlighter-rouge">reward_type</code> field have been changed:
+        <ul>
+          <li><code class="highlighter-rouge">send_animated_message</code> has been renamed to <code class="highlighter-rouge">message_effect</code></li>
+          <li><code class="highlighter-rouge">send_gigantified_emote</code> has been renamed to <code class="highlighter-rouge">gigantify_an_emote</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
 ### 2024‑06‑11
 
 <p>This release includes the following updates:</p>
