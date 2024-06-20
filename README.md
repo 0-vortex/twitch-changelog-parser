@@ -7,6 +7,37 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑06‑19
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li>The following EventSub subscription types are now available in open beta:
+    <ul>
+      <li>Moderator Actions
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelmoderate-v2">channel.moderate v2</a> - A moderator performs a moderation action in a channel. Includes warnings. This event’s version will eventually migrate version from <code class="highlighter-rouge">beta</code> to <code class="highlighter-rouge">2</code> in a future release.</li>
+        </ul>
+      </li>
+      <li>Channel Warnings
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelwarningacknowledge">channel.warning.acknowledge</a> - A user acknowledges a warning.</li>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelwarningsend">channel.warning.send</a> - A user is sent a warning.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The following item was added to the API reference in open beta:
+    <ul>
+      <li>Warn Chat User
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/api/reference/#warn-chat-user">Warn Chat User API Endpoint</a> - Warns a user in the specified broadcaster’s chat room, preventing them from interaction with the chat until the warning is acknowledged.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
 ### 2024‑06‑13
 
 <p>This release includes the following updates:</p>
