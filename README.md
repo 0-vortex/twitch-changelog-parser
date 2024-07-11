@@ -14,7 +14,7 @@
 <ol>
   <li>There is no longer a requirement to have an Apple Developer account, or fill out the iOS Allowlist form, to allow an Extension to work on the iOS version of the Twitch app. All mobile Extensions, existing and new, are available on iOS and Android without additional requirements in the submission process.
     <ul>
-      <li><a href="#TODO">Developer Forums announcement</a></li>
+      <li><a href="https://discuss.dev.twitch.com/t/policy-updates-regarding-mobile-enabled-extensions-on-ios/59518/">Developer Forums announcement</a></li>
       <li>Updated messaging in <a href="https://dev.twitch.tv/docs/extensions/building/#mobile-support">Building Extensions</a>.</li>
     </ul>
   </li>
