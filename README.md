@@ -7,6 +7,47 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑07‑11
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li>The following EventSub subscription types were updated from open beta to V1:
+    <ul>
+      <li>Channel Warnings
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelwarningacknowledge">channel.warning.acknowledge</a> - A user acknowledges a warning.</li>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelwarningsend">channel.warning.send</a> - A user is sent a warning.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The following EventSub subscription type was updated from open beta to V2:
+    <ul>
+      <li>Moderator Actions
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelmoderate-v2">channel.moderate v2</a> - A moderator performs a moderation action in a channel. Includes warnings.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The following API endpoint was updated from open beta to V1:
+    <ul>
+      <li>Warn Chat User
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/api/reference/#warn-chat-user">Warn Chat User API Endpoint</a> - Warns a user in the specified broadcaster’s chat room, preventing them from interaction with the chat until the warning is acknowledged.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The following scopes were added to the <a href="https://dev.twitch.tv/docs/authentication/scopes/#twitch-api-scopes">Twitch API scopes</a>:
+    <ul>
+      <li><code class="highlighter-rouge">moderator:manage:warnings</code> - Read warnings in channels where you have the moderator role.</li>
+      <li><code class="highlighter-rouge">moderator:read:warnings</code> - Warn users in channels where you have the moderator role.</li>
+    </ul>
+  </li>
+</ol>
+
 ### 2024‑07‑09
 
 <p>This release includes the following updates:</p>
