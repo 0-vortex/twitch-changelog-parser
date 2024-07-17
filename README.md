@@ -42,8 +42,8 @@
   </li>
   <li>The following scopes were added to the <a href="https://dev.twitch.tv/docs/authentication/scopes/#twitch-api-scopes">Twitch API scopes</a>:
     <ul>
-      <li><code class="highlighter-rouge">moderator:manage:warnings</code> - Read warnings in channels where you have the moderator role.</li>
-      <li><code class="highlighter-rouge">moderator:read:warnings</code> - Warn users in channels where you have the moderator role.</li>
+      <li><code class="highlighter-rouge">moderator:manage:warnings</code> - Warn users in channels where you have the moderator role.</li>
+      <li><code class="highlighter-rouge">moderator:read:warnings</code> - Read warnings in channels where you have the moderator role.</li>
     </ul>
   </li>
 </ol>
