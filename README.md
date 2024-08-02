@@ -7,6 +7,25 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑08‑01
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li>The <a href="https://dev.twitch.tv/docs/chat">Chat &amp; Chatbots</a> section has been reworked to describe information about Chat using EventSub and IRC.
+    <ul>
+      <li>IRC reference pages were merged into the <a href="https://dev.twitch.tv/docs/chat/irc">IRC Concepts</a> page.</li>
+      <li>The page <strong>Moderating a Broadcaster’s chat</strong> under <a href="https://dev.twitch.tv/docs/api">Twitch API</a> was moved to Chat &amp; Chatbots as <a href="https://dev.twitch.tv/docs/chat/moderation">Moderation</a>. The old page URL will redirect to the new location.</li>
+    </ul>
+  </li>
+  <li>The <a href="https://dev.twitch.tv/docs/authentication/scopes">Scopes</a> page was updated to contain clearer and additional information:
+    <ul>
+      <li>Scopes are split by <strong>API/EventSub</strong>, <strong>IRC</strong>, and <strong>PubSub</strong>.</li>
+      <li>Links to EventSub reference were added to relevant scopes</li>
+    </ul>
+  </li>
+</ol>
+
 ### 2024‑07‑11
 
 <p>This release includes the following updates:</p>
