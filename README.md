@@ -7,6 +7,53 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑09‑06
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li>The following EventSub subscription types are now available in open beta:
+    <ul>
+      <li>Shared Chat
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelshared_chatbegin">channel.shared_chat.begin</a> - A notification when a channel becomes active in an active shared chat session.</li>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelshared_chatupdate">channel.shared_chat.update</a> - A notification when the active shared chat session the channel is in changes.</li>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelshared_chatend">channel.shared_chat.end</a> - A notification when a channel leaves a shared chat session or the session ends.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The following item was added to the API reference in open beta:
+    <ul>
+      <li>Get Shared Chat Session
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/api/reference/#get-shared-chat-session">Get Shared Chat Session</a> - Retrieves the active shared chat session for a channel.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The following EventSub subscription types have been updated:
+    <ul>
+      <li>Chat Message
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatmessage">channel.chat.message V1</a></li>
+        </ul>
+      </li>
+      <li>Chat Notification
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatnotification">channel.chat.notification</a></li>
+        </ul>
+      </li>
+      <li>Chat Moderate V1 and V2
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelmoderate">channel.moderate V1</a></li>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelmoderate-v2">channel.moderate V2</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
 ### 2024‑08‑01
 
 <p>This release includes the following updates:</p>
