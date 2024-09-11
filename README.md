@@ -7,6 +7,32 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑09‑10
+
+<p>This release includes the following updates:</p>
+
+<ol>
+  <li>Updated IRC PRIVMSG tags to include the following new tags:
+    <ul>
+      <li><code class="highlighter-rouge">source-room-id</code></li>
+      <li><code class="highlighter-rouge">source-id</code></li>
+      <li><code class="highlighter-rouge">source-badges</code></li>
+      <li><code class="highlighter-rouge">source-badge-info</code></li>
+    </ul>
+  </li>
+  <li>Updated IRC USERNOTICE tags to include the following changes:
+    <ul>
+      <li>Introduced new tag <code class="highlighter-rouge">source-room-id</code></li>
+      <li>Introduced new tag <code class="highlighter-rouge">source-id</code></li>
+      <li>Introduced new tag <code class="highlighter-rouge">source-msg-id</code></li>
+      <li>Introduced new tag <code class="highlighter-rouge">source-badges</code></li>
+      <li>Introduced new tag <code class="highlighter-rouge">source-badge-info</code></li>
+      <li>Added possible value of <code class="highlighter-rouge">sharedchatnotice</code> to the existing <code class="highlighter-rouge">msg-id</code> tag</li>
+    </ul>
+  </li>
+  <li>Added <a href="https://dev.twitch.tv/docs/chat/irc/#shared-chat">Shared Chat</a> section to IRC Concepts, detailing the handling of Shared Chat on IRC</li>
+</ol>
+
 ### 2024‑09‑06
 
 <p>This release includes the following updates:</p>
