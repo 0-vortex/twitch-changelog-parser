@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑11‑01
+
+<p><a href="https://dev.twitch.tv/docs/api/reference/#get-content-classification-labels">Get Content Classification Labels</a> and <a href="https://dev.twitch.tv/docs/api/reference/#modify-channel-information">Modify Channel Information</a> have been updated to support the new Content Classification Label, “Politics and Sensitive Social Issues.”</p>
+
 ### 2024‑09‑16
 
 <p>This release includes the following updates:</p>
