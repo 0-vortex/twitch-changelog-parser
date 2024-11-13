@@ -7,6 +7,16 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑11‑12
+
+<p>This release includes the following updates:</p>
+
+<p>The following V2 Automod Message EventSub subscription types are now available in open beta:</p>
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#automodmessagehold-v2">automod.message.hold</a> -  A user is notified if a message is caught by automod for review.</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#automodmessageupdate-v2">automod.mesage.update</a> - A message in the automod queue had its status changed.</li>
+</ul>
+
 ### 2024‑11‑01
 
 <p><a href="https://dev.twitch.tv/docs/api/reference/#get-content-classification-labels">Get Content Classification Labels</a> and <a href="https://dev.twitch.tv/docs/api/reference/#modify-channel-information">Modify Channel Information</a> have been updated to support the new Content Classification Label, “Politics and Sensitive Social Issues.”</p>
