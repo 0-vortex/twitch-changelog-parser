@@ -7,6 +7,17 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑11‑21
+
+<p>This release includes the following updates:</p>
+
+<p>Hype Train EventSub subscription types now indicate whether a Hype Train is a Golden Kappa Train:</p>
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelhype_trainbegin">channel.hype_train.begin</a> -  A Hype Train begins on the specified channel.</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelhype_trainprogress">channel.hype_train.progress</a> - A Hype Train makes progress on the specified channel.</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelhype_trainend">channel.hype_train.end</a> - A Hype Train ends on the specified channel.</li>
+</ul>
+
 ### 2024‑11‑12
 
 <p>This release includes the following updates:</p>
