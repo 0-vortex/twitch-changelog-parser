@@ -7,14 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2024‑11‑25
-
-<p>This release includes the following updates:</p>
-
-<ol>
-  <li>Added information about the Game Maker version of the Twitch Game Engine Plugins</li>
-</ol>
-
 ### 2024‑11‑21
 
 <p>This release includes the following updates:</p>
