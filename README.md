@@ -7,6 +7,22 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2024‑12‑05
+
+<p>This release includes the following updates:</p>
+
+<p>The following V2 Automod Message EventSub subscription types are now available in v2:</p>
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#automodmessagehold-v2">automod.message.hold</a> -  A user is notified if a message is caught by automod for review. Only public blocked terms trigger notifications, not private ones.</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#automodmessageupdate-v2">automod.mesage.update</a> - A message in the automod queue had its status changed. Only public blocked terms trigger notifications, not private ones.</li>
+</ul>
+
+### 2024‑12‑04
+
+<p>The <a href="https://dev.twitch.tv/docs/drops">Twitch Drops Guide</a> has been updated to include information regarding subscription-based Drops, now available for all game developers.</p>
+
+<p>We have also revised the <a href="https://www.twitch.tv/p/en/legal/developer-agreement/">Developer Services Agreement</a> to include subscription-based Twitch Drops, and reorganized related Drops information. Game developers who currently or plan to use Twitch Drops should take a moment to review the revised Agreement.</p>
+
 ### 2024‑11‑25
 
 <p>This release includes the following updates:</p>
