@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑01‑13
+
+<p><a href="https://dev.twitch.tv/docs/api/reference#get-clips">Get Clips</a> has been updated to reflect the maximum number of results to be returned over multiple paginated requests.</p>
+
 ### 2024‑12‑05
 
 <p>This release includes the following updates:</p>
