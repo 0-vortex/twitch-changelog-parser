@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑01‑21
+
+<p><a href="https://dev.twitch.tv/docs/api/reference/#send-chat-announcement">Send Chat Announcement</a> now includes response code 429 (Too Many Requests) in its Response Codes section.</p>
+
 ### 2025‑01‑13
 
 <p><a href="https://dev.twitch.tv/docs/api/reference#get-clips">Get Clips</a> has been updated to reflect the maximum number of results to be returned over multiple paginated requests.</p>
