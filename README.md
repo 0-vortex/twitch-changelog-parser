@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2025‑01‑30
-
-<p>Added <a href="https://dev.twitch.tv/docs/pubsub/migration/">Legacy PubSub to EventSub Migration Guide</a>.</p>
-
 ### 2025‑01‑21
 
 <p><a href="https://dev.twitch.tv/docs/api/reference/#send-chat-announcement">Send Chat Announcement</a> now includes response code 429 (Too Many Requests) in its Response Codes section.</p>
