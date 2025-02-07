@@ -7,6 +7,14 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑02‑06
+
+<p>The following EventSub subscription type is now available in open beta:</p>
+
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelbitsuse">Channel Bits Use</a> - A notification is sent whenever Bits are used on a channel.</li>
+</ul>
+
 ### 2025‑01‑30
 
 <p>Added <a href="https://dev.twitch.tv/docs/pubsub/migration/">Legacy PubSub to EventSub Migration Guide</a>.</p>
