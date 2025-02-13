@@ -7,6 +7,13 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑02‑12
+
+<p>The following V2 EventSub subscription type is now available in open beta:</p>
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchannel_points_automatic_reward_redemptionadd-v2">channel.channel_points_automatic_reward_redemption.add</a> -  A viewer has redeemed an automatic channel points reward on the specified channel.</li>
+</ul>
+
 ### 2025‑02‑06
 
 <p>The following EventSub subscription type is now available in open beta:</p>
