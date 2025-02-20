@@ -7,6 +7,25 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑02‑19
+
+<p>This release includes the following updates for Twitch API endpoints and EventSub subscription types:</p>
+
+<ol>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelbitsuse">Channel Bits Use</a> - Added the following parameters:
+    <ul>
+      <li><code class="highlighter-rouge">emote_set_id</code></li>
+      <li><code class="highlighter-rouge">owner_id</code></li>
+      <li><code class="highlighter-rouge">format</code></li>
+    </ul>
+  </li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#get-extension-live-channels">Get Extension Live Channels</a> - updated the following parameter to better reflect its actual functionality.
+    <ul>
+      <li><code class="highlighter-rouge">first</code> - The specific maximum number of items per page in the response. The actual number returned may be less than this limit. <a href="https://dev.twitch.tv/docs/api/guide#pagination">Read More</a></li>
+    </ul>
+  </li>
+</ol>
+
 ### 2025‑02‑12
 
 <p>The following V2 EventSub subscription type is now available in open beta:</p>
