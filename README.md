@@ -7,6 +7,15 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑02‑27
+
+<p>This release includes updates to the following EventSub subscription types:</p>
+
+<ol>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelbitsuse">Channel Bits Use</a> - Updated from open beta to V1.</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchannel_points_automatic_reward_redemptionadd-v2">Channel Points Automatic Reward Redemption Add V2</a> - Updated from open beta to V2.</li>
+</ol>
+
 ### 2025‑02‑19
 
 <p>This release includes the following updates for Twitch API endpoints and EventSub subscription types:</p>
