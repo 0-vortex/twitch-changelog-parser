@@ -7,6 +7,37 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑03‑18
+
+<p>This release includes the following updates:</p>
+<ol>
+  <li>EventSub:
+    <ul>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-suspicious-user-message-event">Channel Suspicious User Message Event</a> - Updated the <strong>types</strong> field to reflect the following return values:
+        <ul>
+          <li>ban_evader</li>
+          <li>manually_added</li>
+          <li>banned_in_shared_channel</li>
+        </ul>
+      </li>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/manage-subscriptions/#getting-the-list-of-events-you-subscribe-to">Get EventSub Subscriptions</a> - Updated the following note to accurately reflect the functionality when a WebSocket is disconnected:
+        <ul>
+          <li>The GET API returns disabled WebSocket subscriptions for a minimum of 1 minute as compared to webhooks which returns disabled subscriptions for a minimum of 10 days.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Twitch API:
+    <ul>
+      <li><a href="https://dev.twitch.tv/docs/api/reference/#update-user">Update User API Endpoint</a>- Added a new error code:
+        <ul>
+          <li>429 Too many requests: The app exceeded the number of requests that it may make.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
 ### 2025‑02‑27
 
 <p>This release includes updates to the following EventSub subscription types:</p>
