@@ -7,6 +7,44 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑04‑10
+
+<p>This release includes the following updates:</p>
+
+<p>The new <code class="highlighter-rouge">is_source_only</code> field and <code class="highlighter-rouge">for_source_only</code> parameter have been added to <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatmessage">Channel Chat Message</a> and <a href="https://dev.twitch.tv/docs/api/reference/#send-chat-message">Send Chat Message</a> to indicate, when in a shared chat session, if a chat message is sent only to the source channel or both channels.</p>
+
+<p>Updates and additions are now reflected in the following:</p>
+
+<ol>
+  <li>Updated EventSub subscription:
+    <ul>
+      <li>Channel Chat Message
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#shared-chat-message-example">channel.chat.messsage</a> - Any user sends a message to a specific chat room.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Updated API:
+    <ul>
+      <li>Send Chat Message
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/api/reference/#send-chat-message">Send Chat Message</a> - Sends a message to the broadcaster’s chat room.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Added IRC PRIVMSG tag:
+    <ul>
+      <li><code class="highlighter-rouge">source-only</code>
+        <ul>
+          <li><a href="https://dev.twitch.tv/docs/chat/irc/#privmsg-tags">source-only</a> - A Boolean that indicates if a message sent during a shared chat session is only sent to the source channel. Has no effect if the message is not sent during a shared chat session.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
 ### 2025‑03‑18
 
 <p>This release includes the following updates:</p>
