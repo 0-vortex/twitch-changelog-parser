@@ -7,10 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2025‑04‑15
-
-<p>Following deprecation of PubSub, PubSub Guide has been replaced with <a href="https://dev.twitch.tv/docs/pubsub">Legacy PubSub to EventSub Migration Guide</a>.</p>
-
 ### 2025‑04‑10
 
 <p>This release includes the following updates:</p>
