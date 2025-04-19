@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑04‑17
+
+<p>Updated description of <a href="https://dev.twitch.tv/docs/api/reference/#send-chat-message">Send Chat Message API</a> and its <code class="highlighter-rouge">for_source_only</code> parameter to clarify how chat messages are sent depending on token type.</p>
+
 ### 2025‑04‑15
 
 <p>Following deprecation of PubSub, PubSub Guide has been replaced with <a href="https://dev.twitch.tv/docs/pubsub">Legacy PubSub to EventSub Migration Guide</a>.</p>
