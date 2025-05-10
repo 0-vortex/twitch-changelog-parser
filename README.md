@@ -7,6 +7,15 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑05‑09
+
+<p>This release includes the following updates:</p>
+
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#get-eventsub-subscriptions">Get EventSub Subscriptions</a> has been updated to include the new <code class="highlighter-rouge">subscription_id</code> parameter that returns an array with the subscription matching the ID (as long as it is owned by the client making the request), or an empty array if there is no matching subscription.</li>
+  <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelbitsuse">Channel Bits Use</a> has been updated to send when a user Combos in a channel.</li>
+</ul>
+
 ### 2025‑04‑17
 
 <p>Updated description of <a href="https://dev.twitch.tv/docs/api/reference/#send-chat-message">Send Chat Message API</a> and its <code class="highlighter-rouge">for_source_only</code> parameter to clarify how chat messages are sent depending on token type.</p>
