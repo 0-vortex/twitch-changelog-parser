@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑05‑23
+
+<p>The <a href="https://dev.twitch.tv/docs/drops">Twitch Drops Guide</a> has been updated to include additional high-level information about Drops, expanded FAQs, and a separate <a href="https://dev.twitch.tv/docs/drops/campaign-guide">Campaign Guide</a> and <a href="https://dev.twitch.tv/docs/drops/technical-guide">Technical Guide</a>.</p>
+
 ### 2025‑05‑09
 
 <p>This release includes the following updates:</p>
