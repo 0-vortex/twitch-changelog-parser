@@ -7,6 +7,30 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑06‑13
+
+<p>V1 of the following EventSub subscriptions have been deprecated and  V2 versions are now available for migration:</p>
+<ul>
+  <li>Channel Hype Train Begin -  A Hype Train begins on the specified channel.
+    <ul>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelhype_trainbegin">channel.hype_train.begin V1</a></li>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelhype_trainbegin-v2">channel.hype_train.begin V2</a></li>
+    </ul>
+  </li>
+  <li>Channel Hype Train Progress - A Hype Train makes progress on the specified channel.
+    <ul>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelhype_trainprogress">channel.hype_train.progress V1</a></li>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelhype_trainprogress-v2">channel.hype_train.progress V2</a></li>
+    </ul>
+  </li>
+  <li>Channel Hype Train End - A Hype Train ends on the specified channel.
+    <ul>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelhype_trainend">channel.hype_train.end V1</a></li>
+      <li><a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelhype_trainend-v2">channel.hype_train.end V2</a></li>
+    </ul>
+  </li>
+</ul>
+
 ### 2025‑05‑23
 
 <p>The <a href="https://dev.twitch.tv/docs/drops">Twitch Drops Guide</a> has been updated to include additional high-level information about Drops, expanded FAQs, and a separate <a href="https://dev.twitch.tv/docs/drops/campaign-guide">Campaign Guide</a> and <a href="https://dev.twitch.tv/docs/drops/technical-guide">Technical Guide</a>.</p>
