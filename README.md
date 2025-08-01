@@ -7,13 +7,6 @@
 ## Changelog
 
 <!--START_SECTION:static-->
-### 2025‑07‑31
-
-<p>Added a new Twitch API endpoint for open beta:</p>
-<ul>
-  <li><a href="https://dev.twitch.tv/docs/api/reference/#get-hype-train-status">Get Hype Train Status</a> - Get the status of a Hype Train for the specified broadcaster.</li>
-</ul>
-
 ### 2025‑06‑13
 
 <p>V1 of the following EventSub subscriptions have been deprecated and  V2 versions are now available for migration:</p>
