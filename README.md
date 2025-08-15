@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑08‑14
+
+<p><a href="https://dev.twitch.tv/docs/embed">Embed guides</a> have been updated to standardize minimum size requirements and note the requirements for autoplay functionality.</p>
+
 ### 2025‑07‑31
 
 <p>Added a new Twitch API endpoint for open beta:</p>
