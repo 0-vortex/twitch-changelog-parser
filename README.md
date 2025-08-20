@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑08‑19
+
+<p><a href="https://dev.twitch.tv/docs/api/reference/#get-hype-train-status">Get Hype Train Status</a> is now generally available.</p>
+
 ### 2025‑08‑14
 
 <p><a href="https://dev.twitch.tv/docs/embed">Embed guides</a> have been updated to standardize minimum size requirements and note the requirements for autoplay functionality.</p>
