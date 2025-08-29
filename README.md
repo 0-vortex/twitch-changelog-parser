@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑08‑28
+
+<p>Added <a href="https://dev.twitch.tv/docs/chat/#chatbot-badge-and-chat-identity">Chatbot Badge and Chat Identity</a> section to <em>Chat &amp; Chatbots</em>. This section provides details and requirements for a chatbot to appear with the Chat Bot Badge when chat sending messages, and appear as a Chat Bot under Users in Chat when reading chat messages.</p>
+
 ### 2025‑08‑22
 
 <p><a href="https://dev.twitch.tv/docs/chat/irc/">IRC Concepts</a> updated to reflect the <a href="https://discuss.dev.twitch.com/t/decommission-of-non-secure-websocket-connections-to-twitch-irc-servers/64142" target="_blank">decommission</a> on August 15, 2025.</p>
