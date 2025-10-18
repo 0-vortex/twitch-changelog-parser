@@ -7,9 +7,21 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑10‑18
+
+<p>Added a new Twitch API endpoint for open beta:</p>
+
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#get-authorization-by-user">Get Authorization By User</a> - Gets the authorization scopes that the specified user(s) have granted the application.</li>
+</ul>
+
 ### 2025‑10‑14
 
 <p>Updated the Drops Campaign Guide’s Consideration section to include <a href="https://dev.twitch.tv/docs/drops/campaign-guide/#overlapping-campaign-behavioral-considerations">Overlapping Campaign Behavioral Considerations</a>, detailing new behavioral changes to how incremental Minutes Watched and Subscriptions are distributed across Drops campaigns simultaneously running on a channel.</p>
+
+### 2025‑10‑06
+
+<p><a href="https://dev.twitch.tv/docs/extensions/monetization-strategies/">Monetization Strategies</a> has been added to provide implementation suggestions for the Bits-in-Extensions.</p>
 
 ### 2025‑09‑19
 
