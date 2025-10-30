@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑10‑30
+
+<p><a href="https://dev.twitch.tv/docs/api/reference#get-clips-download">Get Clips Download</a> and <a href="https://dev.twitch.tv/docs/api/reference/#get-authorization-by-user">Get Authorization By User</a> are now considered generally available.</p>
+
 ### 2025‑10‑18
 
 <p>Added a new Twitch API endpoint for open beta:</p>
