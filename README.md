@@ -7,6 +7,27 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2025‑12‑19
+
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#create-clip-from-vod">Create Clip From VOD</a> is now available in open beta.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#create-clip">Create Clip</a> has been updated to include the following improvements:
+    <ul>
+      <li>2k video (if applicable)</li>
+      <li>Vertical video from dual format streams (if applicable)</li>
+      <li>An optional parameter for <strong>title</strong></li>
+      <li>An optional parameter for <strong>duration</strong></li>
+      <li>An updated edit URL with more features</li>
+    </ul>
+  </li>
+</ul>
+
+<p>For more details, see <a href="https://discuss.dev.twitch.com/c/announcements/13">our announcement</a>.</p>
+
+### 2025‑12‑16
+
+<p>Added a C# code sample to demonstrate <a href="https://dev.twitch.tv/docs/drops/technical-guide/#twitch-api-offline-inventory">Drops offline inventory</a>.</p>
+
 ### 2025‑10‑30
 
 <p><a href="https://dev.twitch.tv/docs/api/reference#get-clips-download">Get Clips Download</a> and <a href="https://dev.twitch.tv/docs/api/reference/#get-authorization-by-user">Get Authorization By User</a> are now considered generally available.</p>
