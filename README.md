@@ -7,6 +7,16 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑01‑08
+
+<p>Released translated versions of the <a href="https://dev.twitch.tv/docs/drops">Twitch Drops guides</a> for the following languages:</p>
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/ja/drops/">日本語</a></li>
+  <li><a href="https://dev.twitch.tv/docs/zh/drops/">中文 简体</a></li>
+  <li><a href="https://dev.twitch.tv/docs/ko/drops/">한국어</a></li>
+  <li><a href="https://dev.twitch.tv/docs/ar/drops/">العربية</a></li>
+</ul>
+
 ### 2025‑12‑19
 
 <ul>
