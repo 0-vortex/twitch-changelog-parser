@@ -7,6 +7,15 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑01‑16
+
+<p>Added the following Twitch API endpoints for open beta:</p>
+
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#add-suspicious-status-to-chat-user">Add suspicious status to chat user</a> - Adds a suspicious user status to a chatter on the broadcaster’s channel.</li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#remove-suspicious-status-from-chat-user">Remove suspicious status from chat user</a> - Remove a suspicious user status from a chatter on broadcaster’s channel.</li>
+</ul>
+
 ### 2026‑01‑08
 
 <p>Released translated versions of the <a href="https://dev.twitch.tv/docs/drops">Twitch Drops guides</a> for the following languages:</p>
