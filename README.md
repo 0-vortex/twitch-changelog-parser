@@ -7,6 +7,17 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑02‑05
+
+<p>The following API endpoints are now considered generally available:</p>
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#create-clip-from-vod">Create Clip From VOD</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#add-suspicious-status-to-chat-user">Add Suspicious Status to Chat User</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference/#remove-suspicious-status-from-chat-user">Remove Suspicious Status From Chat User</a></li>
+</ul>
+
+<p>The “Get Hype Train Events” API endpoint has been removed in favor of <a href="https://dev.twitch.tv/docs/api/reference/#get-hype-train-status">Get Hype Train Status</a>. See more information in the related <a href="https://discuss.dev.twitch.com/t/legacy-get-hype-train-events-api-and-eventsub-hype-train-v1-subscription-types-deprecation-and-withdrawal-timeline/64299/" target="_blank">announcement</a>.</p>
+
 ### 2026‑01‑16
 
 <p>Added the following Twitch API endpoints for open beta:</p>
@@ -41,7 +52,7 @@
   </li>
 </ul>
 
-<p>For more details, see <a href="https://discuss.dev.twitch.com/c/announcements/13">our announcement</a>.</p>
+<p>For more details, see <a href="https://discuss.dev.twitch.com/t/introducing-clip-api-improvements-and-clip-from-vod-in-open-beta/64492/" target="_blank">our announcement</a>.</p>
 
 ### 2025‑12‑16
 
@@ -482,7 +493,7 @@
 <ol>
   <li>There is no longer a requirement to have an Apple Developer account, or fill out the iOS Allowlist form, to allow an Extension to work on the iOS version of the Twitch app. All mobile Extensions, existing and new, are available on iOS and Android without additional requirements in the submission process.
     <ul>
-      <li><a href="https://discuss.dev.twitch.com/t/policy-updates-regarding-mobile-enabled-extensions-on-ios/59518/">Developer Forums announcement</a></li>
+      <li><a href="https://discuss.dev.twitch.com/t/policy-updates-regarding-mobile-enabled-extensions-on-ios/59518/" target="_blank">Developer Forums announcement</a></li>
       <li>Updated messaging in <a href="https://dev.twitch.tv/docs/extensions/building/#mobile-support">Building Extensions</a>.</li>
     </ul>
   </li>
