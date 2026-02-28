@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑02‑27
+
+<p>App access token support has been added for several endpoints in open beta and is now reflected in the <a href="https://dev.twitch.tv/docs/api/reference">API reference</a>.</p>
+
 ### 2026‑02‑05
 
 <p>The following API endpoints are now considered generally available:</p>
