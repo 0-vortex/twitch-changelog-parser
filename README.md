@@ -7,6 +7,24 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑04‑02
+
+<p>V1 of the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatnotification">channel.chat.notifications</a> EventSub subscription type has been updated to include Watch Streaks.</p>
+
+<p>V1 of the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelbitsuse">channel.bits.use</a> EventSub subscription type have received the following updates.</p>
+<ul>
+  <li>Custom Power-ups have been added as an event type</li>
+  <li><a href="https://help.twitch.tv/s/article/combos" target="_blank">Combos</a> has been removed from event types</li>
+</ul>
+
+<p>V1 of the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatnotification">channel.chat.notification</a> EventSub subscription type has been updated to include <code class="highlighter-rouge">is_source_only</code> for chat announcements during a shared chat session.</p>
+
+<p>The <a href="https://dev.twitch.tv/docs/api/reference/#send-chat-announcement">Send Chat Announcement</a> API endpoint has received the following updates.</p>
+<ul>
+  <li>Added support for app access token authorization</li>
+  <li>Added the <code class="highlighter-rouge">for_source_only</code> optional parameter to specify during a shared chat session if the announcement should be sent only to the source channel or both channels</li>
+</ul>
+
 ### 2026‑03‑25
 
 <p>Introduced <a href="https://dev.twitch.tv/docs/rss/change-log.xml">RSS feed</a> for the documentation’s <a href="https://dev.twitch.tv/docs/change-log">changelog</a>.</p>
