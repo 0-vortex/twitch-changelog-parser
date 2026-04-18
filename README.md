@@ -7,6 +7,12 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑04‑17
+
+<p>The <a href="https://dev.twitch.tv/docs/api/reference/#get-eventsub-subscriptions">Get EventSub Subscriptions</a> API endpoint has been updated to accept a <code class="highlighter-rouge">conduit_id</code> as an additional filtering option.</p>
+
+<p>The <a href="https://dev.twitch.tv/docs/api/reference/#create-eventsub-subscription">Create EventSub Subscription</a> API endpoint has been updated to provide the <code class="highlighter-rouge">id</code> of the existing EventSub subscription when a 409 Conflict is returned.</p>
+
 ### 2026‑04‑02
 
 <p>V1 of the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatnotification">channel.chat.notifications</a> EventSub subscription type has been updated to include Watch Streaks.</p>
