@@ -7,6 +7,12 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑05‑01
+
+<p>The <a href="https://dev.twitch.tv/docs/api/reference#get-custom-power-up">Get Custom Power-Up</a> API endpoint is now available in open beta to retrieve a full or partial list of a broadcaster’s custom Power-ups.</p>
+
+<p>The <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelcustom_power_up_redemptionadd">channel.custom_power_up_redemption.add</a> EventSub subscription type is now available in open beta to receive a notification when a custom Power-up is redeemed.</p>
+
 ### 2026‑04‑17
 
 <p>The <a href="https://dev.twitch.tv/docs/api/reference/#get-eventsub-subscriptions">Get EventSub Subscriptions</a> API endpoint has been updated to accept a <code class="highlighter-rouge">conduit_id</code> as an additional filtering option.</p>
