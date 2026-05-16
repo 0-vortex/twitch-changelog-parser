@@ -7,6 +7,18 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑05‑15
+
+<p>The following API endpoints are now available in open beta for managing mod-pinned messages in a broadcaster’s chat room.</p>
+<ul>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#get-pinned-chat-message">Get Pinned Chat Message</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#pin-chat-message">Pin Chat Message</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#update-pinned-chat-message">Update Pinned Chat Message</a></li>
+  <li><a href="https://dev.twitch.tv/docs/api/reference#unpin-chat-message">Unpin Chat Message</a></li>
+</ul>
+
+<p>The <a href="https://dev.twitch.tv/docs/api/reference#send-chat-message">Send Chat Message</a> API endpoint has been updated with a new optional <code class="highlighter-rouge">pin</code> parameter to support sending and pinning a message in a single request.</p>
+
 ### 2026‑05‑01
 
 <p>The <a href="https://dev.twitch.tv/docs/api/reference#get-custom-power-up">Get Custom Power-Up</a> API endpoint is now available in open beta to retrieve a full or partial list of a broadcaster’s custom Power-ups.</p>
