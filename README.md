@@ -7,6 +7,18 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑05‑29
+
+<p>The app access token support that was added for several endpoints is now considered generally available and is now reflected in the <a href="https://dev.twitch.tv/docs/api/reference">API reference</a>.</p>
+
+<p>All Pinned Chat API endpoints are now considered generally available.</p>
+
+### 2026‑05‑19
+
+<p>The <a href="https://dev.twitch.tv/docs/api/reference#get-custom-power-up">Get Custom Power-Up</a> API endpoint is now considered generally available.</p>
+
+<p>The <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelcustom_power_up_redemptionadd">channel.custom_power_up_redemption.add</a> EventSub subscription type is now available as version 1 to receive a notification when a custom Power-up is redeemed. Version 1 is identical to the beta version - developers using the beta version can update EventSub subscriptions to version 1 without further implementation changes.</p>
+
 ### 2026‑05‑15
 
 <p>The following API endpoints are now available in open beta for managing mod-pinned messages in a broadcaster’s chat room.</p>
