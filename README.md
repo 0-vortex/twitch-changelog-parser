@@ -7,6 +7,26 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑06‑08
+
+<p>Corrections were made to update the documentation to better clarify current behaviors. None of the below changes represent new or modified functionality, although these may be relevant to projects that did not take these into consideration previously.</p>
+
+<p>Extension SDK:</p>
+<ul>
+  <li>Removed unused onPositionChanged from <a href="https://dev.twitch.tv/docs/extensions/reference/">Extensions SDK referene</a>.</li>
+</ul>
+
+<p>API Reference:</p>
+<ul>
+  <li>Updated <a href="https://dev.twitch.tv/docs/api/reference#get-channel-teams">Get Channel Teams</a> and <a href="https://dev.twitch.tv/docs/api/reference#get-teams">Get Teams</a> to match the existing behavior that response body fields <code class="highlighter-rouge">background_image_url</code> and <code class="highlighter-rouge">banner</code> may be null in some cases.</li>
+  <li>Tags set using <a href="https://dev.twitch.tv/docs/api/reference#modify-channel-information">Modify Channel Information</a> are no longer specified as being case-sensitive.</li>
+</ul>
+
+<p>EventSub Reference:</p>
+<ul>
+  <li>Included the <code class="highlighter-rouge">unknown</code> type to the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-chat-notification-event">channel.chat.notification</a> EventSub type</li>
+</ul>
+
 ### 2026‑05‑29
 
 <p>The app access token support that was added for several endpoints is now considered generally available and is now reflected in the <a href="https://dev.twitch.tv/docs/api/reference">API reference</a>.</p>
