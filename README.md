@@ -7,6 +7,12 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑06‑12
+
+<p>V1 of the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-chat-notification-event">channel.chat.notification</a> EventSub subscription type has been updated to include <code class="highlighter-rouge">modiversary</code> and <code class="highlighter-rouge">shared_chat_modiversary</code>.</p>
+
+<p>The legacy PubSub migration guide has been removed.</p>
+
 ### 2026‑06‑08
 
 <p>Corrections were made to update the documentation to better clarify current behaviors. None of the below changes represent new or modified functionality, although these may be relevant to projects that did not take these into consideration previously.</p>
