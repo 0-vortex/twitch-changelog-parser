@@ -7,6 +7,12 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑06‑18
+
+<p>The maximum amount of shards that can be updated at a single time using the <a href="https://dev.twitch.tv/docs/api/reference#update-conduit-shards">Update Conduit Shards</a> API is now publicly stated as 100.</p>
+
+<p>Added <code class="highlighter-rouge">viewermilestone</code> and <code class="highlighter-rouge">modiversary</code> message types to IRC’s <a href="https://dev.twitch.tv/docs/chat/irc/#usernotice-tags">USERNOTICE Tags</a>, representing <a href="https://help.twitch.tv/s/article/recover-watch-streaks">Watch Streaks</a> and <a href="https://help.twitch.tv/s/article/guide-to-custom-messages#ModAnniversary">Modiversary</a> respectively.</p>
+
 ### 2026‑06‑12
 
 <p>V1 of the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-chat-notification-event">channel.chat.notification</a> EventSub subscription type has been updated to include <code class="highlighter-rouge">modiversary</code> and <code class="highlighter-rouge">shared_chat_modiversary</code>.</p>
