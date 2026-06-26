@@ -7,6 +7,15 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑06‑25
+
+<p><a href="https://dev.twitch.tv/docs/api/reference/#get-creator-goals">Get Creator Goals</a> API was updated to include the following goal types:</p>
+<ul>
+  <li><code class="highlighter-rouge">new_bit</code></li>
+  <li><code class="highlighter-rouge">new_cheerer</code></li>
+</ul>
+
+
 ### 2026‑06‑18
 
 <p>The maximum amount of shards that can be updated at a single time using the <a href="https://dev.twitch.tv/docs/api/reference#update-conduit-shards">Update Conduit Shards</a> API is now publicly stated as 100.</p>
