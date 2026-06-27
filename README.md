@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑06‑26
+
+<p>V1 of the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#streamoffline">stream.offline</a> EventSub subscription type has been updated to include the <code class="highlighter-rouge">id</code> parameter in the event payload.</p>
+
 ### 2026‑06‑25
 
 <p><a href="https://dev.twitch.tv/docs/api/reference/#get-creator-goals">Get Creator Goals</a> API was updated to include the following goal types:</p>
