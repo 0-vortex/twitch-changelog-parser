@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑07‑16
+
+<p>The <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatmessage">channel.chat.message</a> EventSub subscription type has been updated to include the new <code class="highlighter-rouge">gif</code> fragment type. GIF messages now include a <code class="highlighter-rouge">gif</code> object with <code class="highlighter-rouge">gif_id</code> and <code class="highlighter-rouge">url</code> fields alongside the existing <code class="highlighter-rouge">text</code> on the message fragment.</p>
+
 ### 2026‑06‑26
 
 <p>V1 of the <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#streamoffline">stream.offline</a> EventSub subscription type has been updated to include the <code class="highlighter-rouge">id</code> parameter in the event payload.</p>
