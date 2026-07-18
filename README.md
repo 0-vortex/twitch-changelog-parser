@@ -7,6 +7,10 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑07‑17
+
+<p><a href="https://dev.twitch.tv/docs/chat/irc/#privmsg-tags">IRC PRIVMSG Tags</a> has been updated to include information about the new <code class="highlighter-rouge">gif</code> tag, including an example of the tag in use.</p>
+
 ### 2026‑07‑16
 
 <p>The <a href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/#channelchatmessage">channel.chat.message</a> EventSub subscription type has been updated to include the new <code class="highlighter-rouge">gif</code> fragment type. GIF messages now include a <code class="highlighter-rouge">gif</code> object with <code class="highlighter-rouge">gif_id</code> and <code class="highlighter-rouge">url</code> fields alongside the existing <code class="highlighter-rouge">text</code> on the message fragment.</p>
