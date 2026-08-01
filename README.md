@@ -7,6 +7,15 @@
 ## Changelog
 
 <!--START_SECTION:static-->
+### 2026‑07‑31
+
+<p>Updated <a href="https://dev.twitch.tv/docs/extensions#restrictions-on-content">Extensions CSPs</a>:</p>
+<ul>
+  <li>In <code class="highlighter-rouge">connect-src</code>, updated Google Analytics URLs and included <code class="highlighter-rouge">blob:</code></li>
+  <li>In <code class="highlighter-rouge">script-src</code>, updated Google Analytics URLs</li>
+  <li>In <code class="highlighter-rouge">img-src</code>, updated Google Analytics URLs and included Twitch image CDN</li>
+</ul>
+
 ### 2026‑07‑17
 
 <p><a href="https://dev.twitch.tv/docs/chat/irc/#privmsg-tags">IRC PRIVMSG Tags</a> has been updated to include information about the new <code class="highlighter-rouge">gif</code> tag, including an example of the tag in use.</p>
